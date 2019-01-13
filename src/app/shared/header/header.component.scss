@@ -1,0 +1,15 @@
+
+.page_header {
+   
+
+    a.logo {
+        width: 200px;
+    }
+
+    &.affix{
+        a.logo {
+            width: 150px;
+        }
+    }
+}
+

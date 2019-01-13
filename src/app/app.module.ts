@@ -21,7 +21,7 @@ import { ServicesModule } from './services/services.module';
     BrowserModule,
     HomeModule,
     ServicesModule,
-    RouterModule.forRoot(appRoutes, { useHash: true })
+    RouterModule.forRoot(appRoutes, { useHash: false })
   ],
   providers: [],
   bootstrap: [AppComponent]
