@@ -7,9 +7,6 @@ import { NavigationComponent } from './shared/navigation/navigation.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './home/home.module';
-import { CommercialModule } from './commercial/commercial.module';
-import { ResidentialModule } from './residential/residential.module';
-import { WindowsModule } from './windows/windows.module';
 import { AppointmentComponent } from './shared/appointment/appointment.component';
 import { CalculatorComponent } from './shared/calculator/calculator.component';
 
@@ -25,9 +22,6 @@ import { CalculatorComponent } from './shared/calculator/calculator.component';
   imports: [
     BrowserModule,
     HomeModule,
-    CommercialModule,
-    ResidentialModule,
-    WindowsModule,
     RouterModule.forRoot(appRoutes, { useHash: false })
   ],
   providers: [],
