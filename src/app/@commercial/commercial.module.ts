@@ -8,11 +8,27 @@ import { JanitorialComponent } from './janitorial/janitorial.component';
 import { PostConstructionComponent } from './post-construction/post-construction.component';
 import { RouterModule } from '@angular/router';
 import { commercialRoutes } from './commercial.routes';
+import { SharedModule } from '../@shared/shared.module';
+import { HttpClient } from '@angular/common/http';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/commercial', '.json');
+}
 
 @NgModule({
   imports: [
-    CommonModule,
-    RouterModule.forChild(commercialRoutes)
+    SharedModule,
+    RouterModule.forChild(commercialRoutes),
+    TranslateModule.forChild({
+      loader: {
+          provide: TranslateLoader,
+          useFactory: HttpLoaderFactory,
+          deps: [HttpClient]
+      },
+      isolate: true
+    })
   ],
   declarations: [
     OfficeComponent, 
