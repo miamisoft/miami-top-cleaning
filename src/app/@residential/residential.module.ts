@@ -11,14 +11,15 @@ import { SharedModule } from '../@shared/shared.module';
 import { HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { ResidentialComponent } from './residential.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/residential', '.json');
+  return new TranslateHttpLoader(http, './assets/i18n/residential/', '.json');
 }
 
 @NgModule({
   imports: [
-    SharedModule,
+    SharedModule.forRoot(),
     RouterModule.forChild(residentialRoutes),
     TranslateModule.forChild({
       loader: {
@@ -30,6 +31,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     })
   ],
   declarations: [
+    ResidentialComponent,
     HouseComponent, 
     AppartmentComponent, 
     MoveComponent, 

@@ -7,13 +7,14 @@ import { SharedModule } from '../@shared/shared.module';
 import { HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { WindowsComponent } from './windows.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/windows', '.json');
+  return new TranslateHttpLoader(http, './assets/i18n/windows/', '.json');
 }
 @NgModule({
   imports: [
-    SharedModule,
+    SharedModule.forRoot(),
     RouterModule.forChild(windowsRoutes),
     TranslateModule.forChild({
       loader: {
@@ -24,6 +25,10 @@ export function HttpLoaderFactory(http: HttpClient) {
       isolate: true
     })
   ],
-  declarations: [WindowComponent, HighRiseWindowComponent]
+  declarations: [
+    WindowsComponent, 
+    WindowComponent, 
+    HighRiseWindowComponent
+  ]
 })
 export class WindowsModule { }

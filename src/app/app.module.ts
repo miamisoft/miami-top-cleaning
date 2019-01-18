@@ -15,7 +15,7 @@ import { SharedModule } from './@shared/shared.module';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/base', '.json');
+  return new TranslateHttpLoader(http, './assets/i18n/base/', '.json');
 }
 
 @NgModule({
@@ -28,7 +28,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   imports: [
     BrowserModule,
-    SharedModule,
+    SharedModule.forRoot(),
     RouterModule.forRoot(appRoutes, { useHash: false }),
     TranslateModule.forRoot({
      loader: {

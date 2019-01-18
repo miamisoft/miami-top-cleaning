@@ -1,9 +1,11 @@
 
-import { NgModule } from '@angular/core';
+import { NgModule, ModuleWithProviders } from '@angular/core';
 import { AppointmentComponent } from './appointment/appointment.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { CommonModule } from '@angular/common';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+import { CookieService } from 'ngx-cookie-service';
+import { i18nService } from '../core/i18n.service';
 
 @NgModule({
   declarations: [
@@ -22,4 +24,14 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
   ],
   providers: []
 })
-export class SharedModule { }
+export class SharedModule { 
+  static forRoot(): ModuleWithProviders {
+    return {
+      ngModule: SharedModule,
+      providers: [ 
+        CookieService, 
+        i18nService
+      ]
+    };
+  }
+}

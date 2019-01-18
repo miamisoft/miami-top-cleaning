@@ -19,12 +19,12 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/home', '.json');
+  return new TranslateHttpLoader(http, './assets/i18n/home/', '.json');
 }
 
 @NgModule({
   imports: [
-    SharedModule,
+    SharedModule.forRoot(),
     RouterModule.forChild(homeRoutes),
     TranslateModule.forChild({
       loader: {

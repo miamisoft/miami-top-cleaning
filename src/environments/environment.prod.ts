@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  defaultLan: 'en',
+  cookieLan: 'MIA-TOP-CL-LAN',
 };

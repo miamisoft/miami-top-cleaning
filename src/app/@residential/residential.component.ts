@@ -5,12 +5,10 @@ import { i18nComponent } from '../core/i18n.component';
 import { i18nService } from '../core/i18n.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  selector: 'app-residential',
+  template: ''
 })
-export class HomeComponent extends i18nComponent implements OnInit {
-  
+export class ResidentialComponent extends i18nComponent implements OnInit {
 
   constructor(i18nService: i18nService, translate: TranslateService) {
     super(i18nService, translate);
@@ -19,7 +17,5 @@ export class HomeComponent extends i18nComponent implements OnInit {
   ngOnInit(): void {
    
   }
-
-  
 
 }

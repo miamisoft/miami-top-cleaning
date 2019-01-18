@@ -12,14 +12,15 @@ import { SharedModule } from '../@shared/shared.module';
 import { HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { CommercialComponent } from './commercial.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/commercial', '.json');
+  return new TranslateHttpLoader(http, './assets/i18n/commercial/', '.json');
 }
 
 @NgModule({
   imports: [
-    SharedModule,
+    SharedModule.forRoot(),
     RouterModule.forChild(commercialRoutes),
     TranslateModule.forChild({
       loader: {
@@ -31,6 +32,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     })
   ],
   declarations: [
+    CommercialComponent, 
     OfficeComponent, 
     FloorComponent, 
     PressureComponent, 
