@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { i18nService } from 'src/app/core/i18n.service';
+import { AppContext } from 'src/app/core/appcontext.service';
 
 @Component({
   selector: 'app-header',
@@ -10,15 +10,15 @@ export class HeaderComponent implements OnInit {
 
   public lang: string;
 
-  constructor(private _i18nService: i18nService) { }
+  constructor(private _appContext: AppContext) { }
 
   ngOnInit() {
-    this.lang = this._i18nService.currentLan;
+    this.lang = this._appContext.currentLan;
   }
 
   public changeLanguage(lang: string): void {
     this.lang = lang;
-    this._i18nService.lanObservable.next(lang);
+    this._appContext.lanObservable.next(lang);
   }
 
 }

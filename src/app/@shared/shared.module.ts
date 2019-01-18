@@ -5,7 +5,8 @@ import { CalculatorComponent } from './calculator/calculator.component';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { CookieService } from 'ngx-cookie-service';
-import { i18nService } from '../core/i18n.service';
+import { AppContext } from '../core/appcontext.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   declarations: [
@@ -14,11 +15,13 @@ import { i18nService } from '../core/i18n.service';
   ],
   imports: [
      CommonModule,
-     HttpClientModule
+     HttpClientModule,
+     TranslateModule
   ],
   exports:[
     CommonModule,
     HttpClientModule,
+    TranslateModule,
     AppointmentComponent,
     CalculatorComponent
   ],
@@ -30,7 +33,7 @@ export class SharedModule {
       ngModule: SharedModule,
       providers: [ 
         CookieService, 
-        i18nService
+        AppContext
       ]
     };
   }

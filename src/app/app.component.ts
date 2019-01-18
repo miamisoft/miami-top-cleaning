@@ -1,17 +1,22 @@
 import { Component } from '@angular/core';
-import { i18nService } from './core/i18n.service';
+import { AppContext } from './core/appcontext.service';
 import { TranslateService } from '@ngx-translate/core';
-import { i18nComponent } from './core/i18n.component';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent extends i18nComponent{
+export class AppComponent {
   title = 'miami-top-cleaning';
 
-  constructor(i18nService: i18nService, translate: TranslateService) {
-    super(i18nService, translate);
+  constructor(appContext: AppContext, translate: TranslateService) {
+    
+    translate.setDefaultLang(appContext.currentLan);
+    
+    appContext.lanObservable.subscribe((lang: string) => {
+        translate.use(lang);
+    });
   }
 }

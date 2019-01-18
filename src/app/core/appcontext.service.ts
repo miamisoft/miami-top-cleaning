@@ -5,7 +5,7 @@ import { environment } from 'src/environments/environment';
 
 
 @Injectable()
-export class i18nService {
+export class AppContext {
 
     public lanObservable: BehaviorSubject<string>;
     

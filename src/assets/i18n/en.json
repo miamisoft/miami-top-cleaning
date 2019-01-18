@@ -1,0 +1,74 @@
+{
+    "header": {
+        "schedule_cleaning": "schedule cleaning"
+    },
+
+    "navigation": {
+        
+    },
+
+    "footer": {
+
+    },
+
+    "home": {
+        "services": {
+
+        },
+        "gallery": {
+
+        },
+        "our_clients": {
+
+        }
+    },
+
+    "commercial": {
+        "office": {
+
+        },
+        "dust_removal": {
+
+        },
+        "floor": {
+            
+        },
+        "post_const": {
+            
+        },
+        "pressure": {
+            
+        }
+    },
+
+    "residential": {
+        "appt": {
+
+        },
+        "deep": {
+
+        },
+        "house": {
+            
+        },
+        "move": {
+            
+        },
+        "post_const":{
+            
+        },
+
+        "pressure": {
+            
+        }
+    },
+
+    "windows": {
+        "window": {
+
+        },
+        "high_rise": {
+
+        }
+    }
+}
