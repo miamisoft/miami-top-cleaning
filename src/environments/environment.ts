@@ -6,6 +6,7 @@ export const environment = {
   production: false,
   defaultLan: 'en',
   cookieLan: 'MIA-TOP-CL-LANG',
+  dataBaseUrl: '/assets/data'
 };
 
 /*

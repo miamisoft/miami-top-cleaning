@@ -12,9 +12,8 @@
          <app-navigation></app-navigation>
       </div>
       <div class="col-md-3 col-xs-6 text-right">
-        <a href="./appointment.html" class="theme_button muted_button">{{ 'header.schedule_cleaning' | translate }}</a>
+        <a href="./appointment.html" class="schedule_button theme_button muted_button">{{ 'header.schedule_cleaning' | translate }}</a>
         <div class="lang-selector">
-            <span>Switch to:</span>
             <a *ngIf="lang === 'es'" class="lang-item" (click)="changeLanguage('en')">
                 <span>English</span>
                 <img src="assets/images/en.gif" alt="en" title="English">

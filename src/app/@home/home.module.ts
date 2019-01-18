@@ -16,6 +16,7 @@ import { homeRoutes } from './home.routes';
 import { SharedModule } from '../@shared/shared.module';
 
 
+
 @NgModule({
   imports: [
     SharedModule,
@@ -34,6 +35,9 @@ import { SharedModule } from '../@shared/shared.module';
     ContactFormComponent,
     GalleryComponent,
     HomeComponent
+  ],
+  providers: [
+    
   ]
 })
 export class HomeModule { }

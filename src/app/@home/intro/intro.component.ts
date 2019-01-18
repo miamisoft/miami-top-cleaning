@@ -1,4 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
+
+interface IntroData {
+    imgUrl: string;
+    title: string;
+    slogan: string;
+    desc: string;
+}
 
 @Component({
   selector: 'app-home-intro',
@@ -7,9 +16,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IntroComponent implements OnInit {
 
-  constructor() { }
+  public data: IntroData[] = [];
+
+  constructor(private _httpService: HttpClient) { }
 
   ngOnInit() {
+     this._httpService.get(`${environment.dataBaseUrl}/intro.data.json`).subscribe((res: IntroData[]) => {
+        this.data = res;
+     }, error => console.log(error));
   }
 
 }
