@@ -10,8 +10,8 @@
       </div>
     </div>
     <div class="row topmargin_10">
-      <div class="col-md-3">
-        <div *ngFor="let item of data.slice(0, 3)" class="media">
+      <div *ngFor="let item of data" class="col-md-3">
+        <div class="media">
           <div class="media-left">
             <img class="media-object round" [src]="item.imgUrl" alt="">
           </div>
@@ -23,48 +23,7 @@
           </div>
         </div>
       </div>
-
-      <div class="col-md-3">
-          <div *ngFor="let item of data.slice(3, 6)" class="media">
-            <div class="media-left">
-              <img class="media-object round" [src]="item.imgUrl" alt="">
-            </div>
-            <div class="media-body">
-              <h5 class="text-uppercase inline-block darklinks normal_spacing"><a [href]="item.descUrl" [innerHtml]="item.name"></a></h5>
-              <a href="#" class="round_button pull-right">
-                <i class="rt-icon2-angle-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-            <div *ngFor="let item of data.slice(6, 9)" class="media">
-              <div class="media-left">
-                <img class="media-object round" [src]="item.imgUrl" alt="">
-              </div>
-              <div class="media-body">
-                <h5 class="text-uppercase inline-block darklinks normal_spacing"><a [href]="item.descUrl" [innerHtml]="item.name"></a></h5>
-                <a href="#" class="round_button pull-right">
-                  <i class="rt-icon2-angle-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div *ngFor="let item of data.slice(9, 12)" class="media">
-              <div class="media-left">
-                <img class="media-object round" [src]="item.imgUrl" alt="">
-              </div>
-              <div class="media-body">
-                <h5 class="text-uppercase inline-block darklinks normal_spacing"><a [href]="item.descUrl" [innerHtml]="item.name"></a></h5>
-                <a href="#" class="round_button pull-right">
-                  <i class="rt-icon2-angle-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
+      
     </div>
   </div>
 </section>

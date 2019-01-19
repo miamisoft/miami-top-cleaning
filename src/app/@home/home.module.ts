@@ -12,16 +12,19 @@ import { HomeComponent } from './home.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { homeRoutes } from './home.routes';
 import { SharedModule } from '../@shared/shared.module';
+import { IntroComponent } from './intro/intro.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
 @NgModule({
   imports: [
     SharedModule,
-    RouterModule.forChild(homeRoutes),
-  
+    RouterModule.forChild(homeRoutes)
   ],
   declarations: [
+    IntroComponent,
+    ContactComponent,
     MapComponent,
     TestimonialsComponent,
     SolutionsComponent,
