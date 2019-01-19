@@ -9,17 +9,7 @@ export const appRoutes: Routes = [
    },
 
    {
-      path: 'commercial',
-      loadChildren: './@commercial/commercial.module#CommercialModule'
-   },
-
-   {
-      path: 'residential',
-      loadChildren: './@residential/residential.module#ResidentialModule'
-   },
-
-   {
-      path: 'windows',
-      loadChildren: './@windows/windows.module#WindowsModule'
+      path: 'services',
+      loadChildren: './@services/services.module#ServicesModule'
    }
 ];

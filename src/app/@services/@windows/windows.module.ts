@@ -1,15 +1,11 @@
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
 import { WindowComponent } from './window/window.component';
 import { HighRiseWindowComponent } from './high-rise-window/high-rise-window.component';
-import { windowsRoutes } from './windows.routes';
-import { SharedModule } from '../@shared/shared.module';
-
+import { SharedModule } from 'src/app/@shared/shared.module';
 
 @NgModule({
   imports: [
-    SharedModule,
-    RouterModule.forChild(windowsRoutes)
+    SharedModule
   ],
   declarations: [
     WindowComponent, 

@@ -5,15 +5,11 @@ import { PressureComponent } from './pressure/pressure.component';
 import { DustRemovalComponent } from './dust-removal/dust-removal.component';
 import { JanitorialComponent } from './janitorial/janitorial.component';
 import { PostConstructionComponent } from './post-construction/post-construction.component';
-import { RouterModule } from '@angular/router';
-import { commercialRoutes } from './commercial.routes';
-import { SharedModule } from '../@shared/shared.module';
-
+import { SharedModule } from 'src/app/@shared/shared.module';
 
 @NgModule({
   imports: [
-    SharedModule,
-    RouterModule.forChild(commercialRoutes)
+    SharedModule
   ],
   declarations: [
     OfficeComponent, 

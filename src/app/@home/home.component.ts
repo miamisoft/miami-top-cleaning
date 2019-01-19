@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
-import { AppContext } from '../core/appcontext.service';
+
 
 @Component({
   selector: 'app-home',

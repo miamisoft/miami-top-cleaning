@@ -1,0 +1,85 @@
+[
+    {
+        "name": "<strong>office</strong><br>cleaning",
+        "descUrl": "",
+        "imgUrl": "assets/images/service01.jpg",
+        "category": [1]
+    },
+
+    {
+        "name": "<strong>floor</strong><br>cleaning",
+        "descUrl": "",
+        "imgUrl": "assets/images/service01.jpg",
+        "category": [1]
+    },
+
+    {
+        "name": "<strong>high level dust</strong> <br>removal",
+        "descUrl": "",
+        "imgUrl": "assets/images/service01.jpg",
+        "category": [1]
+    },
+
+    {
+        "name": "<strong>janitorial</strong> <br>services",
+        "descUrl": "",
+        "imgUrl": "assets/images/service01.jpg",
+        "category": [1]
+    },
+
+    {
+        "name": "<strong>house</strong> <br>cleaning",
+        "descUrl": "",
+        "imgUrl": "assets/images/service01.jpg",
+        "category": 2
+    },
+
+    {
+        "name": "<strong>appartment</strong> <br>cleaning",
+        "descUrl": "",
+        "imgUrl": "assets/images/service01.jpg",
+        "category": 2
+    },
+
+    {
+        "name": "<strong>move in/out</strong> <br>cleaning",
+        "descUrl": "",
+        "imgUrl": "assets/images/service01.jpg",
+        "category": 2
+    },
+
+    {
+        "name": "<strong>deep</strong> <br>cleaning",
+        "descUrl": "",
+        "imgUrl": "assets/images/service01.jpg",
+        "category": 2
+    },
+
+    {
+        "name": "<strong>pressure</strong> <br>cleaning",
+        "descUrl": "",
+        "imgUrl": "assets/images/service01.jpg",
+        "category": [1, 2]
+    },
+
+    {
+        "name": "<strong>post constr.</strong><br>cleaning",
+        "descUrl": "",
+        "imgUrl": "assets/images/service01.jpg",
+        "category": [1, 2]
+    },
+
+    {
+        "name": "<strong>windows</strong> <br>cleaning",
+        "descUrl": "",
+        "imgUrl": "assets/images/service01.jpg",
+        "category": [3]
+    },
+
+    {
+        "name": "<strong>high rise window</strong><br>cleaning",
+        "descUrl": "",
+        "imgUrl": "assets/images/service01.jpg",
+        "category": [3]
+    }
+]
