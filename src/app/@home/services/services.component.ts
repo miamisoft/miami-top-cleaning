@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { environment } from 'src/environments/environment';
-import { AppContext } from 'src/app/core/appcontext.service';
+import { DataService } from 'src/app/core/data.service';
 
 interface ServiceData {
    name: string;
@@ -19,13 +17,12 @@ export class ServicesComponent implements OnInit {
 
   public data: ServiceData[] = [];
 
-
-  constructor(private _appContext: AppContext, private _httpService: HttpClient) { }
+  constructor(private _dataService: DataService) { }
 
   ngOnInit() {
-     this._httpService.get(`${environment.dataBaseUrl}/${this._appContext.currentLan}/services.${this._appContext.currentLan}.json`).subscribe((res: ServiceData[]) => {
-        this.data = res;
-     }, error => console.log(error));
+    this._dataService.getData('services').subscribe((res: ServiceData[]) => {
+       this.data = res;
+    }, error => console.log(error));
   }
 
 }

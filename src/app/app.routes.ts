@@ -11,5 +11,10 @@ export const appRoutes: Routes = [
    {
       path: 'services',
       loadChildren: './@services/services.module#ServicesModule'
+   },
+
+   {
+      path: 'team',
+      loadChildren: './@team/team.module#TeamModule'
    }
 ];

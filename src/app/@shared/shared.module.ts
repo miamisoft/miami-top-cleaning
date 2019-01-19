@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CookieService } from 'ngx-cookie-service';
 import { AppContext } from '../core/appcontext.service';
 import { TranslateModule } from '@ngx-translate/core';
+import { DataService } from '../core/data.service';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ export class SharedModule {
       ngModule: SharedModule,
       providers: [ 
         CookieService, 
-        AppContext
+        AppContext,
+        DataService
       ]
     };
   }
