@@ -1,5 +1,11 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { AppScripts } from 'src/app/core/app.scripts';
+import { DataService } from 'src/app/core/data.service';
+
+interface GalleryImgData{
+  imgUrl: string;
+  desc: string;
+}
 
 @Component({
   selector: 'app-home-gallery',
@@ -8,12 +14,17 @@ import { AppScripts } from 'src/app/core/app.scripts';
 })
 export class GalleryComponent implements AfterViewInit {
   
+  public data: GalleryImgData[] = [];
 
-  constructor() { }
+  constructor(private _dataService: DataService) { }
 
   ngAfterViewInit(): void {
-    AppScripts.setupCarousel('.gallery-owl-carousel');
-    AppScripts.setupPrettyPhoto();
+    this._dataService.getData('gallery').subscribe((res: GalleryImgData[]) => {
+      this.data = res;
+      setTimeout(() => {
+        AppScripts.setupCarousel('.gallery-owl-carousel');
+        AppScripts.setupPrettyPhoto();
+      });
+   }, error => console.log(error));
   }
-
 }

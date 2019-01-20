@@ -14,7 +14,12 @@ export const appRoutes: Routes = [
    },
 
    {
-      path: 'team',
-      loadChildren: './@team/team.module#TeamModule'
+      path: 'reviews',
+      loadChildren: './@reviews/reviews.module#ReviewsModule'
+   },
+
+   {
+      path: 'blog',
+      loadChildren: './@blog/blog.module#BlogModule'
    }
 ];

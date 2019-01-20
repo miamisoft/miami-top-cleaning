@@ -1,0 +1,14 @@
+.footer{
+    a.logo {
+        width: 200px;
+    }
+}
+
+@media (max-width: 767px){
+    .footer {
+        .logo {
+           float: none;
+            width: 150px !important;
+        }
+    } 
+}

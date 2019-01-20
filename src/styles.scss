@@ -1,11 +1,21 @@
 
+
+$color-blue: #2491CF ;
+$color-green: #05A64E ;
+
 body{
+
+    #toTop{
+        right: initial;
+        left: 0 !important;
+        background-color: $color-green;
+    }
 
     .theme_buttons a,
     .theme_button {
 
         &.color1{
-            background-color: #2491CF !important;
+            background-color: $color-blue !important;
         }
     
         &.color2{
@@ -13,7 +23,7 @@ body{
         }
     
         &.color3{
-            background-color: #05A64E !important;
+            background-color: $color-green!important;
         }
     }
 }

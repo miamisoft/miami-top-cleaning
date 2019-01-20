@@ -4,12 +4,12 @@
       <div class="col-sm-12">
         <div class="gallery-owl-carousel owl-carousel" data-margin="0" data-nav="true" data-items="7" data-responsive-xlg="7" data-responsive-lg="6" data-responsive-md="4" data-responsive-sm="3" data-responsive-xs="1">
 
-          <div *ngFor="let imgNumber of [1,2,3,4,5,6]" class="vertical-item">
+          <div *ngFor="let item of data" class="vertical-item">
             <div class="item-media">
-              <img src="assets/images/cleaning{{imgNumber}}.jpg" alt="">
+              <img [src]="item.imgUrl" alt="">
               <div class="media-links">
                 <div class="links-wrap">
-                  <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="assets/images/cleaning{{imgNumber}}.jpg"></a>
+                  <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" [href]="item.imgUrl"></a>
                 </div>
                 <a class="abs-link" href="gallery-single.html"></a>
               </div>

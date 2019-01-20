@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
-import { TeamComponent } from './team.component';
 import { SharedModule } from '../@shared/shared.module';
+import { BlogComponent } from './blog.component';
 import { RouterModule } from '@angular/router';
-
 
 @NgModule({
   imports: [
@@ -10,10 +9,12 @@ import { RouterModule } from '@angular/router';
     RouterModule.forChild([
       {
         path: '',
-        component: TeamComponent
+        component: BlogComponent
       }
     ])
   ],
-  declarations: [TeamComponent]
+  declarations: [
+    BlogComponent
+  ]
 })
-export class TeamModule { }
+export class BlogModule { }
