@@ -1,0 +1,10 @@
+
+$color-blue: #2491CF ;
+
+.tab-content{
+    &.top-color-border {
+        &:before{
+            background-color: $color-blue;
+        }
+    }
+}

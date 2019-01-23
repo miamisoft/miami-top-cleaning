@@ -12,7 +12,7 @@ import { FooterComponent } from './base-components/footer/footer.component';
 
 import { SearchComponent } from './base-components/search/search.component';
 import { SharedModule } from './@shared/shared.module';
-import { BlogComponent } from './@blog/blog/blog.component';
+
 
 
 
@@ -26,8 +26,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     HeaderComponent,
     FooterComponent,
     SearchComponent,
-    AppComponent,
-    BlogComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,

@@ -14,11 +14,6 @@ export const appRoutes: Routes = [
    },
 
    {
-      path: 'reviews',
-      loadChildren: './@reviews/reviews.module#ReviewsModule'
-   },
-
-   {
       path: 'blog',
       loadChildren: './@blog/blog.module#BlogModule'
    }

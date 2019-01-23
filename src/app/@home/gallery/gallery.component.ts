@@ -19,7 +19,7 @@ export class GalleryComponent implements AfterViewInit {
   constructor(private _dataService: DataService) { }
 
   ngAfterViewInit(): void {
-    this._dataService.getData('gallery').subscribe((res: GalleryImgData[]) => {
+    this._dataService.geti18nData('gallery').subscribe((res: GalleryImgData[]) => {
       this.data = res;
       setTimeout(() => {
         AppScripts.setupCarousel('.gallery-owl-carousel');

@@ -9,8 +9,14 @@ export class DataService {
 
     constructor(private _appContext: AppContext, private _httpService: HttpClient){}
     
-    public getData(jsonName: string): Observable<any>{
+    public geti18nData(jsonName: string): Observable<any>{
         let lang = this._appContext.currentLan;
         return this._httpService.get(`${environment.dataBaseUrl}/${lang}/${jsonName}.${lang}.json`);
     }
+
+    public getData(jsonName: string): Observable<any>{
+        return this._httpService.get(`${environment.dataBaseUrl}/${jsonName}.json`);
+    }
+
+    
 }

@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 
 import { RouterModule } from '@angular/router';
 import { MapComponent } from './map/map.component';
-import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { SolutionsComponent } from './solutions/solutions.component';
 import { ProblemsComponent } from './problems/problems.component';
 import { ServicesComponent } from './services/services.component';
@@ -14,6 +13,10 @@ import { homeRoutes } from './home.routes';
 import { SharedModule } from '../@shared/shared.module';
 import { IntroComponent } from './intro/intro.component';
 import { ContactComponent } from './contact/contact.component';
+import { ReviewsComponent } from './reviews/reviews.component';
+import { FacebookReviewComponent } from './reviews/facebook/facebook.component';
+import { YelpReviewComponent } from './reviews/yelp/yelp.component';
+import { TeamComponent } from './team/team.component';
 
 
 
@@ -26,13 +29,16 @@ import { ContactComponent } from './contact/contact.component';
     IntroComponent,
     ContactComponent,
     MapComponent,
-    TestimonialsComponent,
     SolutionsComponent,
     ProblemsComponent,
     ServicesComponent,
     IntroVideoComponent,
     ContactFormComponent,
     GalleryComponent,
+    YelpReviewComponent,
+    FacebookReviewComponent,
+    ReviewsComponent,
+    TeamComponent,
     HomeComponent
   ],
   providers: [

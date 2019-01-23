@@ -1,0 +1,26 @@
+<section class="ls section_padding_50">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-offset-1 col-lg-10 col-sm-12 text-center">
+              <p class="small-text margin_0">Our Clients</p>
+              <h2 class="topmargin_10 bottommargin_25">
+                Reviews
+                <strong>Snapshot</strong>
+              </h2>
+              <p>
+                Nissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
+                excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
+                animi, id est laborum et dolorum fuga.
+              </p>
+            </div>
+          </div>
+      <div *ngIf="reviews" class="row">
+        <div class="col-md-6">
+          <app-home-review-yelp [codeSnippet]="reviews.yelpCodeSnippet"></app-home-review-yelp>
+        </div>
+        <div class="col-md-6">
+          <app-home-review-facebook [codeSnippet]="reviews.facebookCodeSnippet"></app-home-review-facebook>
+        </div>
+      </div>
+    </div>
+  </section>

@@ -21,7 +21,7 @@ export class IntroComponent implements AfterViewInit {
   constructor(private _dataService: DataService) { }
 
   ngAfterViewInit(): void {
-    this._dataService.getData('intro').subscribe((res: IntroData[]) => {
+    this._dataService.geti18nData('intro').subscribe((res: IntroData[]) => {
       this.data = res;
       setTimeout(() => {
         AppScripts.setupFlexSlider();
