@@ -4,22 +4,21 @@
             <div class="col-lg-offset-1 col-lg-10 col-sm-12 text-center">
               <p class="small-text margin_0">Our Clients</p>
               <h2 class="topmargin_10 bottommargin_25">
-                Reviews
+                Review
                 <strong>Snapshot</strong>
               </h2>
               <p>
-                Nissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-                excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
-                animi, id est laborum et dolorum fuga.
+                 Check out what our clients said about us. You can find more on <a target="_blank" [href]="env.facebookUrl"><strong>Facebook</strong></a> 
+                 and <a target="_blank" [href]="env.yelpUrl"><strong>Yelp</strong></a> 
               </p>
             </div>
           </div>
       <div *ngIf="reviews" class="row">
         <div class="col-md-6">
-          <app-home-review-yelp [codeSnippet]="reviews.yelpCodeSnippet"></app-home-review-yelp>
+          <app-home-review-facebook [codeSnippet]="reviews.facebookCodeSnippet"></app-home-review-facebook>
         </div>
         <div class="col-md-6">
-          <app-home-review-facebook [codeSnippet]="reviews.facebookCodeSnippet"></app-home-review-facebook>
+          <app-home-review-yelp [codeSnippet]="reviews.yelpCodeSnippet"></app-home-review-yelp>
         </div>
       </div>
     </div>
