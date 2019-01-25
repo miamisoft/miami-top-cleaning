@@ -1,4 +1,29 @@
-.intro_section {
+.intro{
     overflow: visible;
+
+    .background {
+        width: 100%;
+        height: 400px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-attachment: scroll;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .slides{
+        .slide_description{
+            max-width: 85%;
+        }
+    }
+
+    .nav-container{
+        .flex-control-nav {
+            top: initial !important;
+            bottom: 0;
+        }
+    }
 }
 

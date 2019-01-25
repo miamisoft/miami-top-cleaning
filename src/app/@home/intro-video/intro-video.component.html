@@ -1,28 +1,23 @@
-<section class="intro_section page_videoslider ls ms">
+<section class="video-section intro_section page_videoslider ls">
   <div class="flexslider">
     <ul class="slides">
-      <li>
-        <img src="assets/images/slide01_1.jpg" alt="">
-        <div class="slide-media" style="background-image: url(assets/images/slide01_1.jpg)"></div>
+      <li *ngFor="let item of data">
+        <img [src]="item.imgUrl" alt="">
+        <div class="slide-media" [style.background-image]="backgroundImgUrl(item.imgUrl)"></div>
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
               <div class="slide_description_wrapper">
                 <div class="slide_description">
                   <div class="intro-layer" data-animation="slideExpandUp">
-                    <p class="small-text margin_0">How we are working?</p>
-                    <h2 class="topmargin_10 bottommargin_25">
-                All of our specialists are fully<br>
-                <strong>screened and trained</strong>
-              </h2>
-                    <p>
-                      Victa sunt explicabo. Nemo eni sai th ipsam satai voluptatem quia dolores volup tas sit aspernatur aut odit aut fugit.
-                    </p>
+                    <p class="small-text margin_0" [innerHtml]="item.question"></p>
+                    <h2 class="topmargin_10 bottommargin_25" [innerHtml]="item.slogan"></h2>
+                    <p [innerHtml]="item.desc"></p>
                   </div>
                   <div class="intro-layer video-container" data-animation="slideExpandUp">
                     <div class="embed-responsive">
-                      <a href="https://www.youtube.com/embed/fJ77KvrFO00" class="embed-placeholder">
-                        <img src="assets/images/slider-video-image.jpg" alt="">
+                      <a [href]="item.videoUrl" class="embed-placeholder">
+                        <img [src]="item.videoImgUrl" alt="">
                       </a>
                     </div>
                     <!-- <iframe width="1000" height="460" src="https://www.youtube.com/embed/fJ77KvrFO00" allowfullscreen></iframe> -->
@@ -38,85 +33,6 @@
         </div>
         <!-- eof .container -->
       </li>
-
-      <li>
-        <img src="assets/images/slide01_1.jpg" alt="">
-        <div class="slide-media" style="background-image: url(assets/images/slide01_1.jpg)"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="slide_description_wrapper">
-                <div class="slide_description">
-                  <div class="intro-layer" data-animation="slideExpandUp">
-                    <p class="small-text margin_0">How we are working?</p>
-                    <h2 class="topmargin_10 bottommargin_25">
-                All of our specialists are fully<br>
-                <strong>screened and trained</strong>
-              </h2>
-                    <p>
-                      Victa sunt explicabo. Nemo eni sai th ipsam satai voluptatem quia dolores volup tas sit aspernatur aut odit aut fugit.
-                    </p>
-                  </div>
-                  <div class="intro-layer video-container" data-animation="slideExpandUp">
-                    <div class="embed-responsive">
-                      <a href="https://www.youtube.com/embed/mcixldqDIEQ" class="embed-placeholder">
-                        <img src="assets/images/slider-video-image.jpg" alt="">
-                      </a>
-                    </div>
-                    <!-- <iframe width="1000" height="460" src="https://www.youtube.com/embed/mcixldqDIEQ" allowfullscreen></iframe> -->
-                  </div>
-                </div>
-                <!-- eof .slide_description -->
-              </div>
-              <!-- eof .slide_description_wrapper -->
-            </div>
-            <!-- eof .col-* -->
-          </div>
-          <!-- eof .row -->
-        </div>
-        <!-- eof .container -->
-      </li>
-
-      <li>
-        <img src="assets/images/slide01_1.jpg" alt="">
-        <div class="slide-media" style="background-image: url(assets/images/slide01_1.jpg)"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="slide_description_wrapper">
-                <div class="slide_description">
-                  <div class="intro-layer" data-animation="slideExpandUp">
-                    <p class="small-text margin_0">How we are working?</p>
-                    <h2 class="topmargin_10 bottommargin_25">
-                All of our specialists are fully<br>
-                <strong>screened and trained</strong>
-              </h2>
-                    <p>
-                      Victa sunt explicabo. Nemo eni sai th ipsam satai voluptatem quia dolores volup tas sit aspernatur aut odit aut fugit.
-                    </p>
-                  </div>
-                  <div class="intro-layer video-container" data-animation="slideExpandUp">
-                    <div class="embed-responsive">
-                      <a href="https://www.youtube.com/embed/mcixldqDIEQ" class="embed-placeholder">
-                        <img src="assets/images/slider-video-image.jpg" alt="">
-                      </a>
-                    </div>
-                    <!-- <iframe width="1000" height="460" src="https://www.youtube.com/embed/mcixldqDIEQ" allowfullscreen></iframe> -->
-                  </div>
-                </div>
-                <!-- eof .slide_description -->
-              </div>
-              <!-- eof .slide_description_wrapper -->
-            </div>
-            <!-- eof .col-* -->
-          </div>
-          <!-- eof .row -->
-        </div>
-        <!-- eof .container -->
-      </li>
-
-
-
     </ul>
   </div>
   <!-- eof flexslider -->

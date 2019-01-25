@@ -1,0 +1,19 @@
+[
+    {
+        "imgUrl": "assets/images/banner/cleaning-banner4.jpg",
+        "question": "How we are working?",
+        "slogan": " All of our specialists are fully<br><strong>screened and trained</strong>",
+        "desc": "",
+        "videoUrl": "https://www.youtube.com/embed/fJ77KvrFO00",
+        "videoImgUrl": "assets/images/slider-video-image.jpg"
+    },
+
+    {
+        "imgUrl": "assets/images/banner/cleaning-banner5.jpg",
+        "question": "How we are working?",
+        "slogan": " All of our specialists are fully<br><strong>screened and trained</strong>",
+        "desc": "",
+        "videoUrl": "https://www.youtube.com/embed/fJ77KvrFO00",
+        "videoImgUrl": "assets/images/slider-video-image.jpg"
+    }
+]

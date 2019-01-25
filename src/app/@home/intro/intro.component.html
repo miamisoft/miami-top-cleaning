@@ -1,8 +1,8 @@
-<section class="intro_section page_mainslider ls">
+<section class="intro intro_section page_mainslider ls">
   <div class="flexslider">
     <ul class="slides">
       <li *ngFor="let item of data">
-        <img [src]="item.imgUrl" alt="">
+        <div class="background" [style.background-image]="backgroundImgUrl(item.imgUrl)"></div>
         <div class="container">
           <div class="row">
             <div class="col-sm-12">

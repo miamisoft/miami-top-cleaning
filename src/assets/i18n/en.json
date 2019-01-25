@@ -28,13 +28,22 @@
 
     "commercial": {
         "office": {
-
+            "title": "Office Cleaning Services Increase Productivity",
+            "desc": "Studies show that office cleanliness plays a vital role in productivity. Office desks contain more than 400 times the amount of germs as a bathroom toilet, germs that contribute to U.S. workers taking an average of seven sick days per year. That number can be decreased by implementing an office cleaning and janitorial service program that prevents germs from spreading.",
+            "services_header": "Miami Top Cleaning office cleaning services include:",
+            "services_list": "<ul><li>Floor care</li><li>Trash disposal</li><li>High-dusting and furniture</li><li>Restroom cleaning</li><li>Breakroom cleaning</li></ul>",
+            "services_desc": "You strive to demonstrate the most value in your building. Let us help you and deliver beyond expectations. Miami Top Cleaning commercial cleaning programs are tailored to fit the individual needs of each customer and/or tenant. No matter what your needs may be, Jani-King can deliver a cleaning program that provides consistent, quality cleaning that enhances the value of your office building."
         },
         "dust_removal": {
 
         },
         "floor": {
-            
+            "title": "Commercial Floor Cleaning Services",
+            "desc": "A properly stripped and waxed floor can be maintained for many years when done correctly.When we customize a commercial floor cleaning service for our clients, we identify the flooring type, condition, age, foot traffic and maintenance history. We will identify the perfect mix of commercial floor cleaning services for your floors. Then we create a customized floor maintenance plan to provide our clients with beautiful floors for the lowest possible price.",
+            "advantages_header": "Miami Top Cleaning office cleaning services include:",
+            "advantages_list": "<ul><li>Floor care</li><li>Trash disposal</li><li>High-dusting and furniture</li><li>Restroom cleaning</li><li>Breakroom cleaning</li></ul>",
+            "benefits_header": "Miami Top Cleaning office cleaning services include:",
+            "benefits_list": "<ul><li>Floor care</li><li>Trash disposal</li><li>High-dusting and furniture</li><li>Restroom cleaning</li><li>Breakroom cleaning</li></ul>"
         },
         "post_const": {
             
