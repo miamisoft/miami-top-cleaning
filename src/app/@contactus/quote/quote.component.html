@@ -4,8 +4,6 @@
 { title: 'Get Quote', active: true }]">
 </app-breadcrumbs>
 
-<app-contact bgColorClass="ls"></app-contact>
-
 <section class="section_padding_40 ls ms muted_section image-background">
   <div class="container">
     <div class="row">
@@ -110,8 +108,13 @@
 
       <div class="col-md-5 col-sm-12">
         <app-map></app-map>
+        <div>
+            <h4>Zip Codes We <strong>Serve</strong></h4>
+            <ul class="zipcodes row" *ngIf="zipCodes">
+                <li class="col-md-2 col-sm-3 col-xs-4" *ngFor="let zip of zipCodes">{{zip}}</li>
+             </ul>
+        </div>
       </div>
-
     </div>
   </div>
 </section>

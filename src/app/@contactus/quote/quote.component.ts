@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/core/data.service';
 
 
 
@@ -10,8 +11,9 @@ import { Component, OnInit } from '@angular/core';
 export class QuoteComponent implements OnInit {
 
   public services: string[];
+  public zipCodes: number[];
 
-  constructor() { }
+  constructor(private _dataService: DataService) { }
 
   ngOnInit() {
 
@@ -31,6 +33,10 @@ export class QuoteComponent implements OnInit {
       'Windows Cleaning',
       'High Rise Window Cleaning'
     ];
+
+    this._dataService.getData('zipcodes').subscribe((zipcodes: number[]) => {
+        this.zipCodes = zipcodes;
+    }, error => console.log(error));
   }
 
 }
