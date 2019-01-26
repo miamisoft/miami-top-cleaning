@@ -11,7 +11,7 @@
       <div class="row">
         <div class="col-md-9">
           <h2 [innerHTML]="'commercial.office.title' | translate"></h2>
-          <p> <a [routerLink]="'/contact-us/get-quote'" class="theme_button color1 topmargin_15">get quote now</a></p>
+          <p> <a [routerLink]="['/contact-us/get-quote', 1]" class="theme_button color1 topmargin_15">get quote now</a></p>
           <div class="row">
               <img src="" class="col-md-4"/>
               <p class="col-md-8" [innerHTML]="'commercial.office.desc' | translate"></p>

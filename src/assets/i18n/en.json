@@ -11,6 +11,21 @@
 
     },
 
+    "contactus":{
+        "quote": {
+            "title": "Get a <strong>Quote</strong>",
+            "desc": " Please, select which services you are interested in and fill out the form providing your contact information followed by any other detail about the services you need. We will reach out to you with a good estimate right away.<br>Thanks for choosing us!!!",
+            "form_fullname": "Full Name",
+            "form_street": "Street",
+            "form_suite": "Apt/Suite #",
+            "form_city": "City",
+            "form_zipcode": "Zip Code",
+            "form_email": "Email",
+            "form_phone": "Phone Number",
+            "form_details": "Details about whay you need"
+        }
+    },
+
     "home": {
         "services": {
 
