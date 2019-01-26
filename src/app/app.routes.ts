@@ -16,5 +16,10 @@ export const appRoutes: Routes = [
    {
       path: 'blog',
       loadChildren: './@blog/blog.module#BlogModule'
+   },
+
+   {
+      path: 'contact-us',
+      loadChildren: './@contactus/contactus.module#ContactUsModule'
    }
 ];

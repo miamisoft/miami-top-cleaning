@@ -1,0 +1,113 @@
+<app-breadcrumbs [navItems]="[
+{ title: 'Home', routeUrl: '/' },
+{ title: 'Contact Us' },
+{ title: 'Get Quote', active: true }]">
+</app-breadcrumbs>
+
+<app-contact bgColorClass="ls"></app-contact>
+
+<section class="section_padding_120 ls ms muted_section image-background">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-offset-1 col-lg-10 col-sm-12 text-center">
+        <h2>
+          Get a <strong>Quote</strong>
+        </h2>
+        <p>
+           Please, select which services you are interested in and fill out the form providing your contact information followed by any other detail about the services you need. 
+           We will reach out to you with a good estimate right away. 
+           <br>Thanks for choosing us!!!
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="row">
+          <li *ngFor="let service of services" class="col-md-3 col-sm-6">
+            <label>{{service}}</label>
+            <input type="checkbox" name="service">
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-7">
+        <form class="contact-form columns_padding_5 row to_animate animated fadeInUp" method="post" action="/">
+          <div class="col-sm-12">
+            <p class="contact-form-name">
+              <label for="name" class="sr-only">Full Name <span class="required">*</span></label>
+              <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control"
+                placeholder="Full Name">
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="contact-form-street">
+              <label for="street" class="sr-only">Street<span class="required">*</span></label>
+              <input type="text" aria-required="true" size="30" value="" name="street" id="street" class="form-control"
+                placeholder="Street">
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="contact-form-suite">
+              <label for="suite" class="sr-only">Apt/Suite</label>
+              <input type="text" aria-required="true" size="30" value="" name="suite" id="suite" class="form-control"
+                placeholder="Apt/Suite #">
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="contact-form-city">
+              <label for="city" class="sr-only">City<span class="required">*</span></label>
+              <input type="text" aria-required="true" size="30" value="" name="city" id="city" class="form-control"
+                placeholder="City">
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="contact-form-zip">
+              <label for="zip" class="sr-only">Zip Code<span class="required">*</span></label>
+              <input type="text" aria-required="true" size="30" value="" name="zip" id="zip" class="form-control"
+                placeholder="Zip Code">
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="contact-form-email">
+              <label for="email" class="sr-only">Email address<span class="required">*</span></label>
+              <input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control"
+                placeholder="Email">
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="contact-form-phone">
+              <label for="phone" class="sr-only">Phone<span class="required">*</span></label>
+              <input type="text" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control"
+                placeholder="Phone number">
+            </p>
+          </div>
+
+          <div class="col-sm-12">
+            <p class="contact-form-message">
+              <label for="message" class="sr-only">Details about what you need</label>
+              <textarea aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control"
+                placeholder="Details about what you need"></textarea>
+            </p>
+          </div>
+
+
+
+          <div class="col-sm-12">
+
+            <p class="contact-form-submit topmargin_30 bottommargin_0 text-center">
+              <button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button margin_0 color1">Send
+                Message</button>
+            </p>
+          </div>
+
+
+        </form>
+      </div>
+
+      <div class="col-md-5 col-sm-12">
+        <app-map></app-map>
+      </div>
+
+    </div>
+  </div>
+</section>

@@ -5,4 +5,10 @@ h2{
 .container{
     padding-top: 0;
   
+    .before_cover{
+        img{
+            margin-bottom: -50px;
+            margin-top: 10px;
+        }
+    }
 }

@@ -5,10 +5,6 @@ import { HomeComponent } from "./home.component";
 export const homeRoutes: Routes = [
      {
          path: '',
-         component: HomeComponent,
-         data: {
-             title: 'Residential',
-             urls: [{ title: '', url: '' }]
-         }
+         component: HomeComponent
      }
  ];

@@ -1,0 +1,17 @@
+<section class="page_breadcrumbs cs table_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-3 col-sm-6">
+        <h1 *ngIf="pageTitle" class="margin_0">{{pageTitle}}</h1>
+      </div>
+      <div class="col-lg-8 col-md-9 col-sm-6">
+        <ol class="breadcrumb">
+          <li *ngFor="let item of navItems" [ngClass]=" {'active':  item.active }">
+            <a *ngIf="item.routeUrl" [routerLink]="item.routeUrl">{{item.title}}</a>
+            <span *ngIf="!item.routeUrl">{{item.title}}</span>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,20 +1,24 @@
 
 import { NgModule, ModuleWithProviders } from '@angular/core';
-import { AppointmentComponent } from './appointment/appointment.component';
-import { CalculatorComponent } from './calculator/calculator.component';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { CookieService } from 'ngx-cookie-service';
 import { AppContext } from '../core/appcontext.service';
 import { TranslateModule } from '@ngx-translate/core';
 import { DataService } from '../core/data.service';
+import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
+import { RouterModule } from '@angular/router';
+import { MapComponent } from './map/map.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
-    AppointmentComponent,
-    CalculatorComponent,    
+    BreadcrumbsComponent,
+    MapComponent,
+    ContactComponent
   ],
   imports: [
+     RouterModule,
      CommonModule,
      HttpClientModule,
      TranslateModule
@@ -23,8 +27,9 @@ import { DataService } from '../core/data.service';
     CommonModule,
     HttpClientModule,
     TranslateModule,
-    AppointmentComponent,
-    CalculatorComponent
+    BreadcrumbsComponent,
+    MapComponent,
+    ContactComponent
   ],
   providers: []
 })

@@ -77,12 +77,19 @@
 
     <li>
         <a [routerLink]="['/']">Gallery</a>
-      </li>
-
-    <li>
-      <a [routerLink]="['/']">Contact Us</a>
     </li>
 
+    <li>
+      <a [routerLink]="['/contact-us']">Contact Us</a>
+      <ul>
+        <li>
+          <a [routerLink]="['/contact-us/get-quote']">Get Quote</a>
+        </li>
+        <li>
+          <a [routerLink]="['/contact-us/schedule-cleaning']">Schedule Cleaning</a>
+        </li>
+      </ul>
+    </li>
   </ul>
 </nav>
 <!-- eof main nav -->
