@@ -25,11 +25,11 @@ export class QuoteComponent implements OnInit {
 
       'House Cleaning',
       'Appartment Cleaning',
-      'Move In/Move Out Cleaning',
+      'Move In/Out Cleaning',
       'Deep Cleaning',
 
       'Windows Cleaning',
-      'High Rise Window Cleaning in Brickell and Key Biscayne'
+      'High Rise Window Cleaning'
     ];
   }
 

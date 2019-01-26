@@ -6,7 +6,7 @@
 
 <app-contact bgColorClass="ls"></app-contact>
 
-<section class="section_padding_120 ls ms muted_section image-background">
+<section class="section_padding_40 ls ms muted_section image-background">
   <div class="container">
     <div class="row">
       <div class="col-lg-offset-1 col-lg-10 col-sm-12 text-center">
@@ -21,17 +21,21 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12">
+      <div class="services col-sm-12">
         <ul class="row">
           <li *ngFor="let service of services" class="col-md-3 col-sm-6">
-            <label>{{service}}</label>
-            <input type="checkbox" name="service">
+              <div class="pretty p-switch p-fill">
+                  <input type="checkbox" name="switch1" />
+                  <div class="state p-success">
+                      <label>{{service}}</label>
+                  </div>
+              </div>
           </li>
         </ul>
       </div>
 
       <div class="col-md-7">
-        <form class="contact-form columns_padding_5 row to_animate animated fadeInUp" method="post" action="/">
+        <form class="contact-form columns_padding_10 row to_animate animated fadeInUp" method="post" action="/">
           <div class="col-sm-12">
             <p class="contact-form-name">
               <label for="name" class="sr-only">Full Name <span class="required">*</span></label>

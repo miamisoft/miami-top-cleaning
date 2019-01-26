@@ -1,14 +1,14 @@
 [
     {
         "name": "<strong>office</strong><br>cleaning",
-        "descUrl": "",
+        "descUrl": "/services/commercial/office-cleaning",
         "imgUrl": "assets/images/service01.jpg",
         "category": [1]
     },
 
     {
         "name": "<strong>floor</strong><br>cleaning",
-        "descUrl": "",
+        "descUrl": "/services/commercial/floor-cleaning",
         "imgUrl": "assets/images/service01.jpg",
         "category": [1]
     },

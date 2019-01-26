@@ -25,7 +25,8 @@
     "zone.js": "~0.8.26",
     "@ngx-translate/core": "10.0.0",
     "@ngx-translate/http-loader": "3.0.0",
-    "ngx-cookie-service": "2.1.0"
+    "ngx-cookie-service": "2.1.0",
+    "pretty-checkbox": "^3.0.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.8.0",

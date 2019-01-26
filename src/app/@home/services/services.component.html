@@ -16,8 +16,10 @@
             <img class="media-object round" [src]="item.imgUrl" alt="">
           </div>
           <div class="media-body">
-            <h5 class="text-uppercase inline-block darklinks normal_spacing"><a [href]="item.descUrl" [innerHtml]="item.name"></a></h5>
-            <a href="#" class="round_button pull-right">
+            <h5 class="text-uppercase inline-block darklinks normal_spacing">
+              <a [routerLink]="item.descUrl" [innerHtml]="item.name"></a>
+            </h5>
+            <a [routerLink]="item.descUrl" class="round_button pull-right">
               <i class="rt-icon2-angle-right"></i>
             </a>
           </div>

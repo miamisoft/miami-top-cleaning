@@ -27,6 +27,7 @@
               "src/assets/css/main.css",
               "src/assets/css/animations.css",
               "src/assets/css/fonts.css",
+              "node_modules/pretty-checkbox/dist/pretty-checkbox.min.css",
               "src/styles.scss"
             ],
             "scripts": [
