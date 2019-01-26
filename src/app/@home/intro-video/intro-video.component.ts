@@ -1,14 +1,9 @@
 import { Component, OnInit, ViewEncapsulation, AfterViewInit } from '@angular/core';
 import { DataService } from 'src/app/core/data.service';
 import { DomSanitizer, SafeStyle } from '@angular/platform-browser';
+import { VideoIntroData } from 'src/app/models/data.models';
 
-interface VideoIntroData {
-  imgUrl: string;
-  question: string;
-  
-  slogan: string;
-  desc: string;
-}
+
 
 @Component({
   selector: 'app-home-intro-video',

@@ -6,10 +6,12 @@ import { DustRemovalComponent } from './dust-removal/dust-removal.component';
 import { JanitorialComponent } from './janitorial/janitorial.component';
 import { PostConstructionComponent } from './post-construction/post-construction.component';
 import { SharedModule } from 'src/app/@shared/shared.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
-    SharedModule
+    SharedModule,
+    RouterModule
   ],
   declarations: [
     OfficeComponent, 

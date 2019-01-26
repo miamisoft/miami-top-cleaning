@@ -11,7 +11,7 @@ export const contactUsRoutes: Routes = [
     },
 
     {
-        path: 'get-quote',
+        path: 'get-quote/:serviceid',
         component: QuoteComponent,
     },
     

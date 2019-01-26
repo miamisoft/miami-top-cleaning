@@ -2,13 +2,8 @@ import { Component, OnInit, AfterViewInit, ViewEncapsulation } from '@angular/co
 import { DataService } from 'src/app/core/data.service';
 import { AppScripts } from 'src/app/core/app.scripts';
 import { DomSanitizer, SafeStyle } from '@angular/platform-browser';
+import { IntroData } from 'src/app/models/data.models';
 
-interface IntroData {
-    imgUrl: string;
-    title: string;
-    slogan: string;
-    desc: string;
-}
 
 @Component({
   selector: 'app-home-intro',

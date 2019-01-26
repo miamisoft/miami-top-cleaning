@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/core/data.service';
+import { Subscription } from 'rxjs';
+import { ActivatedRoute } from '@angular/router';
+import { ServiceData } from 'src/app/models/data.models';
 
 
 
@@ -10,29 +13,22 @@ import { DataService } from 'src/app/core/data.service';
 })
 export class QuoteComponent implements OnInit {
 
-  public services: string[];
+  private paramSubscription: Subscription;
+
+  public services: ServiceData[];
   public zipCodes: number[];
 
-  constructor(private _dataService: DataService) { }
+  constructor(private _dataService: DataService,  private activatedRoute: ActivatedRoute,) { }
 
   ngOnInit() {
 
-    this.services = [
-      'Office Cleaning',
-      'Floor Cleaning',
-      'Pressure Cleaning',
-      'High Level Dust Removal',
-      'Janitorial Services',
-      'Post Construction Cleaning',
+    this.paramSubscription = this.activatedRoute.params.subscribe(params => {
+        let serviceId = params['serviceid'];
+    });
 
-      'House Cleaning',
-      'Appartment Cleaning',
-      'Move In/Out Cleaning',
-      'Deep Cleaning',
-
-      'Windows Cleaning',
-      'High Rise Window Cleaning'
-    ];
+    this._dataService.geti18nData('services').subscribe((services: ServiceData[]) => {
+      this.services = services;
+    }, error => console.log(error));
 
     this._dataService.getData('zipcodes').subscribe((zipcodes: number[]) => {
         this.zipCodes = zipcodes;

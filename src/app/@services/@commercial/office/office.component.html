@@ -6,11 +6,25 @@
   { title: 'Office Cleaning', active: true }]">
 </app-breadcrumbs>
 
-<section class="ls ms section_padding_60 table_section">
+<section class="ls ms section_padding_40 table_section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5 col-md-6">
-          
+        <div class="col-md-9">
+          <h2 [innerHTML]="'commercial.office.title' | translate"></h2>
+          <p> <a [routerLink]="'/contact-us/get-quote'" class="theme_button color1 topmargin_15">get quote now</a></p>
+          <div class="row">
+              <img src="" class="col-md-4"/>
+              <p class="col-md-8" [innerHTML]="'commercial.office.desc' | translate"></p>
+          </div>
+          <br>
+          <div>
+              <h4 [innerHTML]="'commercial.office.services_header' | translate"></h4>
+              <div [innerHTML]="'commercial.office.services_list' | translate"></div>
+              <p [innerHTML]="'commercial.office.services_desc' | translate"></p>
+          </div>
+        </div>
+        <div class="col-md-3">
+           <app-map></app-map>
         </div>
       </div>
     </div>

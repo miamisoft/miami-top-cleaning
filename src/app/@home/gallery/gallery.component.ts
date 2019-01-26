@@ -1,11 +1,9 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { AppScripts } from 'src/app/core/app.scripts';
 import { DataService } from 'src/app/core/data.service';
+import { GalleryImgData } from 'src/app/models/data.models';
 
-interface GalleryImgData{
-  imgUrl: string;
-  desc: string;
-}
+
 
 @Component({
   selector: 'app-home-gallery',

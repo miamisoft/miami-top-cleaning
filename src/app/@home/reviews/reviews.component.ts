@@ -1,11 +1,7 @@
-import { Component, OnInit, ChangeDetectorRef, AfterViewInit, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { DataService } from 'src/app/core/data.service';
 import { environment } from 'src/environments/environment';
-
-interface ReviewsData{
-  yelpCodeSnippet: string;
-  facebookCodeSnippet: string;
-}
+import { ReviewsData } from 'src/app/models/data.models';
 
 @Component({
   selector: 'app-home-reviews',

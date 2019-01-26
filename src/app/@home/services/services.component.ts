@@ -1,12 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/core/data.service';
-
-interface ServiceData {
-   name: string;
-   descUrl: string;
-   imgUrl: string;
-   category: number[];
-}
+import { ServiceData } from 'src/app/models/data.models';
 
 @Component({
   selector: 'app-home-services',
