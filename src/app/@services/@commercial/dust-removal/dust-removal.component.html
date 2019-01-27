@@ -6,6 +6,16 @@
 { title: 'High Level Dust Removal', active: true }]">
 </app-breadcrumbs>
 
-<p>
-  dust-removal works!
-</p>
+<section class="ls ms section_padding_40 table_section">
+  <div class="container">
+    <h2 [innerHTML]="'commercial.dust_removal.title' | translate"></h2>
+        <p> <a [routerLink]="['/contact-us/get-quote', 3]" class="theme_button color1 topmargin_15">get quote now</a></p>
+        <div class="row">
+            <div class="col-md-5"><img src="/assets/images/services/dust-removal.jpg"/></div>
+            <p class="col-md-7" [innerHTML]="'commercial.dust_removal.desc' | translate"></p>
+        </div>
+        <br>
+        <p [innerHTML]="'commercial.dust_removal.p1' | translate"></p>
+        <p [innerHTML]="'commercial.dust_removal.p2' | translate"></p>
+        <p [innerHTML]="'commercial.dust_removal.p3' | translate"></p>
+  </div>

@@ -21,7 +21,7 @@
         "id": 3,
         "name": "High Level Dust Removal",
         "htmlTitle": "<strong>high level dust</strong> <br>removal",
-        "descUrl": "",
+        "descUrl": "/services/commercial/high-level-dust-removal",
         "imgUrl": "assets/images/service01.jpg",
         "category": [1]
     },
@@ -30,7 +30,7 @@
         "id": 4,
         "name": "Janotorial Services",
         "htmlTitle": "<strong>janitorial</strong> <br>services",
-        "descUrl": "",
+        "descUrl": "/services/commercial/janitorial-services",
         "imgUrl": "assets/images/service01.jpg",
         "category": [1]
     },
@@ -39,7 +39,7 @@
         "id": 5,
         "name": "House Cleaning",
         "htmlTitle": "<strong>house</strong> <br>cleaning",
-        "descUrl": "",
+        "descUrl": "/services/residential/house-cleaning",
         "imgUrl": "assets/images/service01.jpg",
         "category": 2
     },
@@ -48,7 +48,7 @@
         "id": 6,
         "name": "Appartment Cleaning",
         "htmlTitle": "<strong>appartment</strong> <br>cleaning",
-        "descUrl": "",
+        "descUrl": "/services/residential/appartment-cleaning",
         "imgUrl": "assets/images/service01.jpg",
         "category": 2
     },
@@ -57,7 +57,7 @@
         "id": 7,
         "name": "Move In/Out Cleaning",
         "htmlTitle": "<strong>move in/out</strong> <br>cleaning",
-        "descUrl": "",
+        "descUrl": "/services/residential/movein-moveout-cleaning",
         "imgUrl": "assets/images/service01.jpg",
         "category": 2
     },
@@ -66,7 +66,7 @@
         "id": 8,
         "name": "Deep Cleaning",
         "htmlTitle": "<strong>deep</strong> <br>cleaning",
-        "descUrl": "",
+        "descUrl": "/services/residential/deep-cleaning",
         "imgUrl": "assets/images/service01.jpg",
         "category": 2
     },
@@ -75,7 +75,7 @@
         "id": 9,
         "name": "Pressure Cleaning",
         "htmlTitle": "<strong>pressure</strong> <br>cleaning",
-        "descUrl": "",
+        "descUrl": "/services/pressure-cleaning",
         "imgUrl": "assets/images/service01.jpg",
         "category": [1, 2]
     },
@@ -84,7 +84,7 @@
         "id": 10,
         "name": "Post Construction Cleaning",
         "htmlTitle": "<strong>post constr.</strong><br>cleaning",
-        "descUrl": "",
+        "descUrl": "/services/post-construction-cleaning",
         "imgUrl": "assets/images/service01.jpg",
         "category": [1, 2]
     },
@@ -93,7 +93,7 @@
         "id": 11,
         "name": "Windows Cleaning",
         "htmlTitle": "<strong>windows</strong> <br>cleaning",
-        "descUrl": "",
+        "descUrl": "/services/windows/window-cleaning",
         "imgUrl": "assets/images/service01.jpg",
         "category": [3]
     },
@@ -102,7 +102,7 @@
         "id": 12,
         "name": "High Rise Window Cleaning",
         "htmlTitle": "<strong>high rise window</strong><br>cleaning",
-        "descUrl": "",
+        "descUrl": "/services/windows/high-rise-window-cleaning",
         "imgUrl": "assets/images/service01.jpg",
         "category": [3]
     }

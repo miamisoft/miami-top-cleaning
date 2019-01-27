@@ -45,26 +45,36 @@
         "office": {
             "title": "Office Cleaning Services <strong>Increase Productivity</strong>",
             "desc": "Studies show that office cleanliness plays a vital role in productivity. Office desks contain more than 400 times the amount of germs as a bathroom toilet, germs that contribute to U.S. workers taking an average of seven sick days per year. That number can be decreased by implementing an office cleaning and janitorial service program that prevents germs from spreading.",
-            "services_header": "Miami Top Cleaning office cleaning services <strong>include:</strong>",
+            "services_header": "<strong>Miami Top Cleaning office cleaning services include:</strong>",
             "services_list": "<ul><li>Floor care</li><li>Trash disposal</li><li>High-dusting and furniture</li><li>Restroom cleaning</li><li>Breakroom cleaning</li></ul>",
             "services_desc": "You strive to demonstrate the most value in your building. Let us help you and deliver beyond expectations. Miami Top Cleaning commercial cleaning programs are tailored to fit the individual needs of each customer and/or tenant. No matter what your needs may be, Jani-King can deliver a cleaning program that provides consistent, quality cleaning that enhances the value of your office building."
         },
         "dust_removal": {
-
+            "title": "High Level <strong>Dust Removal</strong>",
+            "desc": "All the dust that accumulates in your home or place of business isn’t going to disappear. Large amounts of dust can be unattractive to clients and harmful to your employees. Dust can also damage machinery and its also a fire hazard.",
+            "p1": "We have industrial-strength vacuums that can pull over 30 pounds of pressure per inch. We remove all dust from air conditioning ducts, lights, ceiling fans, sprinkler systems, pipes, we will clean everything and anything you need to get your business dust free.",
+            "p2": "Our crew is trained and professional. We can cover any area large or small. This work is usually done after hours so it will not interfere with your daily operations. No one wants to their clients to look up and see unattractive clumps of dust.",
+            "p3": "A clean work environment is shown to improve productivity. Miami Top Cleaning will provide you with a safer dust free work place."
         },
         "floor": {
-            "title": "Commercial Floor Cleaning Services",
+            "title": "Commercial Floor <strong>Cleaning Services</strong>",
             "desc": "A properly stripped and waxed floor can be maintained for many years when done correctly.When we customize a commercial floor cleaning service for our clients, we identify the flooring type, condition, age, foot traffic and maintenance history. We will identify the perfect mix of commercial floor cleaning services for your floors. Then we create a customized floor maintenance plan to provide our clients with beautiful floors for the lowest possible price.",
-            "advantages_header": "Miami Top Cleaning office cleaning services include:",
-            "advantages_list": "<ul><li>Floor care</li><li>Trash disposal</li><li>High-dusting and furniture</li><li>Restroom cleaning</li><li>Breakroom cleaning</li></ul>",
-            "benefits_header": "Miami Top Cleaning office cleaning services include:",
-            "benefits_list": "<ul><li>Floor care</li><li>Trash disposal</li><li>High-dusting and furniture</li><li>Restroom cleaning</li><li>Breakroom cleaning</li></ul>"
+            "advantages_header": "<strong>Advantages to having your floor properly stripped and waxed include:</strong>",
+            "advantages_list": "<ul><li>Prevents water and humidity from penetrating the floor.</li><li>Repels stains and dirt.</li><li>Protects the floor from scratches, abrasions and other damage.</li><li>Extends the look and life of the flooring material.</li><li>Provides an impressive shine and beauty to a facility.</li></ul>",
+            "benefits_header": "<strong>Benefits of commercial floor cleaning services:</strong>",
+            "benefits_list": "<ul><li>Extends the life of the floor, saving you money on your investment.</li><li>A beautiful floor impresses clients and bosses.</li><li>Employee productivity may increase when they take pride in where they work.</li></ul>"
         },
-        "post_const": {
-            
-        },
-        "pressure": {
-            
+        "janitorial": {
+            "title": "Commercial Janitorial <strong>Cleaning Services</strong>",
+            "desc": "When it comes to running your business, the vendors you hire reflect on you. If you’re tired of replacing your janitorial service company due to their complacency or lack of follow-through, it’s time to go with the team that believes that a job isn’t done until it’s done right. At Miami Top Cleaning, we provide the expertise, professionalism and ownership to deliver exceptional results you can depend on day and night. For 60+ years, we’ve been dedicated to providing only the highest standards of cleaning services for customers.",
+            "leadtech_header": "<strong>Using Leading Technologies to Deliver a Better Clean</strong>",
+            "leadtech_desc": "After more than 25 years in the business, Miami Top Cleaning is still aiming for the highest standards every day. Our Capture and Removal Cleaning system is a prime example. An effective and efficient cleaning process, it combines powerful products, advanced technologies and a high-productivity approach to dramatically decrease airborne dust, VOCs and bacteria.",
+            "qc_title": "<strong>Quality Control at Your Fingertips</strong>",
+            "qc_list": "<ul><li>We’re committed to building a customized cleaning program that meets your specific needs.</li><li>We thoroughly inspect out work to make sure it’s complete.</li><li>We’re not satisfied until you are satisfied.</li></ul>",
+            "services_header": "<strong>Our Janitorial Cleaning services include:</strong>",
+            "services_list": "<ul><li>Option for daily, weekly and monthly cleaning services</li><li>Daily carpet care</li><li>Hard-surface floor cleaning and maintenance</li><li>Reception area/lobby cleaning</li><li>Kitchen/restroom cleaning/restocking</li><li>Dusting and window washing</li><li>Office system cleaning</li><li>Waste removal</li><li>Sanitation programs</li><li>Daytime cleaning</li></ul>",
+            "benefits_header": "<strong>Benefits of daytime Janitorial Services</strong>",
+            "benefits_list": "<ul><li>Quality building inspection plan</li><li>Detailed cleaning plan</li><li>Written task schedule and specification list</li><li>Daily contact with supervisory staff</li><li>Quality review programs</li><li>Continued on-site training for cleaning staff</li><li>Highest level of safety and security</li><li>Scheduling options to fit your needs</li><li>Best-of-class products and equipment</li><li>Local businesses backed by national resources</li></ul>"
         }
     },
 
@@ -80,13 +90,6 @@
         },
         "move": {
             
-        },
-        "post_const":{
-            
-        },
-
-        "pressure": {
-            
         }
     },
 
@@ -97,5 +100,24 @@
         "high_rise": {
 
         }
+    },
+
+    "post_const": {
+       "title": "Post Construction <strong>Cleaning Services</strong>", 
+       "desc": "When looking for fairly priced post construction cleaning and dust removal services, turn to Miami Top Cleaning in Miami, Florida. Our experienced personnel offer a wide range of cleaning services, including:  <ul> <li>Dusting</li> <li>Vacuuming</li> <li>Scrubbing</li> <li>Stain Removal</li> <li>Floor Cleaning, Waxing, &amp; Buffing</li> <li>Window Sills &amp; Frame Cleaning</li> <li>Etching Removal</li> <li>Kitchen Cleaning</li> <li>Desk &amp; File Cabinet Cleaning</li> <li>Glass Window Cleaning</li> </ul>",    
+       "team_header": "<strong>Dedicated Team of Cleaners</strong>",
+       "team_desc": "Post-construction cleaning in Miami and Broward. Our courteous and patient staff will arrive at your home or place of business and bring out the beauty of your recently finished renovations. With appropriate supervision, we can provide labor crews as required by your general contractor. We work with different general contractors and developers. Our reliable team of cleaners can sanitize 100-square-foot up to 5-million-square-foot building sites. Let us help you keep the following neat and dust-free:",
+       "team_desc_list": "<ul> <li>Duct Works</li> <li>Ceilings</li> <li> Pipes</li> <li>Vents</li> <li>Light Fixtures</li> <li>Stainless Steel Surfaces</li> <li>White Walls</li> </ul>",
+       "clean_up_header": "<strong>Post Construction Clean-Up</strong>",
+       "clean_up_desc": "For newly built structures, renovations and additions all post construction clean-up is available. This requires special techniques to ensure your dust does not return. Miami Top Cleaning has special post construction crews. Your building’s debut is of the up-most importance and with Miami Top Cleaning the interior and exterior of the property or your building will look clean and smell fresh. We off cleaning cabinets and drawers inside and out, appliances remove of coverings and wiped, mirrors and all glass cleaned and polished. All floors cleaned along with shower stalls, tubs, toilets and shower doors. We Sweep and scape landings, walks, decks and patios. We have the best prices in Florida.",
+       "clean_services_header": "<strong>Post Construction Cleaning Services Miami</strong>",
+       "clean_services_desc": "Whether you are a construction company or builder who has just finished a project, or simply a home owner who needs a deep cleaning after remodeling or adding an extension, We can help! Our Post construction cleaning is carried our by dedicated team. They will arrive at your premises with all the right equipment products with a post construction deep clean. We can cater for any size of building and can also carryout end of lease clean when a client moves out of a rented out office space. Deep cleaning service, meticulous moving clean, detail post construction cleaning, reliable and trustworthy office cleaning, home and apartment cleaning."
+    },
+
+    "pressure": {
+        "title": "Pressure <strong>Cleaning Services</strong>",
+        "desc": "At Miami Top Cleaning, we understand importance of keeping the exterior of your home looking spotless. Since we began providing pressure washing services, we have removed dirt stains, mold, algae and other bacteria from the exteriors of hundreds of homes in Miami-Dade County. Let your house be our next project, ?you’ll be amazed when your home looks just like new!",
+        "services_header": "Contact Us <strong>Today</strong>",
+        "services_list": "<ul> <li>Pressure cleaning of roofs; tile, shingle or metal</li> <li>Paint preparation</li> <li>Mold removal, algae and tree sap stain removal</li> <li>Removal and chemical treatment for hard water and rust staining</li> <li>Driveways, sidewalks, pool patios, balconies and terraces, natural stone, i.e.; keystone, coral, flagging, marble, also Chicago brick, pavers and concrete</li> <li>Oil stain lightening and removal for pavers and driveways</li> <li>Power washing tennis courts and basketball courts</li> <li>Pressure cleaning of garage floors, perimeter and privacy walls</li> <li>Wood decks, fences, boat docks</li> <li>Wood cleaning and sealing</li> <li>Screened pool enclosures</li> <li>Hurricane shutter prep and cleaning</li> <li>Power washing of walls, eaves, soffits and flashing as well as windows, screens and doors</li> <li>Gutter cleaning, interior and exterior, down spout flushing</li> <li>Asphalt driveway prep for re-blacktopping</li> <li>Pressure washing of windows, screens and doors</li> <li>Pressure cleaning of patio furniture and treatment for mold staining</li> <li>Power washing and sanitizing of children’s play sets and jungle gyms</li> <li>Pressure cleaning you boat, jet ski, RV and motor homes</li> <li>Bug and insect cocoon, cobweb, stain and debris removal</li> <li>Herbicide/weed killer/roundup spraying available (and recommended) before brick, paved surfaces are pressure washed</li> </ul>"
     }
 }

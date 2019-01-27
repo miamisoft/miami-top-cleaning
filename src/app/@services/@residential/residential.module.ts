@@ -3,8 +3,6 @@ import { HouseComponent } from './house/house.component';
 import { AppartmentComponent } from './appartment/appartment.component';
 import { MoveComponent } from './move/move.component';
 import { DeepComponent } from './deep/deep.component';
-import { PressureComponent } from './pressure/pressure.component';
-import { PostConstructionComponent } from './post-construction/post-construction.component';
 import { SharedModule } from 'src/app/@shared/shared.module';
 
 
@@ -16,9 +14,7 @@ import { SharedModule } from 'src/app/@shared/shared.module';
     HouseComponent, 
     AppartmentComponent, 
     MoveComponent, 
-    DeepComponent, 
-    PressureComponent, 
-    PostConstructionComponent
+    DeepComponent
   ]
 })
 export class ResidentialModule { }

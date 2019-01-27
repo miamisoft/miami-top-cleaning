@@ -9,20 +9,12 @@ export const windowsRoutes: Routes = [
         children: [
             {
                 path: 'window-cleaning',
-                component: WindowComponent,
-                data: {
-                    title: 'Windows',
-                    urls: [{ title: '', url: '' }]
-                }
+                component: WindowComponent
             },
             
             {
                  path: 'high-rise-window-cleaning',
-                 component: HighRiseWindowComponent,
-                 data: {
-                     title: 'Windows',
-                     urls: [{ title: '', url: '' }]
-                 }
+                 component: HighRiseWindowComponent
              }
         ]
     }

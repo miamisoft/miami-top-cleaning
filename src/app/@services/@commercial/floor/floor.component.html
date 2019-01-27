@@ -5,6 +5,22 @@
   { title: 'Floor Cleaning', active: true }]">
 </app-breadcrumbs>
 
-<p>
-  {{'floor.test'| translate}}
-</p>
+<section class="ls ms section_padding_40 table_section">
+  <div class="container">
+  <h2 [innerHTML]="'commercial.floor.title' | translate"></h2>
+      <p> <a [routerLink]="['/contact-us/get-quote', 2]" class="theme_button color1 topmargin_15">get quote now</a></p>
+      <div class="row">
+         <div class="col-md-3"><img src="/assets/images/services/floor-cleaning.jpeg"/></div>
+          <p class="col-md-9" [innerHTML]="'commercial.floor.desc' | translate"></p>
+      </div>
+      <br>
+      <div>
+          <h4 [innerHTML]="'commercial.floor.advantages_header' | translate"></h4>
+          <div [innerHTML]="'commercial.floor.advantages_list' | translate"></div>
+          <br>
+          <h4 [innerHTML]="'commercial.floor.benefits_header' | translate"></h4>
+          <div [innerHTML]="'commercial.floor.benefits_list' | translate"></div>
+        
+      </div>
+  </div>
+</section>
