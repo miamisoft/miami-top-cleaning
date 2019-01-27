@@ -7,6 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
+  public phoneNumber: string = 'tel:+17864443947';
+
   @Input()
   public bgColorClass: string;
 

@@ -80,16 +80,45 @@
 
     "residential": {
         "appt": {
+            "title": "Apartment Cleaning from <strong>Top to Bottom</strong>",
+            "desc": "Our cleaning system sets us apart at Miami Top Cleaning . Our customers keep coming back to us, because we provide services that work and keep their homes and apartments clean, right down to the little details. This extensive cleaning system, which we call our Detail-Clean Rotation System",
+            "how_work_header": "How does our apartment cleaning program work?",
+            "how_work_desc": "We start with a thorough detail-clean throughout your house over the course of the first two cleans. On the first clean, our maid service will thoroughly clean your apartment, with special attention on your kitchen and bathrooms. On the second session, we’ll clean your entire apartment, but this time we’ll provide detail-clean services in your sleeping and living areas. We’ll continue to maintain this detail-clean level throughout your home throughout our next visits by providing deep cleaning services on a rotating basis.",
+            "services_header": "Every time we clean, we’ll provide services that <strong>include the following:<strong>",
+            "services_desc_p1": "<strong>Bathrooms</strong><br>Cobwebs removed, dusting, floors cleaned, toilets cleaned, mirrors / chrome fixtures cleaned, shower doors cleaned, tile walls, bathtub / showers cleaned.",
+            "services_desc_p2": "<strong>Sleeping Areas</strong><br>Surfaces hand wiped, floors cleaned, general dusting, cobwebs removed, doors and door frames spot cleaned.",
+            "services_desc_p3": "<strong>Living Areas</strong><br>Surfaces hand wiped, cobwebs removed, doors and door frames spot cleaned, general dusting, floors cleaned.",
+            "services_desc_p4": "<strong>Kitchen</strong><br>Countertops cleaned, outside of range hood cleaned, top and front of range cleaned, drip pans / glass top surfaces wiped, sinks cleaned and chrome shined, fronts of all appliances cleaned, general dusting, cobwebs removed, microwave wiped out, doors and door frames spot cleaned"
 
         },
         "deep": {
 
         },
         "house": {
-            
+            "title": "Whole House <strong>Cleaning Services</strong>",
+            "clean_rotation_header": "Our Detail-Clean <strong>Rotation System</strong>",
+            "clean_rotation_desc": "We use our unique Detail-Clean Rotation System to ensure that our customers’ homes always meet our high standard of cleanliness. This system was developed over 25+ years of professional house cleaning experience. We use this system to ensure that our clients are always satisfied and can expect a consistently clean and beautiful space.",
+            "first_second_clean_header": "<strong>We provide a whole house detail-clean within the first two cleanings:</strong>",
+            "first_clean": "<strong>First Clean:</strong> We’ll carefully detail-clean your kitchen and bathrooms, while providing a thorough cleaning to the rest of your house.",
+            "second_clean": "<strong>Second Clean:</strong> We’ll detail-clean your living areas and sleeping areas, and provide a thorough clean to your kitchen and bathrooms as well.<br>After initial cleanings, our detail-clean services will be performed on a rotating basis along with our typical thorough cleaning services. This ensures that your home is always up to par. We have high standards and our work speaks to that. We prove our commitment to our customers through maintaining our high standards of excellence",
+            "clean_desc": "After initial cleanings, our detail-clean services will be performed on a rotating basis along with our typical thorough cleaning services. This ensures that your home is always up to par. We have high standards and our work speaks to that. We prove our commitment to our customers through maintaining our high standards of excellence.",
+            "rely_on_us_header": "You can rely on us for a thoroughly cleaned house, <strong>every single time</strong>",
+            "clear_own_home_header": "Life’s Too Short to Clean Your <strong>Own Home</strong>",
+            "clear_own_home_desc": "You’ve got things to do that are more important than cleaning a messy house. Let us take care of it! Our team of experts provides trustworthy, high-quality home cleaning services. You can have full confidence and peace of mind in choosing Miami Top Cleaning",
+            "call_us_header": "Call Our Cleaning Service at <a href='tel:+17864443947'><strong>786-444-3947</strong></a>",
+            "call_us_desc": "We can save you time, so you can focus on what matters to you. We’ve been in this field for more than 25 years. Miami Top Cleaning is a name synonymous with customer respect and professionalism. Choose our maid service for a team that goes above and beyond!",
+            "services_header": "Every time we clean, we’ll provide services that <strong>include the following:<strong>",
+            "services_desc_p1": "<strong>Bathrooms</strong><br>Cobwebs removed, dusting, floors cleaned, toilets cleaned, mirrors / chrome fixtures cleaned, shower doors cleaned, tile walls, bathtub / showers cleaned.",
+            "services_desc_p2": "<strong>Sleeping Areas</strong><br>Surfaces hand wiped, floors cleaned, general dusting, cobwebs removed, doors and door frames spot cleaned.",
+            "services_desc_p3": "<strong>Living Areas</strong><br>Surfaces hand wiped, cobwebs removed, doors and door frames spot cleaned, general dusting, floors cleaned.",
+            "services_desc_p4": "<strong>Kitchen</strong><br>Countertops cleaned, outside of range hood cleaned, top and front of range cleaned, drip pans / glass top surfaces wiped, sinks cleaned and chrome shined, fronts of all appliances cleaned, general dusting, cobwebs removed, microwave wiped out, doors and door frames spot cleaned"
+
         },
         "move": {
-            
+            "title": "Move In / Move Out <strong>Cleaning Services</strong>",
+            "desc": "Moving is a big job. In fact, many people say that moving is one of the most stressful and exhausting life experiences. Getting your things in order, changing your address, scheduling transportation and moving services, perhaps changing school systems or going through a simultaneous career adjustment – it can all present a massive amount of work. On top of it all, you have to make sure the home you’re leaving is clean (either to get your security deposit back for your apartment or to help ensure your house can sell) and that your new home is ready for move-in day.<br><br>Let the experts at Miami Top Cleaning remove the burden of pre and post move cleaning from your to-do list. By nature, moving is messy. Our expert cleaning crews can make sure that your new home or the one you’re leaving looks spotless and sparkling with our move in and move out cleaning services.",
+            "more_reasons_header": "<strong>More reasons to choose Miami Top Cleaning include:</strong>",
+            "more_reasons_list": "<ul><li>We use a thorough screening process for all of our employees.</li> <li>We use high-level training programs for all of our professional house cleaners.</li> <li>We have excellent customer reviews.</li> <li>We are bonded and insured.</li> <li>Call our house cleaning service professionals today!</li> </ul>"
         }
     },
 

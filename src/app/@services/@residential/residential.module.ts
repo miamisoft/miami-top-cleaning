@@ -4,11 +4,13 @@ import { AppartmentComponent } from './appartment/appartment.component';
 import { MoveComponent } from './move/move.component';
 import { DeepComponent } from './deep/deep.component';
 import { SharedModule } from 'src/app/@shared/shared.module';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
   imports: [
-    SharedModule
+    SharedModule,
+    RouterModule
   ],
   declarations: [
     HouseComponent, 
