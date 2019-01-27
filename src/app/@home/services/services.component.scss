@@ -1,3 +1,26 @@
 .text-uppercase{
     font-size: 15px;
 }
+
+.service-icon {
+    position: relative;
+    display: block;
+    background-color:#05A64E;
+    border: 1px solid #05A64E;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:60px;
+    height:60px;
+
+    i {
+        position: absolute;
+        color: white;
+        top: 17px;
+        left: -7px;
+
+        &:before{
+            font-size: 32px;
+        }
+    }
+}

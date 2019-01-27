@@ -4,7 +4,7 @@
         "name": "Office Cleaning",
         "htmlTitle": "<strong>office</strong><br>cleaning",
         "descUrl": "/services/commercial/office-cleaning",
-        "imgUrl": "assets/images/service01.jpg",
+        "fontIcon": "flaticon-apron",
         "category": [1]
     },
 
@@ -13,7 +13,7 @@
         "name": "Floor Cleaning",
         "htmlTitle": "<strong>floor</strong><br>cleaning",
         "descUrl": "/services/commercial/floor-cleaning",
-        "imgUrl": "assets/images/service01.jpg",
+        "fontIcon": "flaticon-mop",
         "category": [1]
     },
 
@@ -22,7 +22,7 @@
         "name": "High Level Dust Removal",
         "htmlTitle": "<strong>high level dust</strong> <br>removal",
         "descUrl": "/services/commercial/high-level-dust-removal",
-        "imgUrl": "assets/images/service01.jpg",
+        "fontIcon": "flaticon-vacuum-cleaner",
         "category": [1]
     },
 
@@ -31,7 +31,7 @@
         "name": "Janotorial Services",
         "htmlTitle": "<strong>janitorial</strong> <br>services",
         "descUrl": "/services/commercial/janitorial-services",
-        "imgUrl": "assets/images/service01.jpg",
+        "fontIcon": "flaticon-bin",
         "category": [1]
     },
 
@@ -40,7 +40,7 @@
         "name": "House Cleaning",
         "htmlTitle": "<strong>house</strong> <br>cleaning",
         "descUrl": "/services/residential/house-cleaning",
-        "imgUrl": "assets/images/service01.jpg",
+        "fontIcon": "flaticon-house",
         "category": 2
     },
 
@@ -49,7 +49,7 @@
         "name": "Appartment Cleaning",
         "htmlTitle": "<strong>appartment</strong> <br>cleaning",
         "descUrl": "/services/residential/appartment-cleaning",
-        "imgUrl": "assets/images/service01.jpg",
+        "fontIcon": "flaticon-bucket",
         "category": 2
     },
 
@@ -58,7 +58,7 @@
         "name": "Move In/Out Cleaning",
         "htmlTitle": "<strong>move in/out</strong> <br>cleaning",
         "descUrl": "/services/residential/movein-moveout-cleaning",
-        "imgUrl": "assets/images/service01.jpg",
+        "fontIcon": "flaticon-garbage",
         "category": 2
     },
 
@@ -67,7 +67,7 @@
         "name": "Deep Cleaning",
         "htmlTitle": "<strong>deep</strong> <br>cleaning",
         "descUrl": "/services/residential/deep-cleaning",
-        "imgUrl": "assets/images/service01.jpg",
+        "fontIcon": "flaticon-brush",
         "category": 2
     },
 
@@ -76,7 +76,7 @@
         "name": "Pressure Cleaning",
         "htmlTitle": "<strong>pressure</strong> <br>cleaning",
         "descUrl": "/services/pressure-cleaning",
-        "imgUrl": "assets/images/service01.jpg",
+        "fontIcon": "flaticon-water-tap",
         "category": [1, 2]
     },
 
@@ -85,7 +85,7 @@
         "name": "Post Construction Cleaning",
         "htmlTitle": "<strong>post constr.</strong><br>cleaning",
         "descUrl": "/services/post-construction-cleaning",
-        "imgUrl": "assets/images/service01.jpg",
+        "fontIcon": "flaticon-dustpan",
         "category": [1, 2]
     },
 
@@ -94,7 +94,7 @@
         "name": "Windows Cleaning",
         "htmlTitle": "<strong>windows</strong> <br>cleaning",
         "descUrl": "/services/windows/window-cleaning",
-        "imgUrl": "assets/images/service01.jpg",
+        "fontIcon": "flaticon-window",
         "category": [3]
     },
 
@@ -103,7 +103,7 @@
         "name": "High Rise Window Cleaning",
         "htmlTitle": "<strong>high rise window</strong><br>cleaning",
         "descUrl": "/services/windows/high-rise-window-cleaning",
-        "imgUrl": "assets/images/service01.jpg",
+        "fontIcon": "flaticon-wipe",
         "category": [3]
     }
 ]

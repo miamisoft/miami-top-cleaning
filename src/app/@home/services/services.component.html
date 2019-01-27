@@ -13,7 +13,11 @@
       <div *ngFor="let item of data" class="col-md-3">
         <div class="media">
           <div class="media-left">
-            <img class="media-object round" [src]="item.imgUrl" alt="">
+           <span class="service-icon">
+             <a [routerLink]="item.descUrl"> 
+                <i [ngClass]="item.fontIcon"></i>
+             </a>
+           </span>
           </div>
           <div class="media-body">
             <h5 class="text-uppercase inline-block darklinks normal_spacing">
