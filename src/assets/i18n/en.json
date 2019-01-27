@@ -153,10 +153,14 @@
 
     "windows": {
         "window": {
-
+            "title": "Window <strong>Cleaning Services</strong>",
+            "desc": "Ideally, windows should be washed twice a year, but it’s a task most people don’t look forward to. Part of what makes window washing such a chore is that homeowners insist on doing it with wadded-up paper towels or newspaper, spray cleaner, and a ton of elbow grease.<br>All that rubbing isn’t a good idea, You’re just moving dirt around from one spot to another and putting a static charge on the glass, which attracts dust and dirt. As soon as you finish, the window will looks dirty again. <br>It’s easier and more effective to clean glass like the pros do: with a squeegee and a few other readily available tools. The techniques aren’t complicated <br>Clean windows will transform a living spaces. You don’t know what you’re missing get your windows cleaned."
         },
         "high_rise": {
-
+            "title": "High Rise Window Cleaning in <strong>Brickell and Key Biscayne</strong>",
+            "desc": "If you have ever had to clean your windows yourself in Brickell, then you know it’s not something you enjoy. It’s take to much time, tiring, expensive to buy the right products and worst of all, it’s potentially very dangerous. However, you don’t want friends and family making any negative comments about your dirty and grimy windows. Don’t worry, let Miami Top Cleaning takeover your stress and do the dirty work for you!<br><br>We specialize in the cleaning of residential and commercial windows, handling both the interior and exterior to make sure they are spotless inside and out. Our services are extremely affordable and we work in Miami, Miami Beach, Key Biscayne, Fort Lauderdale, West Palm Beach and Palm Beach to name a few.",
+            "services_header": "<strong>We offer the following window cleaning and additional services:</strong>",  
+            "services_list": "<ul> <li>High Rise Window Cleaning</li> <li>Commercial Window Cleaning</li> <li>Residential Window Cleaning</li> <li>Window Calking</li> <li>Exterior Building Maintenance</li> <li>Waterproofing Buildings</li> </ul>"
         }
     },
 

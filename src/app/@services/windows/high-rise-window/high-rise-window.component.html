@@ -1,0 +1,20 @@
+<app-breadcrumbs [navItems]="[
+  { title: 'Home', routeUrl: '/' },
+  { title: 'Services' },
+  { title: 'Windows' },
+  { title: 'High Rise Windows Cleaning', active: true }]">
+</app-breadcrumbs>
+
+<section class="ls ms section_padding_40 table_section">
+  <div class="container">
+      <h2 [innerHTML]="'windows.high_rise.title' | translate"></h2>
+      <p> <a [routerLink]="['/contact-us/get-quote', 6]" class="theme_button color1 topmargin_15">get quote now</a></p>
+      <div class="row">
+         <div class="col-md-3"><img src="/assets/images/services/brickell-window-cleaning.jpg"/></div>
+         <p class="col-md-9"[innerHTML]="'windows.high_rise.desc' | translate"></p>
+      </div>
+      <br>
+      <h4 [innerHTML]="'windows.high_rise.services_header' | translate"></h4>
+      <div [innerHTML]="'windows.high_rise.services_list' | translate"></div>
+  </div>
+</section>
