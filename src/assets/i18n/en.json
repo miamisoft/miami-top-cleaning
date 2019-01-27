@@ -1,10 +1,30 @@
 {
     "header": {
-        "schedule_cleaning": "schedule cleaning"
+        "schedule_cleaning": "schedule cleaning",
+        "quote": "Get Quote Now!"
     },
 
     "navigation": {
-        
+        "home": "Home",
+        "services": "Services",
+        "services_commercial": "Commercial",
+        "services_commercial_office": "Office Cleaning",
+        "services_commercial_floor": "Floor Cleaning",
+        "services_commercial_dust": "High Level Dust Removal",
+        "services_commercial_janitorial": "Janitorial Services",
+        "services_residential": "Residential",
+        "services_residential_house": "House Cleaning",
+        "services_residential_appt": "Appartment Cleaning",
+        "services_residential_deep": "Deep Cleaning",
+        "services_residential_move": "Move in/Move Out Cleaning",
+        "services_pressure": "Pressure Cleaning",
+        "services_post_const": "Post Construction Cleaning",
+        "services_windows": "Windows",
+        "services_windows_window": "Windows Cleaning",
+        "services_windows_high_rise": "High Rise Windows Cleaning in Brickell and Key Biscayne",
+        "blog": "Blog",
+        "gallery": "Gallery",
+        "contactus": "Contact Us"
     },
 
     "footer": {
@@ -91,9 +111,6 @@
             "services_desc_p4": "<strong>Kitchen</strong><br>Countertops cleaned, outside of range hood cleaned, top and front of range cleaned, drip pans / glass top surfaces wiped, sinks cleaned and chrome shined, fronts of all appliances cleaned, general dusting, cobwebs removed, microwave wiped out, doors and door frames spot cleaned"
 
         },
-        "deep": {
-
-        },
         "house": {
             "title": "Whole House <strong>Cleaning Services</strong>",
             "clean_rotation_header": "Our Detail-Clean <strong>Rotation System</strong>",
@@ -119,6 +136,18 @@
             "desc": "Moving is a big job. In fact, many people say that moving is one of the most stressful and exhausting life experiences. Getting your things in order, changing your address, scheduling transportation and moving services, perhaps changing school systems or going through a simultaneous career adjustment – it can all present a massive amount of work. On top of it all, you have to make sure the home you’re leaving is clean (either to get your security deposit back for your apartment or to help ensure your house can sell) and that your new home is ready for move-in day.<br><br>Let the experts at Miami Top Cleaning remove the burden of pre and post move cleaning from your to-do list. By nature, moving is messy. Our expert cleaning crews can make sure that your new home or the one you’re leaving looks spotless and sparkling with our move in and move out cleaning services.",
             "more_reasons_header": "<strong>More reasons to choose Miami Top Cleaning include:</strong>",
             "more_reasons_list": "<ul><li>We use a thorough screening process for all of our employees.</li> <li>We use high-level training programs for all of our professional house cleaners.</li> <li>We have excellent customer reviews.</li> <li>We are bonded and insured.</li> <li>Call our house cleaning service professionals today!</li> </ul>"
+        },
+        "deep": {
+            "title": "Deep <strong>Cleaning Services</strong>",
+            "desc": "At Miami Top Cleaning, we know the preferences of every homeowner will differ, which is why we proudly offer customizable cleaning programs. No matter whether you need us to come by before a special event, spruce up your home before the holidays, or even clean before or after moving out, we can help. With the use of our eco-friendly cleaning products, our trained cleaning professionals deep-clean your home from top to bottom.",
+            "checklist_header": "<strong>Our Professional House Cleaning Checklist</strong>",
+            "checklist_desc": "With us, you never need to worry about whether or not we will do a good job. With the use of our Professional House Cleaning Checklist, we have a framework that ensures every corner of your home looks sparkling clean every single time that we visit.",
+            "what_to_know": "<strong>Want to know what goes on the list? Check out the following!</strong>",
+            "services_desc_p1": "<strong>Kitchen</strong><br>Our team will often start in this area of your home and will focus on your counters, cabinets, floors, backsplashes, appliances, dishwasher, refrigerators, stove, oven exteriors, faucets, sinks, and more.",
+            "services_desc_p2": "<strong>Bathroom(s)</strong><br>As one of the dirtiest parts of the house, we give a lot of attention to the bathroom(s). While there, we clean basins, sinks, bathtubs, tiles, faucets, counters, mirrors, towel racks, cabinets, and floors.",
+            "services_desc_p3": "<strong>Bedroom(s)</strong><br>Your bedroom should be your sanctuary! Let our team make it look beautiful. When we visit, we will make your bed (or change sheets if you provide clean ones), clean tables, lamps, furniture, and more!",
+            "services_desc_p4": "<strong>Living Areas</strong><br>In your living room, we will clean all furniture, vacuum / sweep, and dust. Contact Us Today for a Free Estimate"
+
         }
     },
 

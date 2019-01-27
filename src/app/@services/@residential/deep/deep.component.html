@@ -1,3 +1,27 @@
-<p>
-  deep works!
-</p>
+<app-breadcrumbs [navItems]="[
+  { title: 'Home', routeUrl: '/' },
+  { title: 'Services' },
+  { title: 'Residential' },
+  { title: 'Deep Cleaning', active: true }]">
+</app-breadcrumbs>
+
+<section class="ls ms section_padding_40 table_section">
+  <div class="container">
+      <h2 [innerHTML]="'residential.deep.title' | translate"></h2>
+      <p> <a [routerLink]="['/contact-us/get-quote', 8]" class="theme_button color1 topmargin_15">get quote now</a></p>
+      <div class="row">
+         <div class="col-md-3"><img src="/assets/images/services/deep-cleaning.jpg"/></div>
+         <p class="col-md-9"[innerHTML]="'residential.deep.desc' | translate"></p>
+      </div>
+      <br>
+     
+      <h4 [innerHTML]="'residential.deep.checklist_header' | translate"></h4>
+      <p [innerHTML]="'residential.deep.checklist_desc' | translate"></p>
+
+      <h4 [innerHTML]="'residential.deep.what_to_know' | translate"></h4>
+      <p [innerHTML]="'residential.deep.services_desc_p1' | translate"></p>
+      <p [innerHTML]="'residential.deep.services_desc_p2' | translate"></p>
+      <p [innerHTML]="'residential.deep.services_desc_p3' | translate"></p>
+      <p [innerHTML]="'residential.deep.services_desc_p4' | translate"></p>
+  </div>
+</section>

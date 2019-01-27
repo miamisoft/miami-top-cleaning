@@ -2,80 +2,79 @@
 <nav class="mainmenu_wrapper bordered_items">
   <ul class="mainmenu nav sf-menu">
     <li class="active">
-      <a [routerLink]="['/']">Home</a>
+      <a [routerLink]="['/']">{{ 'navigation.home' | translate }}</a>
     </li>
 
     <li>
-      <a href="javascript:void(0)">Services</a>
+      <a href="javascript:void(0)">{{ 'navigation.services' | translate }}</a>
       <ul>
         <li>
-          <a href="javascript:void(0)">Commercial</a>
+          <a href="javascript:void(0)">{{ 'navigation.services_commercial' | translate }}</a>
           <ul>
             <li>
-              <a [routerLink]="['/services/commercial/office-cleaning']">Office Cleaning</a>
+              <a [routerLink]="['/services/commercial/office-cleaning']">{{ 'navigation.services_commercial_office' | translate }}</a>
             </li>
             <li>
-              <a [routerLink]="['/services/commercial/floor-cleaning']">Floor Cleaning</a>
+              <a [routerLink]="['/services/commercial/floor-cleaning']">{{ 'navigation.services_commercial_floor' | translate }}</a>
             </li>
             <li>
-              <a [routerLink]="['/services/commercial/high-level-dust-removal']">High Level Dust Removal</a>
+              <a [routerLink]="['/services/commercial/high-level-dust-removal']">{{'navigation.services_commercial_dust' | translate }}</a>
             </li>
             <li>
-              <a [routerLink]="['/services/commercial/janitorial-services']">Janitorial Services</a>
+              <a [routerLink]="['/services/commercial/janitorial-services']">{{'navigation.services_commercial_janitorial' | translate }}</a>
             </li>
           </ul>
         </li>
 
         <li>
-          <a href="javascript:void(0)">Residential</a>
+          <a href="javascript:void(0)">{{'navigation.services_residential' | translate }}</a>
           <ul>
             <li>
-              <a [routerLink]="['/services/residential/house-cleaning']">House Cleaning</a>
+              <a [routerLink]="['/services/residential/house-cleaning']">{{'navigation.services_residential_house' | translate }}</a>
             </li>
             <li>
-              <a [routerLink]="['/services/residential/appartment-cleaning']">Appartment Cleaning</a>
+              <a [routerLink]="['/services/residential/appartment-cleaning']">{{'navigation.services_residential_appt' | translate }}</a>
             </li>
             <li>
-              <a [routerLink]="['/services/residential/movein-moveout-cleaning']">Move In/Move Out Cleaning</a>
+              <a [routerLink]="['/services/residential/movein-moveout-cleaning']">{{'navigation.services_residential_move' | translate }}</a>
             </li>
             <li>
-              <a [routerLink]="['/services/residential/deep-cleaning']">Deep Cleaning</a>
+              <a [routerLink]="['/services/residential/deep-cleaning']">{{'navigation.services_residential_deep' | translate }}</a>
             </li>
           </ul>
         </li>
 
         <li>
-          <a href="javascript:void(0)">Windows</a>
+          <a href="javascript:void(0)">{{'navigation.services_windows' | translate }}</a>
           <ul>
             <li>
-              <a [routerLink]="['/services/windows/window-cleaning']">Windows Cleaning</a>
+              <a [routerLink]="['/services/windows/window-cleaning']">{{'navigation.services_windows_window' | translate }}</a>
             </li>
             <li>
-              <a [routerLink]="['/services/windows/high-rise-window-cleaning']">High Rise Window Cleaning in Brickell
-                and Key Biscayne</a>
+              <a [routerLink]="['/services/windows/high-rise-window-cleaning']">{{'navigation.services_windows_high_rise' | translate }}</a>
             </li>
           </ul>
         </li>
 
         <li>
-          <a [routerLink]="['/services/pressure-cleaning']">Pressure Cleaning</a>
+          <a [routerLink]="['/services/pressure-cleaning']">{{'navigation.services_pressure' | translate }}</a>
         </li>
         <li>
-          <a [routerLink]="['/services/post-construction-cleaning']">Post Construction Cleaning</a>
+          <a [routerLink]="['/services/post-construction-cleaning']">{{'navigation.services_post_const' | translate }}</a>
         </li>
       </ul>
     </li>
 
     <li>
-      <a [routerLink]="['/']">Blog</a>
+      <a [routerLink]="['/']">{{'navigation.blog' | translate }}</a>
     </li>
 
     <li>
-        <a [routerLink]="['/']">Gallery</a>
+        <a [routerLink]="['/']">{{'navigation.gallery' | translate }}</a>
     </li>
 
     <li>
-      <a [routerLink]="['/contact-us']">Contact Us</a>
+      <a [routerLink]="['/contact-us']">{{'navigation.contactus' | translate }}</a>
       <ul>
         <li>
           <a [routerLink]="['/contact-us']">Get Quote</a>
