@@ -7,21 +7,29 @@
 
 <section class="ls ms section_padding_40 table_section">
   <div class="container">
-      <h2 [innerHTML]="'residential.appt.title' | translate"></h2>
-      <p> <a [routerLink]="['/contact-us/get-quote', 6]" class="theme_button color1 topmargin_15">get quote now</a></p>
+      <div class="row">
+        <div class="col-md-12">
+            <h2 [innerHTML]="'residential.appt.title' | translate"></h2>
+            <p> <a [routerLink]="['/contact-us/get-quote', 6]" class="theme_button color1 topmargin_15">get quote now</a></p>
+        </div>
+      </div>
       <div class="row">
          <div class="col-md-3"><img src="/assets/images/services/appartment-cleaning.jpeg"/></div>
          <p class="col-md-9"[innerHTML]="'residential.appt.desc' | translate"></p>
       </div>
       <br>
+     <div class="row">
+       <div class="col-md-12">
+          <h4 [innerHTML]="'residential.appt.how_work_header' | translate"></h4>
+          <p [innerHTML]="'residential.appt.how_work_desc' | translate"></p>
+    
+          <h4 [innerHTML]="'residential.appt.services_header' | translate"></h4>
+          <p [innerHTML]="'residential.appt.services_desc_p1' | translate"></p>
+          <p [innerHTML]="'residential.appt.services_desc_p2' | translate"></p>
+          <p [innerHTML]="'residential.appt.services_desc_p3' | translate"></p>
+          <p [innerHTML]="'residential.appt.services_desc_p4' | translate"></p>
+       </div>
+     </div>
      
-      <h4 [innerHTML]="'residential.appt.how_work_header' | translate"></h4>
-      <p [innerHTML]="'residential.appt.how_work_desc' | translate"></p>
-
-      <h4 [innerHTML]="'residential.appt.services_header' | translate"></h4>
-      <p [innerHTML]="'residential.appt.services_desc_p1' | translate"></p>
-      <p [innerHTML]="'residential.appt.services_desc_p2' | translate"></p>
-      <p [innerHTML]="'residential.appt.services_desc_p3' | translate"></p>
-      <p [innerHTML]="'residential.appt.services_desc_p4' | translate"></p>
   </div>
 </section>

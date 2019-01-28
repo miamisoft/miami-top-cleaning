@@ -7,22 +7,30 @@
 
 <section class="ls ms section_padding_40 table_section">
   <div class="container">
-    <h2 [innerHTML]="'post_const.title' | translate"></h2>
-        <p> <a [routerLink]="['/contact-us/get-quote', 10]" class="theme_button color1 topmargin_15">get quote now</a></p>
+        <div class="row">
+          <div class="col-md-12">
+              <h2 [innerHTML]="'post_const.title' | translate"></h2>
+              <p> <a [routerLink]="['/contact-us/get-quote', 10]" class="theme_button color1 topmargin_15">get quote now</a></p>
+          </div>
+        </div>
         <div class="row">
             <div class="col-md-4"><img src="/assets/images/services/post-construction-cleaning.jpeg"/></div>
             <p class="col-md-8" [innerHTML]="'post_const.desc' | translate"></p>
         </div>
         <br>
-        <h4 [innerHTML]="'post_const.team_header' | translate"></h4>
-        <div [innerHTML]="'post_const.team_desc' | translate"></div>
-        <div [innerHTML]="'post_const.team_desc_list' | translate"></div>
-        <br>
-        <h4 [innerHTML]="'post_const.clean_up_header' | translate"></h4>
-        <div [innerHTML]="'post_const.clean_up_desc' | translate"></div>
-        <br>
-        <h4 [innerHTML]="'post_const.clean_services_header' | translate"></h4>
-        <div [innerHTML]="'post_const.clean_services_desc' | translate"></div>
+        <div class="row">
+          <div class="col-md-12">
+              <h4 [innerHTML]="'post_const.team_header' | translate"></h4>
+              <div [innerHTML]="'post_const.team_desc' | translate"></div>
+              <div [innerHTML]="'post_const.team_desc_list' | translate"></div>
+              <br>
+              <h4 [innerHTML]="'post_const.clean_up_header' | translate"></h4>
+              <div [innerHTML]="'post_const.clean_up_desc' | translate"></div>
+              <br>
+              <h4 [innerHTML]="'post_const.clean_services_header' | translate"></h4>
+              <div [innerHTML]="'post_const.clean_services_desc' | translate"></div>
+          </div>
+        </div>
   </div>
 </section>
 

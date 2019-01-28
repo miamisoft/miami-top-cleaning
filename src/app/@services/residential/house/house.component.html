@@ -7,8 +7,12 @@
 
 <section class="ls ms section_padding_40 table_section">
   <div class="container">
-      <h2 [innerHTML]="'residential.house.title' | translate"></h2>
-      <p> <a [routerLink]="['/contact-us/get-quote', 5]" class="theme_button color1 topmargin_15">get quote now</a></p>
+      <div class="row">
+        <div class="col-md-12">
+            <h2 [innerHTML]="'residential.house.title' | translate"></h2>
+            <p> <a [routerLink]="['/contact-us/get-quote', 5]" class="theme_button color1 topmargin_15">get quote now</a></p>
+        </div>
+      </div>
       <div class="row">
          <div class="col-md-3"><img src="/assets/images/services/house-cleaning.jpeg"/></div>
          <div class="col-md-9">
@@ -17,22 +21,26 @@
          </div>
       </div>
       <br>
-      <div>
-          <h4 [innerHTML]="'residential.house.first_second_clean_header' | translate"></h4>
-          <p [innerHTML]="'residential.house.first_clean' | translate"></p>
-          <p [innerHTML]="'residential.house.second_clean' | translate"></p>
-          <p [innerHTML]="'residential.house.clean_desc' | translate"></p>
+      <div class="row">
+          <div class="col-md-12">
+              <h4 [innerHTML]="'residential.house.first_second_clean_header' | translate"></h4>
+              <p [innerHTML]="'residential.house.first_clean' | translate"></p>
+              <p [innerHTML]="'residential.house.second_clean' | translate"></p>
+              <p [innerHTML]="'residential.house.clean_desc' | translate"></p>
+              <h3 [innerHTML]="'residential.house.rely_on_us_header' | translate"></h3>
+              <h4 [innerHTML]="'residential.house.clear_own_home_header' | translate"></h4>
+              <p [innerHTML]="'residential.house.clear_own_home_desc' | translate"></p>
+              <h4 [innerHTML]="'residential.house.call_us_header' | translate"></h4>
+              <p [innerHTML]="'residential.house.call_us_desc' | translate"></p>
+    
+              <h4 [innerHTML]="'residential.house.services_header' | translate"></h4>
+              <p [innerHTML]="'residential.house.services_desc_p1' | translate"></p>
+              <p [innerHTML]="'residential.house.services_desc_p2' | translate"></p>
+              <p [innerHTML]="'residential.house.services_desc_p3' | translate"></p>
+              <p [innerHTML]="'residential.house.services_desc_p4' | translate"></p>
+          </div>
       </div>
-      <h3 [innerHTML]="'residential.house.rely_on_us_header' | translate"></h3>
-      <h4 [innerHTML]="'residential.house.clear_own_home_header' | translate"></h4>
-      <p [innerHTML]="'residential.house.clear_own_home_desc' | translate"></p>
-      <h4 [innerHTML]="'residential.house.call_us_header' | translate"></h4>
-      <p [innerHTML]="'residential.house.call_us_desc' | translate"></p>
-
-      <h4 [innerHTML]="'residential.house.services_header' | translate"></h4>
-      <p [innerHTML]="'residential.house.services_desc_p1' | translate"></p>
-      <p [innerHTML]="'residential.house.services_desc_p2' | translate"></p>
-      <p [innerHTML]="'residential.house.services_desc_p3' | translate"></p>
-      <p [innerHTML]="'residential.house.services_desc_p4' | translate"></p>
+      
+      
   </div>
 </section>

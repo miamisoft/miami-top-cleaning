@@ -7,15 +7,22 @@
 
 <section class="ls ms section_padding_40 table_section">
   <div class="container">
-      <h2 [innerHTML]="'residential.move.title' | translate"></h2>
-      <p> <a [routerLink]="['/contact-us/get-quote', 7]" class="theme_button color1 topmargin_15">get quote now</a></p>
+      <div class="row">
+        <div class="col-md-12">
+            <h2 [innerHTML]="'residential.move.title' | translate"></h2>
+            <p> <a [routerLink]="['/contact-us/get-quote', 7]" class="theme_button color1 topmargin_15">get quote now</a></p>
+        </div>
+      </div>
       <div class="row">
          <div class="col-md-3"><img src="/assets/images/services/move-cleaning-content.jpeg"/></div>
          <p class="col-md-9"[innerHTML]="'residential.move.desc' | translate"></p>
       </div>
       <br>
-     
-      <h4 [innerHTML]="'residential.move.more_reasons_header' | translate"></h4>
-      <div [innerHTML]="'residential.move.more_reasons_list' | translate"></div>
+      <div class="row">
+        <div class="col-md-12">
+            <h4 [innerHTML]="'residential.move.more_reasons_header' | translate"></h4>
+            <div [innerHTML]="'residential.move.more_reasons_list' | translate"></div>
+        </div>
+     </div>
   </div>
 </section>

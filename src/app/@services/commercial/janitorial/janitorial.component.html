@@ -8,22 +8,30 @@
 
 <section class="ls ms section_padding_40 table_section">
   <div class="container">
-    <h2 [innerHTML]="'commercial.janitorial.title' | translate"></h2>
-        <p> <a [routerLink]="['/contact-us/get-quote', 4]" class="theme_button color1 topmargin_15">get quote now</a></p>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 [innerHTML]="'commercial.janitorial.title' | translate"></h2>
+                <p> <a [routerLink]="['/contact-us/get-quote', 4]" class="theme_button color1 topmargin_15">get quote now</a></p>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-2"><img src="/assets/images/services/janitorial-services.jpeg"/></div>
             <p class="col-md-10" [innerHTML]="'commercial.janitorial.desc' | translate"></p>
         </div>
         <br>
-        <h4 [innerHTML]="'commercial.janitorial.leadtech_header' | translate"></h4>
-        <div [innerHTML]="'commercial.janitorial.leadtech_desc' | translate"></div>
-        <br>
-        <h4 [innerHTML]="'commercial.janitorial.qc_title' | translate"></h4>
-        <div [innerHTML]="'commercial.janitorial.qc_list' | translate"></div>
-        <br>
-        <h4 [innerHTML]="'commercial.janitorial.services_header' | translate"></h4>
-        <div [innerHTML]="'commercial.janitorial.services_list' | translate"></div>
-        <br>
-        <h4 [innerHTML]="'commercial.janitorial.benefits_header' | translate"></h4>
-        <div [innerHTML]="'commercial.janitorial.benefits_list' | translate"></div>
+        <div class="row">
+            <div class="col-md-12">
+                    <h4 [innerHTML]="'commercial.janitorial.leadtech_header' | translate"></h4>
+                    <div [innerHTML]="'commercial.janitorial.leadtech_desc' | translate"></div>
+                    <br>
+                    <h4 [innerHTML]="'commercial.janitorial.qc_title' | translate"></h4>
+                    <div [innerHTML]="'commercial.janitorial.qc_list' | translate"></div>
+                    <br>
+                    <h4 [innerHTML]="'commercial.janitorial.services_header' | translate"></h4>
+                    <div [innerHTML]="'commercial.janitorial.services_list' | translate"></div>
+                    <br>
+                    <h4 [innerHTML]="'commercial.janitorial.benefits_header' | translate"></h4>
+                    <div [innerHTML]="'commercial.janitorial.benefits_list' | translate"></div>
+            </div>
+        </div>
   </div>
