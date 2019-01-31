@@ -19,6 +19,11 @@ export const appRoutes: Routes = [
    },
 
    {
+      path: 'gallery',
+      loadChildren: './@gallery/gallery.module#GalleryModule'
+   },
+
+   {
       path: 'contact-us',
       loadChildren: './@contactus/contactus.module#ContactUsModule'
    }

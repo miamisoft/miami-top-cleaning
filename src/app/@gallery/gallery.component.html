@@ -1,0 +1,21 @@
+<app-breadcrumbs [navItems]="[
+{ title: 'Home', routeUrl: '/' },
+{ title: 'Gallery', active: true }]">
+</app-breadcrumbs>
+
+<section class="ls ms page_portfolio section_padding_100">
+  <div class="container">
+      <div class="row ">
+          <div *ngFor="let item of data" class="bottommargin_30 col-lg-4 col-md-6 col-sm-12">
+                <div class="item-media">
+                  <img [src]="item.imgUrl">
+                  <div class="media-links">
+                    <div class="links-wrap">
+                      <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" [href]="item.imgUrl"></a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</section>
