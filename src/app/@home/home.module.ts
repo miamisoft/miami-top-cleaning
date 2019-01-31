@@ -15,6 +15,7 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { FacebookReviewComponent } from './reviews/facebook/facebook.component';
 import { YelpReviewComponent } from './reviews/yelp/yelp.component';
 import { TeamComponent } from './team/team.component';
+import { QuotePopupComponent } from './quote-popup/quote-popup.component';
 
 
 
@@ -35,7 +36,8 @@ import { TeamComponent } from './team/team.component';
     FacebookReviewComponent,
     ReviewsComponent,
     TeamComponent,
-    HomeComponent
+    HomeComponent,
+    QuotePopupComponent
   ],
   providers: [
     

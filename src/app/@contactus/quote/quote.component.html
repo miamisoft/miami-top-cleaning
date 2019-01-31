@@ -27,53 +27,53 @@
       </div>
 
       <div class="col-md-7">
-        <form class="contact-form columns_padding_10 row to_animate animated fadeInUp" method="post" action="/">
+        <form #quoteForm="ngForm" class="contact-form columns_padding_10 row to_animate animated fadeInUp" method="post" action="/">
           <div class="col-sm-12">
             <p class="contact-form-name">
               <label for="name" class="sr-only">Full Name<span class="required">*</span></label>
-              <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control"
+              <input [(ngModel)]="contact.fullname" required type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control"
                 placeholder="{{'contactus.quote.form_fullname' | translate}}">
             </p>
           </div>
           <div class="col-sm-6">
             <p class="contact-form-street">
               <label for="street" class="sr-only">Street<span class="required">*</span></label>
-              <input type="text" aria-required="true" size="30" value="" name="street" id="street" class="form-control"
+              <input [(ngModel)]="contact.street" type="text" required aria-required="true" size="30" value="" name="street" id="street" class="form-control"
                 placeholder="{{'contactus.quote.form_street' | translate}}">
             </p>
           </div>
           <div class="col-sm-6">
             <p class="contact-form-suite">
               <label for="suite" class="sr-only">Apt/Suite</label>
-              <input type="text" aria-required="true" size="30" value="" name="suite" id="suite" class="form-control"
+              <input [(ngModel)]="contact.suite" type="text" required aria-required="true" size="30" value="" name="suite" id="suite" class="form-control"
                 placeholder="{{'contactus.quote.form_suite' | translate}}">
             </p>
           </div>
           <div class="col-sm-6">
             <p class="contact-form-city">
               <label for="city" class="sr-only">City<span class="required">*</span></label>
-              <input type="text" aria-required="true" size="30" value="" name="city" id="city" class="form-control"
+              <input [(ngModel)]="contact.city" type="text" required aria-required="true" size="30" value="" name="city" id="city" class="form-control"
                 placeholder="{{'contactus.quote.form_city' | translate}}">
             </p>
           </div>
           <div class="col-sm-6">
             <p class="contact-form-zip">
               <label for="zip" class="sr-only">Zip Code<span class="required">*</span></label>
-              <input type="text" aria-required="true" size="30" value="" name="zip" id="zip" class="form-control"
+              <input [(ngModel)]="contact.zipcode" required type="text" aria-required="true" size="30" value="" name="zip" id="zip" class="form-control"
                 placeholder="{{'contactus.quote.form_zipcode' | translate}}">
             </p>
           </div>
           <div class="col-sm-6">
             <p class="contact-form-email">
               <label for="email" class="sr-only">Email address<span class="required">*</span></label>
-              <input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control"
+              <input [(ngModel)]="contact.email" required type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control"
                 placeholder="{{'contactus.quote.form_email' | translate}}">
             </p>
           </div>
           <div class="col-sm-6">
             <p class="contact-form-phone">
               <label for="phone" class="sr-only">Phone<span class="required">*</span></label>
-              <input type="text" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control"
+              <input [(ngModel)]="contact.phone"  required type="text" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control"
                 placeholder="{{'contactus.quote.form_phone' | translate}}">
             </p>
           </div>
@@ -81,7 +81,7 @@
           <div class="col-sm-12">
             <p class="contact-form-message">
               <label for="message" class="sr-only">Details about what you need</label>
-              <textarea aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control"
+              <textarea [(ngModel)]="contact.message" aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control"
                 placeholder="{{'contactus.quote.form_details' | translate}}"></textarea>
             </p>
           </div>
@@ -89,8 +89,9 @@
           <div class="col-sm-12">
 
             <p class="contact-form-submit topmargin_30 bottommargin_0 text-center">
-              <button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button margin_0 color1">Send
-                Message</button>
+              <button (click)="sendMessageClick()"   type="submit" id="contact_form_submit" name="contact_submit" class="theme_button margin_0 color1">
+                Send Message
+              </button>
             </p>
           </div>
 

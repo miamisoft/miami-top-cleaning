@@ -1,6 +1,7 @@
 
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule }   from '@angular/forms'
 import { HttpClientModule } from '@angular/common/http';
 import { CookieService } from 'ngx-cookie-service';
 import { AppContext } from '../core/appcontext.service';
@@ -20,11 +21,13 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
      RouterModule,
      CommonModule,
+     FormsModule,
      HttpClientModule,
      TranslateModule
   ],
   exports:[
     CommonModule,
+    FormsModule,
     HttpClientModule,
     TranslateModule,
     BreadcrumbsComponent,

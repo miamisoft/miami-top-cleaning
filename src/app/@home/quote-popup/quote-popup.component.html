@@ -1,0 +1,26 @@
+<!-- The overlay -->
+<div #overlay id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a #closeBtn href="javascript:void(0)" class="closebtn" (click)="close()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+      <div class="row">
+          <div class="col-12">
+              <h2>Need a quick <strong>estimate?</strong></h2>
+              <p>
+                  We guarantee high quality cleaning services at affordable prices.
+              </p>
+              <br>
+              <p class="text-center">
+                <a href="tel:+17864443947"><i class="fa fa-phone"></i><strong> 786-444-3947</strong></a>
+              </p>
+              <p>
+                  <a [routerLink]="['/contact-us']" class="theme_button color3 muted_button">{{ 'header.quote' | translate }}</a>
+              </p>
+          </div>
+      </div>
+  </div>
+
+</div>

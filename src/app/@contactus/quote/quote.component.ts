@@ -3,7 +3,8 @@ import { DataService } from 'src/app/core/data.service';
 import { Subscription } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 import { ServiceData } from 'src/app/models/data.models';
-
+import { Contact } from 'src/app/models/contact.model';
+import { QuoteService } from './quote.service';
 
 
 @Component({
@@ -18,10 +19,24 @@ export class QuoteComponent implements OnInit, OnDestroy {
   public services: ServiceData[];
   public zipCodes: number[];
   public selectedServices: number[] = [];
+  public contact: Contact;
 
-  constructor(private _dataService: DataService,  private activatedRoute: ActivatedRoute,) { }
+  constructor(private _dataService: DataService, 
+              private _quoteService: QuoteService, 
+              private activatedRoute: ActivatedRoute,) { }
 
   ngOnInit() {
+
+    this.contact = {
+      fullname: '',
+      street: '',
+      city: '',
+      suite: '',
+      email: '',
+      servicesDesc: '',
+      phone: '',
+      zipcode: ''
+    };
 
     this.paramSubscription = this.activatedRoute.params.subscribe(params => {
         let serviceId = params['serviceid'];
@@ -46,11 +61,32 @@ export class QuoteComponent implements OnInit, OnDestroy {
   }
 
   public toogleChanged(serviceId: number){
-    let index = this.selectedServices.findIndex(x => x === serviceId);
-    if(index > -1)
-      this.selectedServices.splice(index, 1);
-    else
-      this.selectedServices.push(serviceId);
+    if(serviceId){
+      let index = this.selectedServices.findIndex(x => x === serviceId);
+      if(index > -1)
+        this.selectedServices.splice(index, 1);
+      else
+        this.selectedServices.push(serviceId);
+    }
   }
+
+  public sendMessageClick(): void {
+    this.contact.servicesDesc = this.serviceDesc;
+    this._quoteService.sendInformation(this.contact).subscribe(() => {
+      alert("Sent");
+    }, error => console.log(error));
+  }
+
+  private get serviceDesc(): string {
+    let desc = '';
+    for (const selectedId of this.selectedServices){
+      if(selectedId)
+        desc += this.services.find(x => x.id === selectedId).name + ',';
+    }
+    
+    return desc;
+  }
+
+ 
 
 }

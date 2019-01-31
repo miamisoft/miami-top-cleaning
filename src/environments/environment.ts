@@ -6,6 +6,8 @@ export const environment = {
   production: false,
   defaultLan: 'en',
   cookieLan: 'MIA-TOP-CL-LANG',
+  wpApiBaseUrl: 'https://miamitopcleaning.com/wp-json/wp/v2',
+  phpApiUrl: 'https://miamitopcleaning.com/v2/server/api',
   dataBaseUrl: '/assets/data',
   facebookUrl: 'https://www.facebook.com/miamitopcleaning/',
   googleMapUrl: 'https://www.google.com/maps/place/Miami+Top+Cleaning+Service/@25.748514,-80.312378,14z/data=!4m5!3m4!1s0x0:0x701da3604f8bc3c9!8m2!3d25.748514!4d-80.312378?hl=en',
