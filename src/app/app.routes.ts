@@ -24,7 +24,7 @@ export const appRoutes: Routes = [
    },
 
    {
-      path: 'contact-us',
+      path: 'contactus',
       loadChildren: './@contactus/contactus.module#ContactUsModule'
    }
 ];

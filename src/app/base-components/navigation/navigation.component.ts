@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Event, Router, NavigationEnd } from '@angular/router';
+
+declare var jQuery: any;
 
 @Component({
   selector: 'app-navigation',
@@ -9,9 +12,19 @@ export class NavigationComponent implements OnInit {
 
   public menuIndex: number = 1;
 
-  constructor() { }
+  constructor(router: Router) { 
+    router.events.subscribe((event: Event) => {
+      if (event instanceof NavigationEnd) {
+        setTimeout(() => {
+          jQuery("#toTop").click();
+        }, 500);
+      }
+    });
+
+  }
 
   ngOnInit() {
+     
   }
 
   selectMenuItem(index: number){

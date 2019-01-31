@@ -36,6 +36,7 @@ export class QuoteComponent implements OnInit, OnDestroy {
       servicesDesc: '',
       phone: '',
       zipcode: '',
+      message: '',
       date: new Date().toString()
     };
 

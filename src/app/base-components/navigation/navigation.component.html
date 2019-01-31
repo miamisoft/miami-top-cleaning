@@ -74,13 +74,13 @@
     </li>
 
     <li [ngClass]="{'active': menuIndex === 5}">
-      <a [routerLink]="['/contact-us']">{{'navigation.contactus' | translate }}</a>
+      <a [routerLink]="['/contactus']">{{'navigation.contactus' | translate }}</a>
       <ul>
         <li (click)="selectMenuItem(5)">
-          <a [routerLink]="['/contact-us']">Get Quote</a>
+          <a [routerLink]="['/contactus']">Get Quote</a>
         </li>
         <!-- <li>
-          <a [routerLink]="['/contact-us/schedule-cleaning']">Schedule Cleaning</a>
+          <a [routerLink]="['/contactus/schedule-cleaning']">Schedule Cleaning</a>
         </li> -->
       </ul>
     </li>
