@@ -12,6 +12,7 @@ class Contact
     public $phone;
     public $message;
     public $servicesDesc;
+    public $date;
 
     public function __construct($data)
     {
@@ -24,6 +25,7 @@ class Contact
         $this->phone = $data->phone;
         $this->message = $data->message;
         $this->servicesDesc = $data->servicesDesc;
+        $this->date = $data->date;
     }
 }
 

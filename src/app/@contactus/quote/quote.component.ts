@@ -35,7 +35,8 @@ export class QuoteComponent implements OnInit, OnDestroy {
       email: '',
       servicesDesc: '',
       phone: '',
-      zipcode: ''
+      zipcode: '',
+      date: new Date().toString()
     };
 
     this.paramSubscription = this.activatedRoute.params.subscribe(params => {
@@ -72,6 +73,7 @@ export class QuoteComponent implements OnInit, OnDestroy {
 
   public sendMessageClick(): void {
     this.contact.servicesDesc = this.serviceDesc;
+    this.contact
     this._quoteService.sendInformation(this.contact).subscribe(() => {
       alert("Sent");
     }, error => console.log(error));

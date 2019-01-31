@@ -7,4 +7,5 @@ export interface Contact{
     email: string;
     phone: string;
     servicesDesc: string;
+    date: string;
 }
