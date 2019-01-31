@@ -2,6 +2,8 @@ import { Component, OnInit, ViewEncapsulation, OnDestroy } from '@angular/core';
 import { BlogService } from './blog.service';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
+declare var jQuery: any;
+
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
@@ -9,12 +11,12 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
   encapsulation: ViewEncapsulation.None
 })
 export class BlogComponent implements OnInit, OnDestroy {
-  
   public blogUrl: SafeResourceUrl;
 
   constructor(private _wpService: BlogService, private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
+    jQuery(".preloader").show();
     this.blogUrl = this.sanitizer.bypassSecurityTrustResourceUrl('https://miamitopcleaning.com/blog');
     document.body.classList.add('blog-mode');
   }
@@ -24,7 +26,7 @@ export class BlogComponent implements OnInit, OnDestroy {
   }
 
   onLoad(event) {
-    console.log(event);
+    jQuery(".preloader").hide();
   }
 
 }

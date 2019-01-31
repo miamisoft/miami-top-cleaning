@@ -1,4 +1,6 @@
 import { Component, ViewChild, AfterViewInit, ElementRef } from '@angular/core';
+import { CookieService } from 'ngx-cookie-service';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-home-quote-popup',
@@ -10,17 +12,19 @@ export class QuotePopupComponent implements AfterViewInit {
   @ViewChild('overlay')
   public overlay: ElementRef;
 
-  constructor() { }
+  constructor(private _cookieService: CookieService) { }
 
   ngAfterViewInit(): void {
-    setTimeout(()=> {
-      this.overlay.nativeElement.style.height = "100%";
-    },3000);
-    
+    if(!this._cookieService.check(environment.cookieQuotePopup)){
+      setTimeout(()=> {
+        this.overlay.nativeElement.style.height = "100%";
+      },3000);
+    }
   }
 
   close(){
     this.overlay.nativeElement.style.height = "0%";
+    this._cookieService.set(environment.cookieQuotePopup, "hidden");
   }
 
 }

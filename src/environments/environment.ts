@@ -6,6 +6,7 @@ export const environment = {
   production: false,
   defaultLan: 'en',
   cookieLan: 'MIA-TOP-CL-LANG',
+  cookieQuotePopup: 'MIA-TOP-CL-QUOTE_POPUP',
   wpApiBaseUrl: 'https://miamitopcleaning.com/wp-json/wp/v2',
   phpApiUrl: 'https://miamitopcleaning.com/v2/server/api',
   dataBaseUrl: '/assets/data',

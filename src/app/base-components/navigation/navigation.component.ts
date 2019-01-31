@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
+  public menuIndex: number = 1;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  selectMenuItem(index: number){
+    this.menuIndex = index;
   }
 
 }

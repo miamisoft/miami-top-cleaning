@@ -1,26 +1,26 @@
 <!-- main nav start -->
 <nav class="mainmenu_wrapper bordered_items">
   <ul class="mainmenu nav sf-menu">
-    <li class="active">
+    <li [ngClass]="{'active': menuIndex === 1}" (click)="selectMenuItem(1)">
       <a [routerLink]="['/']">{{ 'navigation.home' | translate }}</a>
     </li>
 
-    <li>
+    <li [ngClass]="{'active': menuIndex === 2}">
       <a href="javascript:void(0)">{{ 'navigation.services' | translate }}</a>
       <ul>
         <li>
           <a href="javascript:void(0)">{{ 'navigation.services_commercial' | translate }}</a>
           <ul>
-            <li>
+            <li  (click)="selectMenuItem(2)">
               <a [routerLink]="['/services/commercial/office-cleaning']">{{ 'navigation.services_commercial_office' | translate }}</a>
             </li>
-            <li>
+            <li (click)="selectMenuItem(2)">
               <a [routerLink]="['/services/commercial/floor-cleaning']">{{ 'navigation.services_commercial_floor' | translate }}</a>
             </li>
-            <li>
+            <li (click)="selectMenuItem(2)">
               <a [routerLink]="['/services/commercial/high-level-dust-removal']">{{'navigation.services_commercial_dust' | translate }}</a>
             </li>
-            <li>
+            <li (click)="selectMenuItem(2)">
               <a [routerLink]="['/services/commercial/janitorial-services']">{{'navigation.services_commercial_janitorial' | translate }}</a>
             </li>
           </ul>
@@ -29,16 +29,16 @@
         <li>
           <a href="javascript:void(0)">{{'navigation.services_residential' | translate }}</a>
           <ul>
-            <li>
+            <li (click)="selectMenuItem(2)">
               <a [routerLink]="['/services/residential/house-cleaning']">{{'navigation.services_residential_house' | translate }}</a>
             </li>
-            <li>
+            <li (click)="selectMenuItem(2)">
               <a [routerLink]="['/services/residential/appartment-cleaning']">{{'navigation.services_residential_appt' | translate }}</a>
             </li>
-            <li>
+            <li (click)="selectMenuItem(2)">
               <a [routerLink]="['/services/residential/movein-moveout-cleaning']">{{'navigation.services_residential_move' | translate }}</a>
             </li>
-            <li>
+            <li (click)="selectMenuItem(2)">
               <a [routerLink]="['/services/residential/deep-cleaning']">{{'navigation.services_residential_deep' | translate }}</a>
             </li>
           </ul>
@@ -47,41 +47,41 @@
         <li>
           <a href="javascript:void(0)">{{'navigation.services_windows' | translate }}</a>
           <ul>
-            <li>
+            <li (click)="selectMenuItem(2)">
               <a [routerLink]="['/services/windows/window-cleaning']">{{'navigation.services_windows_window' | translate }}</a>
             </li>
-            <li>
+            <li (click)="selectMenuItem(2)">
               <a [routerLink]="['/services/windows/high-rise-window-cleaning']">{{'navigation.services_windows_high_rise' | translate }}</a>
             </li>
           </ul>
         </li>
 
-        <li>
+        <li (click)="selectMenuItem(2)">
           <a [routerLink]="['/services/pressure-cleaning']">{{'navigation.services_pressure' | translate }}</a>
         </li>
-        <li>
+        <li (click)="selectMenuItem(2)">
           <a [routerLink]="['/services/post-construction-cleaning']">{{'navigation.services_post_const' | translate }}</a>
         </li>
       </ul>
     </li>
 
-    <li>
+    <li [ngClass]="{'active': menuIndex === 3}" (click)="selectMenuItem(3)">
       <a [routerLink]="['/blog']">{{'navigation.blog' | translate }}</a>
     </li>
 
-    <li>
+    <li [ngClass]="{'active': menuIndex === 4}" (click)="selectMenuItem(4)">
         <a [routerLink]="['/']">{{'navigation.gallery' | translate }}</a>
     </li>
 
-    <li>
+    <li [ngClass]="{'active': menuIndex === 5}">
       <a [routerLink]="['/contact-us']">{{'navigation.contactus' | translate }}</a>
       <ul>
-        <li>
+        <li (click)="selectMenuItem(5)">
           <a [routerLink]="['/contact-us']">Get Quote</a>
         </li>
-        <li>
+        <!-- <li>
           <a [routerLink]="['/contact-us/schedule-cleaning']">Schedule Cleaning</a>
-        </li>
+        </li> -->
       </ul>
     </li>
   </ul>
