@@ -743,21 +743,21 @@ function windowLoadInit() {
 
 	//flickr
 	// use http://idgettr.com/ to find your ID
-	if (jQuery().jflickrfeed) {
-		jQuery("#flickr").jflickrfeed({
-			flickrbase: "http://api.flickr.com/services/feeds/",
-			limit: 8,
-			qstrings: {
-				id: "131791558@N04"
-			},
-			itemTemplate: '<a href="{{image_b}}" data-gal="prettyPhoto[pp_gal]"><li><img alt="{{title}}" src="{{image_s}}" /></li></a>'
-		}, function(data) {
-			jQuery("#flickr a").prettyPhoto({
-				hook: 'data-gal',
-				theme: 'facebook'
-			});
-		});
-	}
+	// if (jQuery().jflickrfeed) {
+	// 	jQuery("#flickr").jflickrfeed({
+	// 		flickrbase: "http://api.flickr.com/services/feeds/",
+	// 		limit: 8,
+	// 		qstrings: {
+	// 			id: "131791558@N04"
+	// 		},
+	// 		itemTemplate: '<a href="{{image_b}}" data-gal="prettyPhoto[pp_gal]"><li><img alt="{{title}}" src="{{image_s}}" /></li></a>'
+	// 	}, function(data) {
+	// 		jQuery("#flickr a").prettyPhoto({
+	// 			hook: 'data-gal',
+	// 			theme: 'facebook'
+	// 		});
+	// 	});
+	// }
 
 
 	//video images preview

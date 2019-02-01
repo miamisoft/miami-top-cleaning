@@ -1,10 +1,12 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { DataService } from 'src/app/core/data.service';
 import { Subscription } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 import { ServiceData } from 'src/app/models/data.models';
 import { Contact } from 'src/app/models/contact.model';
 import { QuoteService } from './quote.service';
+import { ToastrManager } from 'ng6-toastr-notifications';
+import { NgForm } from '@angular/forms';
 
 
 @Component({
@@ -14,35 +16,29 @@ import { QuoteService } from './quote.service';
 })
 export class QuoteComponent implements OnInit, OnDestroy {
 
+  @ViewChild('quoteForm')
+  public quoteForm: NgForm;
+
   private paramSubscription: Subscription;
 
   public services: ServiceData[];
   public zipCodes: number[];
-  public selectedServices: number[] = [];
+  public selectedServices: number[];
   public contact: Contact;
 
   constructor(private _dataService: DataService, 
               private _quoteService: QuoteService, 
-              private activatedRoute: ActivatedRoute,) { }
+              private _activatedRoute: ActivatedRoute,
+              private _toast: ToastrManager) { }
 
   ngOnInit() {
+    
+    this.initForm();
 
-    this.contact = {
-      fullname: '',
-      street: '',
-      city: '',
-      suite: '',
-      email: '',
-      servicesDesc: '',
-      phone: '',
-      zipcode: '',
-      message: '',
-      date: new Date().toString()
-    };
-
-    this.paramSubscription = this.activatedRoute.params.subscribe(params => {
+    this.paramSubscription = this._activatedRoute.params.subscribe(params => {
         let serviceId = params['serviceid'];
-        this.selectedServices.push(parseInt(serviceId));
+        if(serviceId)
+          this.selectedServices.push(parseInt(serviceId));
     });
 
     this._dataService.geti18nData('services').subscribe((services: ServiceData[]) => {
@@ -56,6 +52,24 @@ export class QuoteComponent implements OnInit, OnDestroy {
 
   ngOnDestroy() {
     this.paramSubscription.unsubscribe();
+  }
+
+  private initForm(): void{
+    this.contact = {
+      fullname: '',
+      street: '',
+      city: '',
+      suite: '',
+      email: '',
+      servicesDesc: '',
+      phone: '',
+      zipcode: '',
+      message: '',
+      date: ''
+    };
+    this.quoteForm.form.markAsPristine();
+    this.quoteForm.form.markAsUntouched();
+    this.selectedServices = [];
   }
 
   public isServiceSelected(serviceId: number): boolean{
@@ -74,10 +88,11 @@ export class QuoteComponent implements OnInit, OnDestroy {
 
   public sendMessageClick(): void {
     this.contact.servicesDesc = this.serviceDesc;
-    this.contact
+    this.contact.date = new Date().toString();
     this._quoteService.sendInformation(this.contact).subscribe(() => {
-      alert("Sent");
-    }, error => console.log(error));
+      this._toast.successToastr('Message sent successfully!', 'Success!', { position: 'bottom-left', timeOut: 5000 });
+      this.initForm();
+    }, error => this._toast.errorToastr('An error occurred on our server when trying to send this message. Please try again.', 'Error'));
   }
 
   private get serviceDesc(): string {

@@ -27,69 +27,94 @@
       </div>
 
       <div class="col-md-7">
-        <form #quoteForm="ngForm" class="contact-form columns_padding_10 row to_animate animated fadeInUp" method="post" action="/">
-          <div class="col-sm-12">
+        <form #quoteForm="ngForm" class="contact-form columns_padding_10 row to_animate animated fadeInUp">
+          <div class="col-sm-12 form-group"  [ngClass]="{'has-error': fullname.invalid && (fullname.dirty || fullname.touched) }">
             <p class="contact-form-name">
-              <label for="name" class="sr-only">Full Name<span class="required">*</span></label>
-              <input [(ngModel)]="contact.fullname" required type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control"
+              <label for="name">Full Name<span class="required">*</span></label>
+              <input [(ngModel)]="contact.fullname" #fullname="ngModel" required type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control"
                 placeholder="{{'contactus.quote.form_fullname' | translate}}">
+                <span *ngIf="fullname.invalid && (fullname.dirty || fullname.touched)" class="error-group">
+                    <small *ngIf="fullname.errors.required">This field es required</small>
+                </span>
             </p>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-8 form-group" [ngClass]="{'has-error': street.invalid && (street.dirty || street.touched) }">
             <p class="contact-form-street">
-              <label for="street" class="sr-only">Street<span class="required">*</span></label>
-              <input [(ngModel)]="contact.street" type="text" required aria-required="true" size="30" value="" name="street" id="street" class="form-control"
+              <label for="street">Street<span class="required">*</span></label>
+              <input [(ngModel)]="contact.street" #street="ngModel" required  type="text" required aria-required="true" size="30" value="" name="street" id="street" class="form-control"
                 placeholder="{{'contactus.quote.form_street' | translate}}">
+                <span *ngIf="street.invalid && (street.dirty || street.touched)" class="error-group">
+                    <small *ngIf="street.errors.required">This field es required</small>
+                </span>
             </p>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-4 form-group">
             <p class="contact-form-suite">
-              <label for="suite" class="sr-only">Apt/Suite</label>
-              <input [(ngModel)]="contact.suite" type="text" required aria-required="true" size="30" value="" name="suite" id="suite" class="form-control"
+              <label for="suite">Apt/Suite</label>
+              <input [(ngModel)]="contact.suite" #suite type="text" required aria-required="true" size="30" value="" name="suite" id="suite" class="form-control"
                 placeholder="{{'contactus.quote.form_suite' | translate}}">
+                <span *ngIf="suite.invalid && (suite.dirty || suite.touched)" class="error-group">
+                    
+                </span>
             </p>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-8 form-group" [ngClass]="{'has-error': city.invalid && (city.dirty || city.touched) }">
             <p class="contact-form-city">
-              <label for="city" class="sr-only">City<span class="required">*</span></label>
-              <input [(ngModel)]="contact.city" type="text" required aria-required="true" size="30" value="" name="city" id="city" class="form-control"
+              <label for="city">City<span class="required">*</span></label>
+              <input [(ngModel)]="contact.city" #city="ngModel" required type="text" required aria-required="true" size="30" value="" name="city" id="city" class="form-control"
                 placeholder="{{'contactus.quote.form_city' | translate}}">
+                <span *ngIf="city.invalid && (city.dirty || city.touched)" class="error-group">
+                    <small *ngIf="city.errors.required">This field es required</small>
+                </span>
             </p>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-4 form-group" [ngClass]="{'has-error': zipcode.invalid && (zipcode.dirty || zipcode.touched) }">
             <p class="contact-form-zip">
-              <label for="zip" class="sr-only">Zip Code<span class="required">*</span></label>
-              <input [(ngModel)]="contact.zipcode" required type="text" aria-required="true" size="30" value="" name="zip" id="zip" class="form-control"
+              <label for="zip">Zip Code<span class="required">*</span></label>
+              <input [(ngModel)]="contact.zipcode" #zipcode="ngModel" required type="text" aria-required="true" size="30" value="" name="zip" id="zip" class="form-control"
                 placeholder="{{'contactus.quote.form_zipcode' | translate}}">
+                <span *ngIf="zipcode.invalid && (zipcode.dirty || zipcode.touched)" class="error-group">
+                    <small *ngIf="zipcode.errors.required">This field es required</small>
+                </span>
             </p>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 form-group" [ngClass]="{'has-error': email.invalid && (email.dirty || email.touched) }">
             <p class="contact-form-email">
-              <label for="email" class="sr-only">Email address<span class="required">*</span></label>
-              <input [(ngModel)]="contact.email" required type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control"
-                placeholder="{{'contactus.quote.form_email' | translate}}">
+              <label for="email">Email address<span class="required">*</span></label>
+              <input [(ngModel)]="contact.email" #email="ngModel" required type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control"
+                placeholder="{{'contactus.quote.form_email' | translate}}" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                <span *ngIf="email.invalid && (email.dirty || email.touched)" class="error-group">
+                    <small *ngIf="email.errors.required">This field es required</small>
+                    <small *ngIf="email.errors.pattern">Invalid email address</small>
+                </span>
             </p>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 form-group" [ngClass]="{'has-error': phone.invalid && (phone.dirty || phone.touched) }">
             <p class="contact-form-phone">
-              <label for="phone" class="sr-only">Phone<span class="required">*</span></label>
-              <input [(ngModel)]="contact.phone"  required type="text" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control"
-                placeholder="{{'contactus.quote.form_phone' | translate}}">
+              <label for="phone">Phone<span class="required">*</span></label>
+              <input [(ngModel)]="contact.phone"  #phone="ngModel" required type="tel" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control"
+                placeholder="{{'contactus.quote.form_phone' | translate}}"  mask="(000) 000-0000">
+                <span *ngIf="phone.invalid && (phone.dirty || phone.touched)" class="error-group">
+                    <small *ngIf="phone.errors.required">This field es required</small>
+                </span>
             </p>
           </div>
 
-          <div class="col-sm-12">
+          <div class="col-sm-12 form-group" [ngClass]="{'has-error': !selectedServices.length && quoteForm.valid }">
             <p class="contact-form-message">
-              <label for="message" class="sr-only">Details about what you need</label>
-              <textarea [(ngModel)]="contact.message" aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control"
+              <label for="message">Comments</label>
+              <textarea [(ngModel)]="contact.message" #message aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control"
                 placeholder="{{'contactus.quote.form_details' | translate}}"></textarea>
+                <span *ngIf="!selectedServices.length && quoteForm.valid" class="error-group">
+                    <small>You must enter some description about why you are contacting us</small>
+                </span>
             </p>
           </div>
 
           <div class="col-sm-12">
 
             <p class="contact-form-submit topmargin_30 bottommargin_0 text-center">
-              <button (click)="sendMessageClick()"   type="submit" id="contact_form_submit" name="contact_submit" class="theme_button margin_0 color1">
+              <button (click)="sendMessageClick()" [ngClass]="{ 'disabled':  quoteForm.invalid }"  type="submit" id="contact_form_submit" name="contact_submit" class="theme_button margin_0 color1">
                 Send Message
               </button>
             </p>

@@ -73,16 +73,16 @@
         <a [routerLink]="['/gallery']">{{'navigation.gallery' | translate }}</a>
     </li>
 
-    <li [ngClass]="{'active': menuIndex === 5}">
+    <li [ngClass]="{'active': menuIndex === 5}" (click)="selectMenuItem(5)">
       <a [routerLink]="['/contactus']">{{'navigation.contactus' | translate }}</a>
-      <ul>
+      <!-- <ul>
         <li (click)="selectMenuItem(5)">
           <a [routerLink]="['/contactus']">Get Quote</a>
         </li>
-        <!-- <li>
+        <li>
           <a [routerLink]="['/contactus/schedule-cleaning']">Schedule Cleaning</a>
-        </li> -->
-      </ul>
+        </li>
+      </ul> -->
     </li>
   </ul>
 </nav>

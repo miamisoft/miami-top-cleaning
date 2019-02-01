@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import {  RouterModule } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
@@ -12,6 +13,7 @@ import { FooterComponent } from './base-components/footer/footer.component';
 
 import { SearchComponent } from './base-components/search/search.component';
 import { SharedModule } from './@shared/shared.module';
+import { ToastrModule } from 'ng6-toastr-notifications';
 
 
 
@@ -30,7 +32,9 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     SharedModule.forRoot(),
+    ToastrModule.forRoot(),
     RouterModule.forRoot(appRoutes, { useHash: false }),
     TranslateModule.forRoot({
      loader: {

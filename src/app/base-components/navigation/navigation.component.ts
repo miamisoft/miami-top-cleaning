@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Event, Router, NavigationEnd } from '@angular/router';
+import { Event, Router, NavigationEnd, NavigationStart } from '@angular/router';
 
 declare var jQuery: any;
 
@@ -14,10 +14,10 @@ export class NavigationComponent implements OnInit {
 
   constructor(router: Router) { 
     router.events.subscribe((event: Event) => {
-      if (event instanceof NavigationEnd) {
+      if (event instanceof NavigationStart) {
         setTimeout(() => {
           jQuery("#toTop").click();
-        }, 500);
+        }, 100);
       }
     });
 

@@ -11,6 +11,7 @@ import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { RouterModule } from '@angular/router';
 import { MapComponent } from './map/map.component';
 import { ContactComponent } from './contact/contact.component';
+import { ToastrModule } from 'ng6-toastr-notifications';
 
 @NgModule({
   declarations: [
@@ -23,13 +24,15 @@ import { ContactComponent } from './contact/contact.component';
      CommonModule,
      FormsModule,
      HttpClientModule,
-     TranslateModule
+     TranslateModule,
+     ToastrModule
   ],
   exports:[
     CommonModule,
     FormsModule,
     HttpClientModule,
     TranslateModule,
+    ToastrModule,
     BreadcrumbsComponent,
     MapComponent,
     ContactComponent

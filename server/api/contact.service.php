@@ -31,7 +31,7 @@
 
       mail('contact@miamitopcleaning.com', 'QUOTE Request('.$contact->fullname.')', $body, $headers);
 
-      echo 'OK';
+      echo json_encode('OK');
   } else {
       echo 'Not Allowed';
   }

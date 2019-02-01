@@ -20,3 +20,37 @@ h4{
 .services{
     margin-bottom: 20px;
 }
+
+form{
+    &.contact-form{
+        .form-group{
+            label{
+                font-size: 11px;
+            }
+
+            .form-control{
+                padding-left:8px;
+            }
+
+            &.has-error{
+                .form-control{
+                    border: solid 1px red;
+                }
+
+                .error-group{
+                    display: block;
+                    small{
+                        color: red;
+                    }
+                }
+            }
+        }
+
+        button{
+            &.disabled{
+                pointer-events: none;
+                opacity: 0.5;
+            }
+        }
+    }
+}
