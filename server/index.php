@@ -1,8 +1,9 @@
-<!doctype html>
-<html lang="en">
-<body>
-<?php
-  echo 'Running';
+<!-- <?php
+
+define('WP_USE_THEMES', true);
+
+require dirname(__FILE__).'/wp-blog-header.php';
+
+//header('location: /v2/');
+
 ?>
-</body>
-</html>

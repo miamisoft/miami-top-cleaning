@@ -1,9 +1,28 @@
 [
     {
-        "firstName": "",
-        "lastName": "",
-        "title": "",
+        "firstName": "Ulysses",
+        "lastName": "Gonzalez",
+        "title": "Owner",
         "jobDesc": "",
-        "photoUrl": ""
+        "photoUrl": "assets/images/team/ulysses.jpg",
+        "color": "color1"
+    },
+
+    {
+        "firstName": "Elizabeth",
+        "lastName": "Gonzalez",
+        "title": "Quality Control Manager",
+        "jobDesc": "",
+        "photoUrl": "assets/images/team/elizabeth.jpg",
+        "color": "color2"
+    },
+
+    {
+        "firstName": "Karina",
+        "lastName": "Passmomre",
+        "title": "Operation Manager",
+        "jobDesc": "",
+        "photoUrl": "assets/images/team/karina.jpg",
+        "color": "color3"
     }
 ]

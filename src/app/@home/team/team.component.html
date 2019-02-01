@@ -21,124 +21,24 @@
           data-responsive-xlg="3" data-responsive-lg="3" data-responsive-md="3" data-responsive-sm="2"
           data-responsive-xs="1">
 
-          <div class="vertical-item text-center">
-            <blockquote class="quote-item">
-              <div class="quote-body with_border color2 section_bg_color">
-                <div class="top-color-border">
-                  <div></div>
+          <div *ngFor="let item of data" class="vertical-item text-center">
+              <blockquote class="quote-item">
+                <div class="quote-body with_border section_bg_color" [ngClass]="item.color">
+                  <div class="top-color-border">
+                    <div></div>
+                  </div>
+                  <p class="grey">
+                    "On the other hand, we denounce with righteous indignation and dislike men so beguiled"
+                  </p>
+                  <div class="bottom-arrow with_border section_bg_color"></div>
                 </div>
-                <p class="grey">
-                  "On the other hand, we denounce with righteous indignation and dislike men so beguiled"
-                </p>
-                <div class="bottom-arrow with_border section_bg_color"></div>
-              </div>
-
-              <img src="assets/images/face01.jpg" alt="" class="media-object">
-              <div class="blockquote-meta">
-                <h5>Stephen Hill</h5>
-                <span class="small-text">SEO Analyst</span>
-              </div>
-            </blockquote>
-          </div>
-
-          <div class="vertical-item text-center">
-            <blockquote class="quote-item">
-              <div class="quote-body with_border color3 section_bg_color">
-                <div class="top-color-border">
-                  <div></div>
+  
+                <img [src]="item.photoUrl" alt="" class="media-object">
+                <div class="blockquote-meta">
+                  <h5>{{item.firstName}} {{item.lastName}}</h5>
+                  <span class="small-text">{{item.title}}</span>
                 </div>
-                <p class="grey">
-                  "Demoralized by the charms of pleasure of the moment, so blinded by desire"
-                </p>
-                <div class="bottom-arrow with_border section_bg_color"></div>
-              </div>
-
-              <img src="assets/images/face02.jpg" alt="" class="media-object">
-              <div class="blockquote-meta">
-                <h5>Jacqueline Bowman</h5>
-                <span class="small-text">Marketing Manager</span>
-              </div>
-            </blockquote>
-          </div>
-
-          <div class="vertical-item text-center">
-            <blockquote class="quote-item">
-              <div class="quote-body with_border color1 section_bg_color">
-                <div class="top-color-border">
-                  <div></div>
-                </div>
-                <p class="grey">
-                  "That they cannot foresee the pain and trouble that are bound to ensue and equal blame"
-                </p>
-                <div class="bottom-arrow with_border section_bg_color"></div>
-              </div>
-
-              <img src="assets/images/face03.jpg" alt="" class="media-object">
-              <div class="blockquote-meta">
-                <h5>Rafaela Meyers</h5>
-                <span class="small-text">Director</span>
-              </div>
-            </blockquote>
-          </div>
-
-          <div class="vertical-item text-center">
-            <blockquote class="quote-item">
-              <div class="quote-body with_border color2 section_bg_color">
-                <div class="top-color-border">
-                  <div></div>
-                </div>
-                <p class="grey">
-                  "On the other hand, we denounce with righteous indignation and dislike men so beguiled"
-                </p>
-                <div class="bottom-arrow with_border section_bg_color"></div>
-              </div>
-
-              <img src="assets/images/face01.jpg" alt="" class="media-object">
-              <div class="blockquote-meta">
-                <h5>Stephen Hill</h5>
-                <span class="small-text">SEO Analyst</span>
-              </div>
-            </blockquote>
-          </div>
-
-          <div class="vertical-item text-center">
-            <blockquote class="quote-item">
-              <div class="quote-body with_border color3 section_bg_color">
-                <div class="top-color-border">
-                  <div></div>
-                </div>
-                <p class="grey">
-                  "Demoralized by the charms of pleasure of the moment, so blinded by desire"
-                </p>
-                <div class="bottom-arrow with_border section_bg_color"></div>
-              </div>
-
-              <img src="assets/images/face02.jpg" alt="" class="media-object">
-              <div class="blockquote-meta">
-                <h5>Jacqueline Bowman</h5>
-                <span class="small-text">Marketing Manager</span>
-              </div>
-            </blockquote>
-          </div>
-
-          <div class="vertical-item text-center">
-            <blockquote class="quote-item">
-              <div class="quote-body with_border color1 section_bg_color">
-                <div class="top-color-border">
-                  <div></div>
-                </div>
-                <p class="grey">
-                  "That they cannot foresee the pain and trouble that are bound to ensue and equal blame"
-                </p>
-                <div class="bottom-arrow with_border section_bg_color"></div>
-              </div>
-
-              <img src="assets/images/face03.jpg" alt="" class="media-object">
-              <div class="blockquote-meta">
-                <h5>Rafaela Meyers</h5>
-                <span class="small-text">Director</span>
-              </div>
-            </blockquote>
+              </blockquote>
           </div>
 
         </div>

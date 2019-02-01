@@ -39,4 +39,5 @@ export interface TeamData{
     title: string;    
     jobDesc: string;    
     photoUrl: string;
+    color: string;
 }

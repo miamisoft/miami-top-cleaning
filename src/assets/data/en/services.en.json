@@ -20,7 +20,7 @@
     {
         "id": 3,
         "name": "High Level Dust Removal",
-        "htmlTitle": "<strong>high level dust</strong> <br>removal",
+        "htmlTitle": "<strong>dust</strong> <br>removal",
         "descUrl": "/services/commercial/high-level-dust-removal",
         "fontIcon": "flaticon-vacuum-cleaner",
         "category": [1]
@@ -101,7 +101,7 @@
     {
         "id": 12,
         "name": "High Rise Window Cleaning",
-        "htmlTitle": "<strong>high rise window</strong><br>cleaning",
+        "htmlTitle": "<strong>high rise </strong><br>window",
         "descUrl": "/services/windows/high-rise-window-cleaning",
         "fontIcon": "flaticon-wipe",
         "category": [3]

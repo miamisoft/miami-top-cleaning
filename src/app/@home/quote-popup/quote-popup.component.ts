@@ -24,7 +24,7 @@ export class QuotePopupComponent implements AfterViewInit {
 
   close(){
     this.overlay.nativeElement.style.height = "0%";
-    this._cookieService.set(environment.cookieQuotePopup, "hidden");
+    this._cookieService.set(environment.cookieQuotePopup, "hidden", 1);
   }
 
 }

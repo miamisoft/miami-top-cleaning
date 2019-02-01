@@ -14,11 +14,6 @@ export const appRoutes: Routes = [
    },
 
    {
-      path: 'blog',
-      loadChildren: './@blog/blog.module#BlogModule'
-   },
-
-   {
       path: 'gallery',
       loadChildren: './@gallery/gallery.module#GalleryModule'
    },
