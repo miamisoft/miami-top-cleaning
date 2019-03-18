@@ -93,17 +93,8 @@
         "id": 11,
         "name": "Windows Cleaning",
         "htmlTitle": "<strong>windows</strong> <br>cleaning",
-        "descUrl": "/services/windows/window-cleaning",
+        "descUrl": "/services/window-cleaning",
         "fontIcon": "flaticon-window",
-        "category": [3]
-    },
-
-    {
-        "id": 12,
-        "name": "High Rise Window Cleaning",
-        "htmlTitle": "<strong>high rise </strong><br>window",
-        "descUrl": "/services/windows/high-rise-window-cleaning",
-        "fontIcon": "flaticon-wipe",
         "category": [3]
     }
 ]

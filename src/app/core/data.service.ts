@@ -11,11 +11,11 @@ export class DataService {
     
     public geti18nData(jsonName: string): Observable<any>{
         let lang = this._appContext.currentLan;
-        return this._httpService.get(`${environment.dataBaseUrl}/${lang}/${jsonName}.${lang}.json`);
+        return this._httpService.get(`${environment.dataBaseUrl}/${lang}/${jsonName}.${lang}.json?v=1`);
     }
 
     public getData(jsonName: string): Observable<any>{
-        return this._httpService.get(`${environment.dataBaseUrl}/${jsonName}.json`);
+        return this._httpService.get(`${environment.dataBaseUrl}/${jsonName}.json?v=1`);
     }
 
     

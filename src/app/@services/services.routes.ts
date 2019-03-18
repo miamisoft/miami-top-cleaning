@@ -9,8 +9,8 @@ import { AppartmentComponent } from "./residential/appartment/appartment.compone
 import { HouseComponent } from "./residential/house/house.component";
 import { MoveComponent } from "./residential/move/move.component";
 import { DeepComponent } from "./residential/deep/deep.component";
-import { WindowComponent } from "./windows/window/window.component";
-import { HighRiseWindowComponent } from "./windows/high-rise-window/high-rise-window.component";
+import { WindowComponent } from "./window/window.component";
+
 
 
 export const servicesRoutes: Routes = [
@@ -66,18 +66,8 @@ export const servicesRoutes: Routes = [
     },
 
     {
-        path: 'windows',
-        children: [
-            {
-                path: 'window-cleaning',
-                component: WindowComponent
-            },
-            
-            {
-                 path: 'high-rise-window-cleaning',
-                 component: HighRiseWindowComponent
-             }
-        ]
+        path: 'window-cleaning',
+        component: WindowComponent
     },
    
 

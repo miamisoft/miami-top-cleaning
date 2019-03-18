@@ -37,7 +37,7 @@ export interface TeamData{
     firstName: string;    
     lastName: string;    
     title: string;    
-    jobDesc: string;    
+    quote: string;    
     photoUrl: string;
     color: string;
 }

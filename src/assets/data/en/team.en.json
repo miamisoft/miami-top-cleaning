@@ -3,7 +3,7 @@
         "firstName": "Ulysses",
         "lastName": "Gonzalez",
         "title": "Owner",
-        "jobDesc": "",
+        "quote": "It's all about quility of life and finding a happy balance between work and family.",
         "photoUrl": "assets/images/team/ulysses.jpg",
         "color": "color1"
     },
@@ -12,7 +12,7 @@
         "firstName": "Elizabeth",
         "lastName": "Gonzalez",
         "title": "Quality Control Manager",
-        "jobDesc": "",
+        "quote": "The art of communication is the language of leadership",
         "photoUrl": "assets/images/team/elizabeth.jpg",
         "color": "color2"
     },
@@ -21,7 +21,7 @@
         "firstName": "Karina",
         "lastName": "Passmomre",
         "title": "Operation Manager",
-        "jobDesc": "",
+        "quote": "If you offered a seat in a rocket ship don't ask where you are going, get in.",
         "photoUrl": "assets/images/team/karina.jpg",
         "color": "color3"
     }

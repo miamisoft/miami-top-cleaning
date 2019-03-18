@@ -4,13 +4,9 @@
     <div class="row">
       <div class="col-lg-offset-1 col-lg-10 col-sm-12 text-center">
         <p class="small-text margin_0">Our Team</p>
-        <h2 class="topmargin_10 bottommargin_25">
-            We work together for <strong>success</strong>
+        <h2 class="topmargin_10 bottommargin_25" [innerHTML]="'home.team.title' | translate">
         </h2>
-        <p>
-          Nissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-          excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
-          animi, id est laborum et dolorum fuga.
+        <p [innerHTML]="'home.team.desc' | translate">
         </p>
       </div>
     </div>
@@ -28,7 +24,7 @@
                     <div></div>
                   </div>
                   <p class="grey">
-                    "On the other hand, we denounce with righteous indignation and dislike men so beguiled"
+                    "{{item.quote}}"
                   </p>
                   <div class="bottom-arrow with_border section_bg_color"></div>
                 </div>

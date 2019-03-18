@@ -44,16 +44,8 @@
           </ul>
         </li>
 
-        <li>
-          <a href="javascript:void(0)">{{'navigation.services_windows' | translate }}</a>
-          <ul>
-            <li (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/windows/window-cleaning']">{{'navigation.services_windows_window' | translate }}</a>
-            </li>
-            <li (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/windows/high-rise-window-cleaning']">{{'navigation.services_windows_high_rise' | translate }}</a>
-            </li>
-          </ul>
+        <li (click)="selectMenuItem(2)">
+          <a [routerLink]="['/services/window-cleaning']">{{'navigation.services_windows' | translate }}</a>
         </li>
 
         <li (click)="selectMenuItem(2)">

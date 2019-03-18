@@ -13,8 +13,7 @@ import { HouseComponent } from './residential/house/house.component';
 import { AppartmentComponent } from './residential/appartment/appartment.component';
 import { MoveComponent } from './residential/move/move.component';
 import { DeepComponent } from './residential/deep/deep.component';
-import { WindowComponent } from './windows/window/window.component';
-import { HighRiseWindowComponent } from './windows/high-rise-window/high-rise-window.component';
+import { WindowComponent } from './window/window.component';
 
 @NgModule({
   imports: [
@@ -31,7 +30,6 @@ import { HighRiseWindowComponent } from './windows/high-rise-window/high-rise-wi
     MoveComponent, 
     DeepComponent,
     WindowComponent, 
-    HighRiseWindowComponent,
     PressureComponent,
     PostConstructionComponent
   ]
