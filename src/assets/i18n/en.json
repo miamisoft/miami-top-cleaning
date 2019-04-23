@@ -20,6 +20,11 @@
         "services_pressure": "Pressure Cleaning",
         "services_post_const": "Post Construction Cleaning",
         "services_windows": "Windows Cleaning",
+        "services_floor": "Floor Care",
+        "services_floor_carpet": "Carpet",
+        "services_floor_tile": "Tile and Grout",
+        "services_floor_marble": "Marble Care",
+        "services_floor_waxing": "VCT Waxing and Stripping",
         "blog": "Blog",
         "gallery": "Gallery",
         "contactus": "Contact Us"
@@ -138,6 +143,48 @@
             "services_desc_p3": "<strong>Bedroom(s)</strong><br>Your bedroom should be your sanctuary! Let our team make it look beautiful. When we visit, we will make your bed, change your linens, shine all surfaces, lamps, furniture, and more!",
             "services_desc_p4": "<strong>Living Areas</strong><br>In your living room, we will clean all furniture, vacuum / sweep, and dust. Contact Us Today for a Free Estimate"
 
+        }
+    },
+
+    "floor":{
+        "carpet":{
+            "title": "Professional Carpet Cleaning",
+            "desc": "Complete and comprehensive carpet cleaning and shampooing is just another specialty service we can offer. Our technicians use only state of the art cleaning agents, and focus on removing stains and dirt diligently and safely. Homes with carpet need to have regularly scheduled cleaning. Carpets quickly accumulate harmful bacteria and germs. Although vacuuming regularly will keep your carpet looking clean, a vacuum cannot thoroughly reduce germs and bacteria. Our carpet cleaning pros will clean your carpet to the core so it’s safe for your family to enjoy.",
+            "list_header": "3 Reasons to Have Office Carpets Professionally Cleaned",
+            "list_desc": "Appearance matters for a business. Whether you are trying to impress clients or keep your employees happy, a clean office helps you make a good impression. Hire a professional cleaning service to clean your carpets in order to receive the following benefits:",
+            "list_p1": "1. <strong>Improved Morale</strong><br>Professional cleaners use top-quality equipment to get office carpets as clean as possible. When your employees come to work in an office that is fresh-smelling and therefore feel appreciated. Your office will also look great to any clients who happen to come in for a meeting.",
+            "list_p2": "2. <strong>Better Air Quality</strong><br>Dirt, pollen, and other allergens can get trapped inside of carpet, aggravating allergies, instigating respiratory problems, and even leading to more serious illnesses. By performing comprehensive cleaning services, professional cleaners can remove these indoor pollutants, improving air quality and keeping employees healthy and productive.",
+            "list_p3": "3. <strong>Effective Building Maintenance</strong><br>Regular professional cleaning will extend the life of your office’s carpeting. Vacuuming, deep cleaning, and shampooing are important tasks for maintaining commercial carpet, which is why hiring professional cleaners is a great business investment. A cleaning service’s extensive knowledge of floor cleansing techniques will keep you from having to replace the carpet prematurely or lose your deposit on a rented office space."
+        },
+
+        "tile": {
+            "title": "Tile and Grout Cleaning",
+            "desc": "Tile and Grout Cleaning services that will impress any business or home owner. A&S Total Cleaning restores Ceramic, Porcelain, Mexican Tile and Grout for superior results and longlasting protection. Read more in this section about the treatments we provide. We use steam extraction and detailed cleaning techniques to remove dirt and stains built up from wear and tear.",
+            "desc_p1": "<strong>Grout Staining</strong><br>Grout Staining is a process we offer for the aesthetic look you want from your tile floors. Together with professional Tile Cleaning and Sealing, your tile floor will look brand new again!",
+            "desc_p2": "<strong>Tile and Grout Sealing</strong><br>Sealing the Tile Floor after it has been cleaned is an important step towards long lasting protection. A&S Total Cleaning uses only top of the line products for the highest quality results you want.",
+            "desc_p3": "Our Tile Floor experts are experienced with hundreds of projects ranging from lobby areas of high rise buildings to individual residential homes."
+        },
+
+        "marble": {
+            "title": "Marble Floor Cleaning",
+            "desc": "Marble Floor Cleaning is one of many floor care maintenance services offered to meet South Florida’s floor care needs. We offer first class marble floor cleaning & restoration for corporate buildings, shopping centers, high rises, schools, and small businesses. Miami Top Cleaning proud to utilize only the latest cleaning equipment, floor care techniques and commercial janitorial supplies to meet and exceed your high standards of cleanliness and floor appearance.",
+            "desc_p1": "<strong>Marble Floor Restoration:</strong><br>We at Miami Top Cleaning know that Fine Marble Flooring is an big investment for your home or business, and adds value and prestige to your establishment. However, fine flooring , surely needs fine care! Never trust your marble floors to inexperienced cleaners. It’s not worth the risk of potential surface damage. Miami Top Cleaning is licensed, insured and has a reputation you can trust. We use the best state-of-the-art tools in order to polish, restore and protect your marble floor investment. Professional grade marble floor cleaning is crucial for keeping marble stone looking new and protecting the surface from stains and scratches or any other blemishes. Restoration is key to your marble floors longevity, Start preserving your marble floor today.",
+            "list_ul1_header": "Miami Top Cleaning specializes in the following processes:",
+            "list_ul1_desc": "<ul><li>Polishing</li><li>Cleaning</li><li>Repairing</li><li>Sealing</li><li>Regrouting</li></ul>",
+            "list_ul2_header": "We clean, polish, and restore many types of marble including:",
+            "list_ul2_desc": "<ul><li>Saturnia</li><li>Travertine</li><li>Crema Marfil</li><li>Granite</li><li>Terrazo</li></ul>",
+            "desc_p2": "Our marble care experts are experienced with hundreds of projects ranging from lobby areas of high rise buildings to individual residential homes."
+        },
+
+        "waxing": {
+            "title": "VCT Waxing and Stripping Services",
+            "question": "Do you have a floor care program in place for your business?",
+            "desc_p1": "Finished floors are often one of the biggest investments an establishment can make. As a result, protection and maintenance become critical tasks for cleaning professionals. A great first step towards protecting finished floors is implementing a mat program.",
+            "desc_p2": "Outdoor and foyer/entryway area mats can remove much of the dirt and debris from shoes, preventing it from being tracked inside and onto your finished floors. Inside, matting can also help to remove the final bit of dirt, including moisture.",
+            "desc_p3": "Miami Top Cleaning can offer you a floor care programs to help you improve and maintain in the appearance of your floors. We specialize in marble, concrete and VCT floors. In the current economic climate, businesses of all types are challenged with maintaining finished floors with limited budgets and personnel.",
+            "desc_p4": "Gym floors can be a living, breathing organism; there is rarely a time when they are not being used or are not in demand. The most common gym floor, when you think about the term, is the floor found in schools at every level and sports arenas. No matter where these floors are, chances are they take a daily beating",
+            "desc_p5": "While the average life expectancy of a floor can range from 15 years for vinyl tile to upwards of 50 years for wood flooring, this number can decrease dramatically if daily maintenance is not taking place.",
+            "desc_p6": "Damage can take place in the form of water damage or from more frequent sanding due to the “faster breakdown of water-based finish versus oil finish, or from the incompatibility between finishes and/or paint."
         }
     },
 

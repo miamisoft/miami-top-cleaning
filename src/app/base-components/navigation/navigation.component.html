@@ -15,9 +15,6 @@
               <a [routerLink]="['/services/commercial/office-cleaning']">{{ 'navigation.services_commercial_office' | translate }}</a>
             </li>
             <li (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/commercial/floor-cleaning']">{{ 'navigation.services_commercial_floor' | translate }}</a>
-            </li>
-            <li (click)="selectMenuItem(2)">
               <a [routerLink]="['/services/commercial/high-level-dust-removal']">{{'navigation.services_commercial_dust' | translate }}</a>
             </li>
             <li (click)="selectMenuItem(2)">
@@ -40,6 +37,24 @@
             </li>
             <li (click)="selectMenuItem(2)">
               <a [routerLink]="['/services/residential/deep-cleaning']">{{'navigation.services_residential_deep' | translate }}</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="javascript:void(0)">{{'navigation.services_floor' | translate }}</a>
+          <ul>
+            <li (click)="selectMenuItem(2)">
+              <a [routerLink]="['/services/floor/carpet-cleaning']">{{'navigation.services_floor_carpet' | translate }}</a>
+            </li>
+            <li (click)="selectMenuItem(2)">
+              <a [routerLink]="['/services/floor/tile-cleaning']">{{'navigation.services_floor_tile' | translate }}</a>
+            </li>
+            <li (click)="selectMenuItem(2)">
+              <a [routerLink]="['/services/floor/marble-cleaning']">{{'navigation.services_floor_marble' | translate }}</a>
+            </li>
+            <li (click)="selectMenuItem(2)">
+              <a [routerLink]="['/services/floor/waxing-stripping']">{{'navigation.services_floor_waxing' | translate }}</a>
             </li>
           </ul>
         </li>

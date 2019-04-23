@@ -1,0 +1,29 @@
+<app-breadcrumbs [navItems]="[
+  { title: 'Home', routeUrl: '/' },
+  { title: 'Services' },
+  { title: 'Floor Care' },
+  { title: 'Tile and Grout', active: true }]">
+</app-breadcrumbs>
+
+<section class="ls ms section_padding_40 table_section">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <h2 [innerHTML]="'floor.tile.title' | translate"></h2>
+            <p> <a [routerLink]="['/contactus/get-quote', 13]" class="theme_button color1 topmargin_15">get quote now</a></p>
+        </div>
+      </div>
+      <div class="row">
+         <div class="col-md-3"><img src="assets/images/services/tile-cleaning.jpeg"/></div>
+         <p class="col-md-9"[innerHTML]="'floor.tile.desc' | translate"></p>
+      </div>
+      <br>
+     <div class="row">
+       <div class="col-md-12">
+          <p [innerHTML]="'floor.tile.desc_p1' | translate"></p>
+          <p [innerHTML]="'floor.tile.desc_p2' | translate"></p>
+          <p [innerHTML]="'floor.tile.desc_p3' | translate"></p>
+       </div>
+     </div>
+  </div>
+</section>

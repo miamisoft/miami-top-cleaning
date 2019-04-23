@@ -14,6 +14,10 @@ import { AppartmentComponent } from './residential/appartment/appartment.compone
 import { MoveComponent } from './residential/move/move.component';
 import { DeepComponent } from './residential/deep/deep.component';
 import { WindowComponent } from './window/window.component';
+import { CarpetComponent } from './floor/carpet/carpet.component';
+import { TileComponent } from './floor/tile/tile.component';
+import { MarbleComponent } from './floor/marble/marble.component';
+import { WaxingComponent } from './floor/waxing/waxing.component';
 
 @NgModule({
   imports: [
@@ -31,7 +35,11 @@ import { WindowComponent } from './window/window.component';
     DeepComponent,
     WindowComponent, 
     PressureComponent,
-    PostConstructionComponent
+    PostConstructionComponent,
+    CarpetComponent,
+    TileComponent,
+    MarbleComponent,
+    WaxingComponent
   ]
 })
 export class ServicesModule { }

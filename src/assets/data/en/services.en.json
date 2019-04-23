@@ -9,20 +9,11 @@
     },
 
     {
-        "id": 2,
-        "name": "Floor Cleaning",
-        "htmlTitle": "<strong>floor</strong><br>cleaning",
-        "descUrl": "/services/commercial/floor-cleaning",
-        "fontIcon": "flaticon-mop",
-        "category": [1]
-    },
-
-    {
         "id": 3,
         "name": "High Level Dust Removal",
         "htmlTitle": "<strong>dust</strong> <br>removal",
         "descUrl": "/services/commercial/high-level-dust-removal",
-        "fontIcon": "flaticon-vacuum-cleaner",
+        "fontIcon": "flaticon-cleaning",
         "category": [1]
     },
 
@@ -49,7 +40,7 @@
         "name": "Appartment Cleaning",
         "htmlTitle": "<strong>appartment</strong> <br>cleaning",
         "descUrl": "/services/residential/appartment-cleaning",
-        "fontIcon": "flaticon-bucket",
+        "fontIcon": "flaticon-detergent",
         "category": 2
     },
 
@@ -67,7 +58,7 @@
         "name": "Deep Cleaning",
         "htmlTitle": "<strong>deep</strong> <br>cleaning",
         "descUrl": "/services/residential/deep-cleaning",
-        "fontIcon": "flaticon-brush",
+        "fontIcon": "flaticon-wash",
         "category": 2
     },
 
@@ -96,5 +87,37 @@
         "descUrl": "/services/window-cleaning",
         "fontIcon": "flaticon-window",
         "category": [3]
+    },
+    {
+        "id": 12,
+        "name": "Carpet Cleaning",
+        "htmlTitle": "<strong>carpet</strong> <br>cleaning",
+        "descUrl": "/services/floor/carpet-cleaning",
+        "fontIcon": "flaticon-brush",
+        "category": [4]
+    },
+    {
+        "id": 13,
+        "name": "Tile Cleaning",
+        "htmlTitle": "<strong>tile</strong> <br>cleaning",
+        "descUrl": "/services/floor/tile-cleaning",
+        "fontIcon": "flaticon-bucket",
+        "category": [4]
+    },
+    {
+        "id": 14,
+        "name": "Marble Cleaning",
+        "htmlTitle": "<strong>marble</strong> <br>cleaning",
+        "descUrl": "/services/floor/marble-cleaning",
+        "fontIcon": "flaticon-wipe",
+        "category": [4]
+    },
+    {
+        "id": 15,
+        "name": "Waxing and Stripping",
+        "htmlTitle": "<strong>waxing</strong> <br>stripping",
+        "descUrl": "/services/floor/waxing-stripping",
+        "fontIcon": "flaticon-vacuum-cleaner",
+        "category": [4]
     }
 ]

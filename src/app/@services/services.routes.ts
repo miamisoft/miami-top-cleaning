@@ -10,6 +10,10 @@ import { HouseComponent } from "./residential/house/house.component";
 import { MoveComponent } from "./residential/move/move.component";
 import { DeepComponent } from "./residential/deep/deep.component";
 import { WindowComponent } from "./window/window.component";
+import { CarpetComponent } from "./floor/carpet/carpet.component";
+import { TileComponent } from "./floor/tile/tile.component";
+import { MarbleComponent } from "./floor/marble/marble.component";
+import { WaxingComponent } from "./floor/waxing/waxing.component";
 
 
 
@@ -61,6 +65,30 @@ export const servicesRoutes: Routes = [
            {
                path: 'deep-cleaning',
                component: DeepComponent
+           }
+        ]
+    },
+
+    {
+        path: 'floor',
+        children: [
+            {
+                path: 'carpet-cleaning',
+                component: CarpetComponent,
+            },
+            {
+               path: 'tile-cleaning',
+               component: TileComponent
+           },
+       
+           {
+               path: 'marble-cleaning',
+               component: MarbleComponent
+           },
+           
+           {
+               path: 'waxing-stripping',
+               component: WaxingComponent
            }
         ]
     },
