@@ -148,7 +148,7 @@
 
     "floor":{
         "carpet":{
-            "title": "Professional Carpet Cleaning",
+            "title": "Professional Carpet <strong>Cleaning</strong>",
             "desc": "Complete and comprehensive carpet cleaning and shampooing is just another specialty service we can offer. Our technicians use only state of the art cleaning agents, and focus on removing stains and dirt diligently and safely. Homes with carpet need to have regularly scheduled cleaning. Carpets quickly accumulate harmful bacteria and germs. Although vacuuming regularly will keep your carpet looking clean, a vacuum cannot thoroughly reduce germs and bacteria. Our carpet cleaning pros will clean your carpet to the core so it’s safe for your family to enjoy.",
             "list_header": "3 Reasons to Have Office Carpets Professionally Cleaned",
             "list_desc": "Appearance matters for a business. Whether you are trying to impress clients or keep your employees happy, a clean office helps you make a good impression. Hire a professional cleaning service to clean your carpets in order to receive the following benefits:",
@@ -158,7 +158,7 @@
         },
 
         "tile": {
-            "title": "Tile and Grout Cleaning",
+            "title": "Tile and Grout <strong>Cleaning</strong>",
             "desc": "Tile and Grout Cleaning services that will impress any business or home owner. A&S Total Cleaning restores Ceramic, Porcelain, Mexican Tile and Grout for superior results and longlasting protection. Read more in this section about the treatments we provide. We use steam extraction and detailed cleaning techniques to remove dirt and stains built up from wear and tear.",
             "desc_p1": "<strong>Grout Staining</strong><br>Grout Staining is a process we offer for the aesthetic look you want from your tile floors. Together with professional Tile Cleaning and Sealing, your tile floor will look brand new again!",
             "desc_p2": "<strong>Tile and Grout Sealing</strong><br>Sealing the Tile Floor after it has been cleaned is an important step towards long lasting protection. A&S Total Cleaning uses only top of the line products for the highest quality results you want.",
@@ -166,7 +166,7 @@
         },
 
         "marble": {
-            "title": "Marble Floor Cleaning",
+            "title": "Marble Floor <strong>Cleaning</strong>",
             "desc": "Marble Floor Cleaning is one of many floor care maintenance services offered to meet South Florida’s floor care needs. We offer first class marble floor cleaning & restoration for corporate buildings, shopping centers, high rises, schools, and small businesses. Miami Top Cleaning proud to utilize only the latest cleaning equipment, floor care techniques and commercial janitorial supplies to meet and exceed your high standards of cleanliness and floor appearance.",
             "desc_p1": "<strong>Marble Floor Restoration:</strong><br>We at Miami Top Cleaning know that Fine Marble Flooring is an big investment for your home or business, and adds value and prestige to your establishment. However, fine flooring , surely needs fine care! Never trust your marble floors to inexperienced cleaners. It’s not worth the risk of potential surface damage. Miami Top Cleaning is licensed, insured and has a reputation you can trust. We use the best state-of-the-art tools in order to polish, restore and protect your marble floor investment. Professional grade marble floor cleaning is crucial for keeping marble stone looking new and protecting the surface from stains and scratches or any other blemishes. Restoration is key to your marble floors longevity, Start preserving your marble floor today.",
             "list_ul1_header": "Miami Top Cleaning specializes in the following processes:",
@@ -177,7 +177,7 @@
         },
 
         "waxing": {
-            "title": "VCT Waxing and Stripping Services",
+            "title": "VCT Waxing and <strong>Stripping Services</strong>",
             "question": "Do you have a floor care program in place for your business?",
             "desc_p1": "Finished floors are often one of the biggest investments an establishment can make. As a result, protection and maintenance become critical tasks for cleaning professionals. A great first step towards protecting finished floors is implementing a mat program.",
             "desc_p2": "Outdoor and foyer/entryway area mats can remove much of the dirt and debris from shoes, preventing it from being tracked inside and onto your finished floors. Inside, matting can also help to remove the final bit of dirt, including moisture.",
