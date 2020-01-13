@@ -2,7 +2,7 @@
     {
         "imgUrl": "assets/images/banner/cleaning-banner1.jpg",
         "title": "Welcome to our website",
-        "slogan": "<strong>Proudly </strong> Family owned and operated",
+        "slogan": "<strong>Family </strong>owned and operated",
         "desc": "At Miami Top Cleaning, we relentlessly pursue the highest standards with customized cleaning programs designed to meet your needs, whether for daily, nightly or one-time cleaning services."
     },
 
@@ -23,7 +23,7 @@
     {
         "imgUrl": "assets/images/banner/cleaning-banner9.jpg",
         "title": "Welcome to our website",
-        "slogan": "Best Practices and Procedures",
+        "slogan": "<strong>Best Practices</strong> and Procedures",
         "desc": "Our standards have been developed in recognition of best practices and procedures for the cleaning industry as published by OSHA, CDC, AORN, HIPAA, EPA and other regulatory healthcare organizations. Because every business should be able to customize their cleaning services, we offer a daytime and after hours cleaning options."
     }
 

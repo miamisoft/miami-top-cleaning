@@ -35,7 +35,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserAnimationsModule,
     SharedModule.forRoot(),
     ToastrModule.forRoot(),
-    RouterModule.forRoot(appRoutes, { useHash: false }),
+    RouterModule.forRoot(appRoutes, { useHash: true }),
     TranslateModule.forRoot({
      loader: {
        provide: TranslateLoader,
