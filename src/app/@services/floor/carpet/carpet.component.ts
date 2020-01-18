@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-carpet',
+  selector: 'app-services-carpet',
   templateUrl: './carpet.component.html',
   styleUrls: ['./carpet.component.scss']
 })

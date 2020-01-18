@@ -1,0 +1,42 @@
+<app-breadcrumbs [navItems]="[
+{ title: 'Home', routeUrl: '/' },
+{ title: 'Contact Us' },
+{ title: 'Employment', active: true }]">
+</app-breadcrumbs>
+
+
+<section class="section_padding_40 ls ms muted_section image-background">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-offset-1 col-lg-10 col-sm-12 text-center">
+        <h2 [innerHTML]="'contactus.employment.title' | translate"></h2>
+        <p [innerHTML]="'contactus.employment.desc' | translate"></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 employment">
+        <div>
+          <h3 [innerHTML]="'contactus.employment.h3' | translate"></h3>
+          <div [innerHTML]="'contactus.employment.list1' | translate"></div>
+        </div>
+        <p [innerHTML]="'contactus.employment.p1' | translate"></p>
+        <p>
+          To download application click here:
+          <a href="/assets/data/MiamiTopCleaningEmploymentForm.pdf" target="_blank">
+             <i class="fa fa-file-pdf-o"></i> Download Application Form
+         </a>
+         <br>
+         To fill out application online please follow this link:
+         <a href="https://www.indeedjobs.com/miami-top-cleaning-e4f42ca?cpref=JXWAtnzf3XX4371-iVwtSW2bgyBz8ZTN0akOkpvAPfM" target="_blank" download="MiamiTopCleaningEmploymentForm.pdf">
+          <i class="fa fa-link"></i> Online Employment Application
+        </a>
+       </p>
+        <p [innerHTML]="'contactus.employment.p2' | translate"></p>
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+

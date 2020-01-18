@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-tile',
+  selector: 'app-services-tile',
   templateUrl: './tile.component.html',
   styleUrls: ['./tile.component.scss']
 })

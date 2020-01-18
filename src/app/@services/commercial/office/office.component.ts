@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-office',
+  selector: 'app-services-office',
   templateUrl: './office.component.html',
   styleUrls: ['./office.component.scss']
 })

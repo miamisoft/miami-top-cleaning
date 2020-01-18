@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-waxing',
+  selector: 'app-services-waxing',
   templateUrl: './waxing.component.html',
   styleUrls: ['./waxing.component.scss']
 })

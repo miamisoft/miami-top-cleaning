@@ -1,91 +1,86 @@
 <!-- main nav start -->
 <nav class="mainmenu_wrapper bordered_items">
   <ul class="mainmenu nav sf-menu">
-    <li [ngClass]="{'active': menuIndex === 1}" (click)="selectMenuItem(1)">
+    <!-- <li [ngClass]="{'active': menuIndex === 1}" (click)="selectMenuItem(1)">
       <a [routerLink]="['/']">{{ 'navigation.home' | translate }}</a>
-    </li>
+    </li> -->
 
-    <li [ngClass]="{'active': menuIndex === 2}">
-      <a href="javascript:void(0)">{{ 'navigation.services' | translate }}</a>
+    <li>
+      <a href="javascript:void(0)">{{ 'navigation.services_commercial' | translate }}</a>
       <ul>
-        <li>
-          <a href="javascript:void(0)">{{ 'navigation.services_commercial' | translate }}</a>
-          <ul>
-            <li  (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/commercial/office-cleaning']">{{ 'navigation.services_commercial_office' | translate }}</a>
-            </li>
-            <li (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/commercial/high-level-dust-removal']">{{'navigation.services_commercial_dust' | translate }}</a>
-            </li>
-            <li (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/commercial/janitorial-services']">{{'navigation.services_commercial_janitorial' | translate }}</a>
-            </li>
-          </ul>
+        <li  (click)="selectMenuItem(1)">
+          <a [routerLink]="['/services/commercial/office-cleaning']">{{ 'navigation.services_commercial_office' | translate }}</a>
         </li>
-
-        <li>
-          <a href="javascript:void(0)">{{'navigation.services_residential' | translate }}</a>
-          <ul>
-            <li (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/residential/house-cleaning']">{{'navigation.services_residential_house' | translate }}</a>
-            </li>
-            <li (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/residential/appartment-cleaning']">{{'navigation.services_residential_appt' | translate }}</a>
-            </li>
-            <li (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/residential/movein-moveout-cleaning']">{{'navigation.services_residential_move' | translate }}</a>
-            </li>
-            <li (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/residential/deep-cleaning']">{{'navigation.services_residential_deep' | translate }}</a>
-            </li>
-          </ul>
+        <li (click)="selectMenuItem(1)">
+          <a [routerLink]="['/services/commercial/building-maintenance']">{{'navigation.services_commercial_buildingmaintenance' | translate }}</a>
         </li>
-
-        <li>
-          <a href="javascript:void(0)">{{'navigation.services_floor' | translate }}</a>
-          <ul>
-            <li (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/floor/carpet-cleaning']">{{'navigation.services_floor_carpet' | translate }}</a>
-            </li>
-            <li (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/floor/tile-cleaning']">{{'navigation.services_floor_tile' | translate }}</a>
-            </li>
-            <li (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/floor/marble-cleaning']">{{'navigation.services_floor_marble' | translate }}</a>
-            </li>
-            <li (click)="selectMenuItem(2)">
-              <a [routerLink]="['/services/floor/waxing-stripping']">{{'navigation.services_floor_waxing' | translate }}</a>
-            </li>
-          </ul>
-        </li>
-
-        <li (click)="selectMenuItem(2)">
-          <a [routerLink]="['/services/window-cleaning']">{{'navigation.services_windows' | translate }}</a>
-        </li>
-
-        <li (click)="selectMenuItem(2)">
-          <a [routerLink]="['/services/pressure-cleaning']">{{'navigation.services_pressure' | translate }}</a>
-        </li>
-        <li (click)="selectMenuItem(2)">
-          <a [routerLink]="['/services/post-construction-cleaning']">{{'navigation.services_post_const' | translate }}</a>
+        <li (click)="selectMenuItem(1)">
+          <a [routerLink]="['/services/commercial/grounds-keeping']">{{'navigation.services_commercial_groundskeeping' | translate }}</a>
         </li>
       </ul>
     </li>
 
-    <li [ngClass]="{'active': menuIndex === 4}" (click)="selectMenuItem(4)">
-        <a [routerLink]="['/gallery']">{{'navigation.gallery' | translate }}</a>
+    <li>
+      <a href="javascript:void(0)">{{'navigation.services_construction' | translate }}</a>
+      <ul>
+        <li (click)="selectMenuItem(2)">
+          <a [routerLink]="['/services/construction/rough-cleaning']">{{'navigation.services_construction_rough' | translate }}</a>
+        </li>
+        <li (click)="selectMenuItem(2)">
+          <a [routerLink]="['/services/construction/final-cleaning']">{{'navigation.services_construction_final' | translate }}</a>
+        </li>
+        <li (click)="selectMenuItem(2)">
+          <a [routerLink]="['/services/construction/touch-up-cleaning']">{{'navigation.services_construction_touchup' | translate }}</a>
+        </li>
+      </ul>
     </li>
 
-    <li [ngClass]="{'active': menuIndex === 5}" (click)="selectMenuItem(5)">
-      <a [routerLink]="['/contactus']">{{'navigation.contactus' | translate }}</a>
-      <!-- <ul>
+    <li>
+      <a href="javascript:void(0)">{{'navigation.services_floor' | translate }}</a>
+      <ul>
+        <li (click)="selectMenuItem(3)">
+          <a [routerLink]="['/services/floor/carpet-cleaning']">{{'navigation.services_floor_carpet' | translate }}</a>
+        </li>
+        <li (click)="selectMenuItem(3)">
+          <a [routerLink]="['/services/floor/tile-cleaning']">{{'navigation.services_floor_tile' | translate }}</a>
+        </li>
+        <li (click)="selectMenuItem(3)">
+          <a [routerLink]="['/services/floor/marble-cleaning']">{{'navigation.services_floor_marble' | translate }}</a>
+        </li>
+        <li (click)="selectMenuItem(3)">
+          <a [routerLink]="['/services/floor/waxing-stripping']">{{'navigation.services_floor_waxing' | translate }}</a>
+        </li>
+      </ul>
+    </li>
+
+    <li [ngClass]="{'active': menuIndex === 4 }">
+      <a href="javascript:void(0)">{{'navigation.services_others' | translate }}</a>
+      <ul>
+        <li (click)="selectMenuItem(4)">
+          <a [routerLink]="['/services/our-services/windows-cleaning']">{{'navigation.services_others_windows' | translate }}</a>
+        </li>
+        <li (click)="selectMenuItem(4)">
+          <a [routerLink]="['/services/our-services/pressure-washing']">{{'navigation.services_others_pressure' | translate }}</a>
+        </li>
+        <li (click)="selectMenuItem(4)">
+          <a [routerLink]="['/services/our-services/trash-removal']">{{'navigation.services_others_trashremoval' | translate }}</a>
+        </li>
+        <li (click)="selectMenuItem(4)">
+          <a [routerLink]="['/services/our-services/high-level-dust-removal']">{{'navigation.services_others_dustremoval' | translate }}</a>
+        </li>
+      </ul>
+    </li>
+
+    <li [ngClass]="{'active': menuIndex === 5}">
+      <a href="javascript:void(0)">{{'navigation.contactus' | translate }}</a>
+      <ul>
         <li (click)="selectMenuItem(5)">
-          <a [routerLink]="['/contactus']">Get Quote</a>
+          <a [routerLink]="['/contactus']">{{'navigation.contactus_quote' | translate }}</a>
         </li>
-        <li>
-          <a [routerLink]="['/contactus/schedule-cleaning']">Schedule Cleaning</a>
+         <li (click)="selectMenuItem(5)">
+          <a [routerLink]="['/contactus/employment']">{{'navigation.contactus_employment' | translate }}</a>
         </li>
-      </ul> -->
+      </ul>
     </li>
   </ul>
 </nav>

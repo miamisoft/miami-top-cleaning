@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-marble',
+  selector: 'app-services-marble',
   templateUrl: './marble.component.html',
   styleUrls: ['./marble.component.scss']
 })

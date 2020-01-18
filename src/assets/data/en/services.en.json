@@ -1,123 +1,114 @@
 [
-    {
-        "id": 1,
-        "name": "Office Cleaning",
-        "htmlTitle": "<strong>office</strong><br>cleaning",
-        "descUrl": "/services/commercial/office-cleaning",
-        "fontIcon": "flaticon-apron",
-        "category": [1]
-    },
-
-    {
-        "id": 3,
-        "name": "High Level Dust Removal",
-        "htmlTitle": "<strong>dust</strong> <br>removal",
-        "descUrl": "/services/commercial/high-level-dust-removal",
-        "fontIcon": "flaticon-cleaning",
-        "category": [1]
-    },
-
-    {
-        "id": 4,
-        "name": "Janotorial Services",
-        "htmlTitle": "<strong>janitorial</strong> <br>services",
-        "descUrl": "/services/commercial/janitorial-services",
-        "fontIcon": "flaticon-bin",
-        "category": [1]
-    },
-
-    {
-        "id": 5,
-        "name": "House Cleaning",
-        "htmlTitle": "<strong>house</strong> <br>cleaning",
-        "descUrl": "/services/residential/house-cleaning",
-        "fontIcon": "flaticon-house",
-        "category": 2
-    },
-
-    {
-        "id": 6,
-        "name": "Appartment Cleaning",
-        "htmlTitle": "<strong>appartment</strong> <br>cleaning",
-        "descUrl": "/services/residential/appartment-cleaning",
-        "fontIcon": "flaticon-detergent",
-        "category": 2
-    },
-
-    {
-        "id": 7,
-        "name": "Move In/Out Cleaning",
-        "htmlTitle": "<strong>move in/out</strong> <br>cleaning",
-        "descUrl": "/services/residential/movein-moveout-cleaning",
-        "fontIcon": "flaticon-garbage",
-        "category": 2
-    },
-
-    {
-        "id": 8,
-        "name": "Deep Cleaning",
-        "htmlTitle": "<strong>deep</strong> <br>cleaning",
-        "descUrl": "/services/residential/deep-cleaning",
-        "fontIcon": "flaticon-wash",
-        "category": 2
-    },
-
-    {
-        "id": 9,
-        "name": "Pressure Cleaning",
-        "htmlTitle": "<strong>pressure</strong> <br>cleaning",
-        "descUrl": "/services/pressure-cleaning",
-        "fontIcon": "flaticon-water-tap",
-        "category": [1, 2]
-    },
-
-    {
-        "id": 10,
-        "name": "Post Construction Cleaning",
-        "htmlTitle": "<strong>post constr.</strong><br>cleaning",
-        "descUrl": "/services/post-construction-cleaning",
-        "fontIcon": "flaticon-dustpan",
-        "category": [1, 2]
-    },
-
-    {
-        "id": 11,
-        "name": "Windows Cleaning",
-        "htmlTitle": "<strong>windows</strong> <br>cleaning",
-        "descUrl": "/services/window-cleaning",
-        "fontIcon": "flaticon-window",
-        "category": [3]
-    },
-    {
-        "id": 12,
-        "name": "Carpet Cleaning",
-        "htmlTitle": "<strong>carpet</strong> <br>cleaning",
-        "descUrl": "/services/floor/carpet-cleaning",
-        "fontIcon": "flaticon-brush",
-        "category": [4]
-    },
-    {
-        "id": 13,
-        "name": "Tile Cleaning",
-        "htmlTitle": "<strong>tile</strong> <br>cleaning",
-        "descUrl": "/services/floor/tile-cleaning",
-        "fontIcon": "flaticon-bucket",
-        "category": [4]
-    },
-    {
-        "id": 14,
-        "name": "Marble Cleaning",
-        "htmlTitle": "<strong>marble</strong> <br>cleaning",
-        "descUrl": "/services/floor/marble-cleaning",
-        "fontIcon": "flaticon-wipe",
-        "category": [4]
-    },
-    {
-        "id": 15,
-        "name": "Waxing and Stripping",
-        "htmlTitle": "<strong>waxing</strong> <br>stripping",
-        "descUrl": "/services/floor/waxing-stripping",
-        "fontIcon": "flaticon-vacuum-cleaner",
-        "category": [4]
-    }
+  {
+    "id": 1,
+    "name": "Office Cleaning",
+    "htmlTitle": "<strong>office</strong><br>cleaning",
+    "descUrl": "/services/commercial/office-cleaning",
+    "fontIcon": "flaticon-apron",
+    "category": 1
+  },
+  {
+    "id": 4,
+    "name": "Grounds Keeping",
+    "htmlTitle": "<strong>grounds</strong> <br>keeping",
+    "descUrl": "/services/commercial/grounds-keeping",
+    "fontIcon": "flaticon-bin",
+    "category": 1
+  },
+  {
+    "id": 6,
+    "name": "Building Maintenance",
+    "htmlTitle": "<strong>building</strong> <br>maitenance",
+    "descUrl": "/services/commercial/building-maintenance",
+    "fontIcon": "flaticon-detergent",
+    "category": 1
+  },
+  {
+    "id": 7,
+    "name": "Final Cleaning",
+    "htmlTitle": "<strong>final</strong> <br>cleaning",
+    "descUrl": "/services/construction/final-cleaning",
+    "fontIcon": "flaticon-dustpan",
+    "category": 2
+  },
+  {
+    "id": 8,
+    "name": "Rough Cleaning",
+    "htmlTitle": "<strong>rough</strong> <br>cleaning",
+    "descUrl": "/services/construction/rough-cleaning",
+    "fontIcon": "flaticon-wash",
+    "category": 2
+  },
+  {
+    "id": 10,
+    "name": "Touch-Up Cleaning",
+    "htmlTitle": "<strong>touch-up</strong><br>cleaning",
+    "descUrl": "/services/construction/touch-up-cleaning",
+    "fontIcon": "flaticon-dustpan",
+    "category": 2
+  },
+  {
+    "id": 12,
+    "name": "Carpet Cleaning",
+    "htmlTitle": "<strong>carpet</strong> <br>cleaning",
+    "descUrl": "/services/floor/carpet-cleaning",
+    "fontIcon": "flaticon-brush",
+    "category": 3
+  },
+  {
+    "id": 13,
+    "name": "Tile Cleaning",
+    "htmlTitle": "<strong>tile</strong> <br>cleaning",
+    "descUrl": "/services/floor/tile-cleaning",
+    "fontIcon": "flaticon-bucket",
+    "category": 3
+  },
+  {
+    "id": 14,
+    "name": "Marble Cleaning",
+    "htmlTitle": "<strong>marble</strong> <br>cleaning",
+    "descUrl": "/services/floor/marble-cleaning",
+    "fontIcon": "flaticon-wipe",
+    "category": 3
+  },
+  {
+    "id": 15,
+    "name": "Waxing and Stripping",
+    "htmlTitle": "<strong>waxing</strong> <br>stripping",
+    "descUrl": "/services/floor/waxing-stripping",
+    "fontIcon": "flaticon-vacuum-cleaner",
+    "category": 3
+  },
+  {
+    "id": 9,
+    "name": "Pressure Cleaning",
+    "htmlTitle": "<strong>pressure</strong> <br>cleaning",
+    "descUrl": "/services/pressure-cleaning",
+    "fontIcon": "flaticon-water-tap",
+    "category": 4
+  },
+  {
+    "id": 5,
+    "name": "Trash Removal",
+    "htmlTitle": "<strong>Trash</strong> <br>Removal",
+    "descUrl": "/services/our-services/trash-removal",
+    "fontIcon": "flaticon-garbage",
+    "category": 4
+  },
+  {
+    "id": 11,
+    "name": "Windows Cleaning",
+    "htmlTitle": "<strong>windows</strong> <br>cleaning",
+    "descUrl": "/services/window-cleaning",
+    "fontIcon": "flaticon-window",
+    "category": 4
+  },
+  {
+    "id": 3,
+    "name": "High Level Dust Removal",
+    "htmlTitle": "<strong>dust</strong> <br>removal",
+    "descUrl": "/services/commercial/high-level-dust-removal",
+    "fontIcon": "flaticon-cleaning",
+    "category": 4
+  }
 ]

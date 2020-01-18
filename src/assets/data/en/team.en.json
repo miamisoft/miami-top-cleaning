@@ -18,11 +18,11 @@
     },
 
     {
-        "firstName": "Karina",
-        "lastName": "Passmore",
+        "firstName": "Marlene",
+        "lastName": "Diaz",
         "title": "Operation Manager",
         "quote": "If you offered a seat in a rocket ship don't ask where you are going, get in.",
-        "photoUrl": "assets/images/team/karina.jpg",
+        "photoUrl": "assets/images/team/marlene.jpg",
         "color": "color3"
     }
 ]
