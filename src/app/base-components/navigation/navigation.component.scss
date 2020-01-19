@@ -1,6 +1,24 @@
+
+
+
 @media (min-width: 1200px){
     .mainmenu_wrapper {
         margin-left: 0
     }
+}
+
+@media (min-width: 992px){
+  .nav{
+    li {
+      &:hover {
+        cursor: pointer !important;
+      }
+      a {
+        font-size: 13px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
 }
 

@@ -10,13 +10,13 @@ declare var jQuery: any;
 })
 export class NavigationComponent implements OnInit {
 
-  public menuIndex: number = 1;
+  public menuIndex = 0;
 
-  constructor(router: Router) { 
+  constructor(router: Router) {
     router.events.subscribe((event: Event) => {
       if (event instanceof NavigationStart) {
         setTimeout(() => {
-          jQuery("#toTop").click();
+          jQuery('#toTop').click();
         }, 100);
       }
     });
@@ -24,10 +24,10 @@ export class NavigationComponent implements OnInit {
   }
 
   ngOnInit() {
-     
+
   }
 
-  selectMenuItem(index: number){
+  selectMenuItem(index: number) {
     this.menuIndex = index;
   }
 
