@@ -51,11 +51,9 @@
           <div class="col-sm-4 form-group">
             <p class="contact-form-suite">
               <label for="suite">Apt/Suite</label>
-              <input [(ngModel)]="contact.suite" #suite type="text" required aria-required="true" size="30" value="" name="suite" id="suite" class="form-control"
+              <input [(ngModel)]="contact.suite" #suite type="text" size="30" value="" name="suite" id="suite" class="form-control"
                 placeholder="{{'contactus.quote.form_suite' | translate}}">
-                <span *ngIf="suite.invalid && (suite.dirty || suite.touched)" class="error-group">
-
-                </span>
+                <span *ngIf="suite.invalid && (suite.dirty || suite.touched)" class="error-group"></span>
             </p>
           </div>
           <div class="col-sm-8 form-group" [ngClass]="{'has-error': city.invalid && (city.dirty || city.touched) }">
@@ -106,7 +104,7 @@
               <textarea [(ngModel)]="contact.message" #message aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control"
                 placeholder="{{'contactus.quote.form_details' | translate}}"></textarea>
                 <span *ngIf="!selectedServices.length && quoteForm.valid" class="error-group">
-                    <small>You must enter some description about why you are contacting us</small>
+                    <small>You must at least select one service above about which you are contacting us</small>
                 </span>
             </p>
           </div>
