@@ -81,15 +81,14 @@
     },
     "groundsKeeping": {
       "title": "Grounds Keeping <strong>Service</strong>",
-      "desc": "Our groundskeeping service offers light building and parking lot maintenance for homeowner associations, corporate buildings, shopping centers, high rises, and small businesses. A&S Total Cleaning utilizes the latest building maintenance equipment, porter service techniques and commercial cleaning supplies to meet and exceed your high standards of cleanliness and building appearance."
+      "desc": "Our groundskeeping service offers light building and parking lot maintenance for homeowner associations, corporate buildings, shopping centers, high rises, and small businesses. Miami Top Cleaning utilizes the latest building maintenance equipment, porter service techniques and commercial cleaning supplies to meet and exceed your high standards of cleanliness and building appearance."
     },
     "buildingMaintenance": {
       "title": "Building <strong>Maintenance</strong>",
-      "desc": "Building maintenance includes a wide variety of tasks depending on the particular business or organization. It encompasses a great deal of behind the scenes work to ensure that a facility or building remains functional and comfortable for its users. Building maintenance includes cleaning common areas, removing trash regularly, and repairing items that are broken. It can involve inspecting, repairing, and maintaining electrical systems, heating and air conditioning systems, and other utility services. In some cases, building maintenance extends to the outdoor property as well and includes sprinkler management, lawn care, and landscape management.",
+      "desc": "Building maintenance includes a wide variety of tasks depending on the particular business or organization. It encompasses a great deal of behind the scenes work to ensure that a facility or building remains functional and comfortable for its users. Building maintenance includes cleaning common areas, removing trash regularly and window cleaning.",
       "types_header": "Building maintenance workers are <strong>typically divided:<strong>",
       "types_desc_p1": "<strong>Janitor</strong>: These individuals typically handle the cleaning of a building or facility. This includes mopping floors, vacuuming carpets, cleaning bathrooms, and washing windows and glass doors. repair, and maintenance workers report to supervisors who oversee their tasks.",
       "types_desc_p2": "<strong>Maintenance supervisor</strong>: Supervisors plan, assign, and manage a team of maintenance workers for a particular shift. They review incoming work orders as well as short- and long-term objectives to prioritize the maintenance department’s work for the day or week.",
-      "types_desc_p3": "An apartment complex is one example of a business that has varying building maintenance needs. Management requires regular lawn and landscape care of the property as well as cleaning and repairing units as residents move in and out. Residents themselves initiate work orders with appliance repair requests or pest control problems. Common areas also require cleaning.",
       "types_header2": "Organizations that use <strong>building maintenance:<strong>",
       "types_desc_p4": "<strong>Businesses</strong>: Just about every business requires building maintenance services. Smaller organizations tuck these responsibilities under general operations and outsource services themselves. Larger businesses maintain an in-house maintenance department to manage these needs.",
       "types_desc_p5": "<strong>Residential Complexes</strong>: Apartment or condominium complexes maintain a team of building maintenance workers to inspect, repair, and manage all the indoor and outdoor maintenance needs of the entire complex.",
@@ -107,7 +106,7 @@
   "construction": {
     "rough": {
       "title": "Rough <strong>Cleaning</strong>",
-      "desc": "The purpose of the rough clean is to remove excess material and clean the house so the final touches can be taken place. The rough clean shall allow the subcontractor (painter and others) the opportunity to apply to apply their finishing touches to the final product. Windowsills shall be cleaned at the rough stage. Special caution shall be taken to insure windowsills are not scratched or damaged. Clean windows with a new, fresh razor blade to prevent scratches on glass. Notify the general contractor construction manager prior to starting if scratches are noticed. Cabinets should be cleaned at rough stage. The house floor shall be scraped and swept clean. All windows and frames, including all tracks, shall be cleaned. All paint over spray, gypsum board mud, and excess caulk shall be removed from windows and window tracks. Entry doors and thresholds should be cleaned at rough stage. Subcontractor shall wipe all equipment in A/C closet. Subcontractor shall clean all bath areas including tubs, showers, mirros, medicine cabinets, ceramic and vinyl. Subcontractor shall clean grout film off of all ceramic tile. Subcontractor shall check for windows that are cracked or out and report them to the general contractor construction manager. Subcontractor shall clean all paint and caulking away from light switches and electrical outlets. Subcontractor shall sweep interior of unit clean. Subcontractor shall remove any trash in unit upon completion of rough clean."
+      "desc": "The purpose of the rough clean is to remove excess material and clean the Facility so the final touches can be taken place. The rough clean shall allow the subcontractor (painter and others) the opportunity to apply to apply their finishing touches to the final product. Windowsills shall be cleaned at the rough stage. Special caution shall be taken to insure windowsills are not scratched or damaged. Clean windows to remove paint, plaster and dust. Notify the general contractor construction manager prior to starting if scratches are noticed. Cabinets should be cleaned at rough stage. The facility floor shall be scraped and swept clean. All windows and frames, including all tracks, shall be cleaned. All paint over spray, gypsum board mud, and excess caulk shall be removed from windows and window tracks. Entry doors and thresholds should be cleaned at rough stage. Subcontractor shall clean all bath areas including tubs, showers, mirrors, medicine cabinets, ceramic and vinyl. Subcontractor shall clean grout film off of all ceramic tile. Subcontractor shall check for windows that are cracked or out and report them to the general contractor construction manager. Subcontractor shall remove any trash in unit upon completion of rough clean."
     },
     "final": {
       "title": "Final <strong>Cleaning</strong>",
@@ -115,7 +114,7 @@
     },
     "touchup": {
       "title": "Touch-Up/Buff <strong>Cleaning</strong>",
-      "desc": "Touch-up/Buff clean is required to be performed if subcontractors entered a unit to do punch out work, after initial cleaning was done.Touch up does not include cleaning windows, inside or out.In the event, that after the punch out work was performed and windows got dirty a total re-clean must be performed before the customer accepts the house."
+      "desc": "Touch-up/ Powder clean is performed after final cleaning and dust settles usually after furniture is brought in."
     }
   },
   "residential": {
@@ -170,9 +169,9 @@
     },
     "tile": {
       "title": "Tile and Grout <strong>Cleaning</strong>",
-      "desc": "Tile and Grout Cleaning services that will impress any business or home owner. A&S Total Cleaning restores Ceramic, Porcelain, Mexican Tile and Grout for superior results and longlasting protection. Read more in this section about the treatments we provide. We use steam extraction and detailed cleaning techniques to remove dirt and stains built up from wear and tear.",
+      "desc": "Tile and Grout Cleaning services that will impress any business or home owner. Miami Top Cleaning restores Ceramic, Porcelain, Mexican Tile and Grout for superior results and long-lasting protection. Read more in this section about the treatments we provide. We use steam extraction and detailed cleaning techniques to remove dirt and stains built up from wear and tear.",
       "desc_p1": "<strong>Grout Staining</strong><br>Grout Staining is a process we offer for the aesthetic look you want from your tile floors. Together with professional Tile Cleaning and Sealing, your tile floor will look brand new again!",
-      "desc_p2": "<strong>Tile and Grout Sealing</strong><br>Sealing the Tile Floor after it has been cleaned is an important step towards long lasting protection. A&S Total Cleaning uses only top of the line products for the highest quality results you want.",
+      "desc_p2": "<strong>Tile and Grout Sealing</strong><br>Sealing the Tile Floor after it has been cleaned is an important step towards long lasting protection. Miami Top Cleaning uses only top of the line products for the highest quality results you want.",
       "desc_p3": "Our Tile Floor experts are experienced with hundreds of projects ranging from lobby areas of high rise buildings to individual residential homes."
     },
     "marble": {
@@ -180,10 +179,7 @@
       "desc": "Marble Floor Cleaning is one of many floor care maintenance services offered to meet South Florida’s floor care needs. We offer first class marble floor cleaning & restoration for corporate buildings, shopping centers, high rises, schools, and small businesses. Miami Top Cleaning proud to utilize only the latest cleaning equipment, floor care techniques and commercial janitorial supplies to meet and exceed your high standards of cleanliness and floor appearance.",
       "desc_p1": "<strong>Marble Floor Restoration:</strong><br>We at Miami Top Cleaning know that Fine Marble Flooring is an big investment for your home or business, and adds value and prestige to your establishment. However, fine flooring , surely needs fine care! Never trust your marble floors to inexperienced cleaners. It’s not worth the risk of potential surface damage. Miami Top Cleaning is licensed, insured and has a reputation you can trust. We use the best state-of-the-art tools in order to polish, restore and protect your marble floor investment. Professional grade marble floor cleaning is crucial for keeping marble stone looking new and protecting the surface from stains and scratches or any other blemishes. Restoration is key to your marble floors longevity, Start preserving your marble floor today.",
       "list_ul1_header": "Miami Top Cleaning specializes in the following processes:",
-      "list_ul1_desc": "<ul><li>Polishing</li><li>Cleaning</li><li>Repairing</li><li>Sealing</li><li>Regrouting</li></ul>",
-      "list_ul2_header": "We clean, polish, and restore many types of marble including:",
-      "list_ul2_desc": "<ul><li>Saturnia</li><li>Travertine</li><li>Crema Marfil</li><li>Granite</li><li>Terrazo</li></ul>",
-      "desc_p2": "Our marble care experts are experienced with hundreds of projects ranging from lobby areas of high rise buildings to individual residential homes."
+      "list_ul1_desc": "<ul><li>Polishing</li><li>Cleaning</li><li>Repairing</li><li>Sealing</li></ul>"
     },
     "waxing": {
       "title": "VCT Waxing and <strong>Stripping Services</strong>",
