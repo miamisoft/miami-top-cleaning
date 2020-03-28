@@ -110,5 +110,14 @@
     "descUrl": "/services/commercial/high-level-dust-removal",
     "fontIcon": "flaticon-cleaning",
     "category": 4
+  },
+  {
+    "id": 16,
+    "name": "Desinfecting Services",
+    "htmlTitle": "<strong>desinfecting</strong> <br>services",
+    "descUrl": "/services/our-services/desinfecting-services",
+    "fontIcon": "flaticon-spray",
+    "category": 4
   }
+
 ]

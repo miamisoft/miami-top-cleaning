@@ -5,8 +5,8 @@ $color-green: #05A64E ;
 
 body{
 
-    .nav-tabs > li.active > a, 
-    .nav-tabs > li.active > a:hover, 
+    .nav-tabs > li.active > a,
+    .nav-tabs > li.active > a:hover,
     .nav-tabs > li.active > a:focus {
         background-color: $color-blue;
     }
@@ -23,11 +23,11 @@ body{
         &.color1{
             background-color: $color-blue !important;
         }
-    
+
         &.color2{
-            
+
         }
-    
+
         &.color3{
             background-color: $color-green!important;
         }
@@ -39,6 +39,17 @@ body{
 
     .service-photo{
         padding-bottom: 15px;
+    }
+
+    .blink {
+      animation: blinker 1.5s step-start infinite;
+      color: #0082ca;
+    }
+
+    @keyframes blinker {
+      50% {
+        opacity: 0;
+      }
     }
 }
 

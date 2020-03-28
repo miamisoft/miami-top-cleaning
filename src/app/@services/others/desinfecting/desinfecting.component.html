@@ -1,0 +1,33 @@
+
+<app-breadcrumbs [navItems]="[
+{ title: 'Home', routeUrl: '/' },
+{ title: 'Services' },
+{ title: 'Our Services' },
+{ title: 'Desinfecting Services', active: true }]">
+</app-breadcrumbs>
+
+<section class="ls ms section_padding_40 table_section">
+  <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 [innerHTML]="'desinfecting.title' | translate"></h2>
+                <p> <a [routerLink]="['/contactus/get-quote', 16]" class="theme_button color1 topmargin_15">get quote now</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 service-photo"><img src="assets/images/services/desinfecting.jpg"/></div>
+            <p class="col-md-9" [innerHTML]="'desinfecting.desc' | translate"></p>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <h4 [innerHTML]="'desinfecting.desc_header1' | translate"></h4>
+                <div [innerHTML]="'desinfecting.services_list1' | translate"></div>
+                <br>
+                <h4 [innerHTML]="'desinfecting.desc_header2' | translate"></h4>
+                <div [innerHTML]="'desinfecting.services_list2' | translate"></div>
+                <p [innerHTML]="'desinfecting.desc_p' | translate"></p>
+            </div>
+        </div>
+
+  </div>

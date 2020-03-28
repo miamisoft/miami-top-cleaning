@@ -24,6 +24,7 @@
     "services_others_dustremoval": "High Level Dust Removal",
     "services_others_windows": "Windows Cleaning",
     "services_others_trashremoval": "Junk Removal",
+    "services_others_desinfecting": "Desinfecting Services",
     "services_floor": "Floor Care",
     "services_floor_carpet": "Carpet",
     "services_floor_tile": "Tile and Grout",
@@ -240,5 +241,14 @@
     "desc_p1": "Any stage of the process we can be of aid. No matter the size of the job, we will handle it with the utmost efficiency. We will do the work and we will go anywhere.",
     "services_list": "<ol><li>Furniture Removal, Appliances & General Junk Removal</li><li>Construction & Renovation Rubbish Removal</li><li>Hot Tub Removal & Spa Removal</li><li>Business, Estate, & Foreclosure Clean Outs</li><li>Trash Removal, Garbage Removal, & Debris Removal.</li></ol>"
 
+  },
+  "desinfecting": {
+    "title": "Desinfecting <strong>Services</strong>",
+    "desc": "We provide your place of business with a complete top to bottom cleaning followed by disinfecting all surfaces using a hospital grade disinfectant that kills the virus <strong>Covid-19</strong>.",
+    "desc_header1": "What is provided in our <strong>Disinfecting Services</strong>? ",
+    "services_list1": "<ol><li>Deep Cleaning removal of germs, dirt, and impurities from surfaces. Cleaning does not kill germs, but by removing them, it lowers their numbers and the risk of spreading infection.</li><li>Disinfecting killing germs using a hospital grade disinfectant approved by the EPA. By killing germs on a surface after cleaning, it can further lower the risk of spreading infection.</li></ol>",
+    "desc_header2": "Our Products are <strong>Environmentally Friendly & EPA certified</strong>",
+    "services_list2": "<ol><li>Our priority is the health and safety of our clients and staff</li><li>Trained staff using personal protective equipment.</li><li>Our chemicals are plant-based, NON-TOXIC and NOT-POLLUTANT</li><li>Disinfectants used are safe for application on any surface</li></ol>",
+    "desc_p": "In high-traffic commercial establishments such as hotels, offices and shopping malls, we recommend that the service be performed at least every trimester."
   }
 }

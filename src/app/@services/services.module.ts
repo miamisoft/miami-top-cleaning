@@ -24,6 +24,7 @@ import { RoughComponent } from './construction/rough/roughcomponent';
 import { FinalCleaningComponent } from './construction/final/final.component';
 import { TouchUpComponent } from './construction/touchup/touchup.component';
 import { TrashRemovalComponent } from './others/trash-removal/trash-removal.component';
+import { DesinfectingComponent } from './others/desinfecting/desinfecting.component';
 
 @NgModule({
   imports: [
@@ -52,6 +53,7 @@ import { TrashRemovalComponent } from './others/trash-removal/trash-removal.comp
     RoughComponent,
     FinalCleaningComponent,
     TouchUpComponent,
+    DesinfectingComponent,
   ]
 })
 export class ServicesModule { }

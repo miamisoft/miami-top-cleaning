@@ -18,12 +18,12 @@
     .lang-selector{
        float: right;
        margin: 5px;
-      
 
-         .lang-item {                
+
+         .lang-item {
              cursor: pointer;
              padding: 5px;
-        
+
               span{
                   color: black;
                   font-size: 12px;
@@ -32,8 +32,18 @@
 
               img {
                  width: 24px;
-             }                
+             }
          }
+     }
+
+     .covid19 {
+       display: block;
+       clear: both;
+       cursor: pointer;
+        a {
+          color: #05A64E;
+          font-size: 15px;
+        }
      }
 
 }

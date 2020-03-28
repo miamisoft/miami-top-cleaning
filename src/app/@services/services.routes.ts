@@ -14,6 +14,7 @@ import { TouchUpComponent } from './construction/touchup/touchup.component';
 import { GroundsKeepingComponent } from './commercial/grounds-keeping/grounds-keeping.component';
 import { BuildingMaintenanceComponent } from './commercial/building-maintenance/building-maintenance.component';
 import { TrashRemovalComponent } from './others/trash-removal/trash-removal.component';
+import { DesinfectingComponent } from './others/desinfecting/desinfecting.component';
 
 
 
@@ -97,6 +98,11 @@ export const servicesRoutes: Routes = [
       {
         path: 'high-level-dust-removal',
         component: DustRemovalComponent
+      },
+
+      {
+        path: 'desinfecting-services',
+        component: DesinfectingComponent
       }
     ]
   }

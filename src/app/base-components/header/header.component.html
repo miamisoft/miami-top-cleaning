@@ -3,9 +3,12 @@
     <div class="row">
       <div class="col-md-2 col-xs-6 nowrap">
         <div class="display_table">
-          <a [routerLink]="['/']" class="logo logo_image display_table_cell">
+          <a href="/#/" class="logo logo_image display_table_cell">
             <img src="assets/images/logo.png" alt="">
           </a>
+          <span class="covid19">
+            <a class="blink" href="/#/services/our-services/desinfecting-services">Kill <strong>Covid-19!</strong></a>
+          </span>
         </div>
       </div>
 
@@ -13,7 +16,7 @@
          <app-navigation></app-navigation>
       </div>
       <div class="col-md-2 col-xs-6 text-right">
-        <a [routerLink]="['/contactus']" class="quote_button theme_button color3 muted_button">{{ 'header.quote' | translate }}</a>
+        <a href="/#/contactus" class="quote_button theme_button color3 muted_button">{{ 'header.quote' | translate }}</a>
         <!-- <div class="lang-selector">
             <a *ngIf="lang === 'es'" class="lang-item" (click)="changeLanguage('en')">
                 <span>English</span>
